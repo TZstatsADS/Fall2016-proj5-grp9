@@ -11,7 +11,26 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                                       img(src='contrast.jpg', align = "right"))
                    ),
                    tabPanel("EDA",
-                            titlePanel(h1("EDA"))),
+                            titlePanel(h1("EDA")),
+                            tabsetPanel(
+                              tabPanel("Barchart of Genre",
+                                       titlePanel(h3("Bar Chart")),
+                                       sidebarLayout(
+                                         sidebarPanel(
+                                           selectInput("s_movie_year", 
+                                                       label="Choose a Year to Display",
+                                                       choices=c("2011","2012","2013","2014","2015")
+                                           )
+                                         ),
+                                         mainPanel(
+                                           plotlyOutput("ggBarPlotA",height="600px")
+                                         )
+                                       )
+                              ),
+                              tabPanel("Piechart of Genre",
+                                       titlePanel(h3("Pie Chart")),
+                                       plotlyOutput("ggPiePlot",height="600px"))))
+                            ,
                    tabPanel("Face and Text Detection",
                             titlePanel(h1("Face Detection"))),
                    tabPanel("Box Prediction",
