@@ -4,3 +4,5 @@ data/train_images/.ipynb_checkpoints/Untitled-checkpoint.ipynb
 data/pca_matrix.rda
 
 data/train_features.csv
+
+lib/.ipynb_checkpoints/caffe_feature_test-checkpoint.ipynb
