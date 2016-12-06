@@ -9,8 +9,9 @@ test_id <- "2011001.jpg" # name of a new poster, must end with .jpg
 
 
 ## extract features in caffe, save in ./data/test_features.csv ##
+# note: modifying the paths in .py is a must for loading caffe and saving data
 #system('source ~/.bashrc')
-#system('chmod 755 ./lib/caffe_feature_test.py') # modify the path in .py for loading caffe
+#system('chmod 755 ./lib/caffe_feature_test.py') 
 #system("./lib/caffe_feature_test.py")
 
 
