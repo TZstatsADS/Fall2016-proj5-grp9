@@ -2,6 +2,8 @@
 library(shiny)
 library(ggplot2)
 library(plotly)
+library(imager)
+library(EBImage)
 # Define UI for application that draws 4 pages
 shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                    theme="grey.css",
@@ -85,8 +87,78 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                                          ))))),
                    
                    tabPanel("Face and Text Detection",
-                            titlePanel(h1("Face Detection"))
-                            ),
+                            tabsetPanel(type="pill",
+                                        tabPanel("Face Map",
+                                                 titlePanel(h1("Face Map")),
+                                                 sidebarLayout(
+                                                   sidebarPanel(
+                                                     radioButtons("y_year_map",label="Year",
+                                                                  choices=c("2011","2012","2013","2014","2015")),
+                                                     radioButtons("y_map_number",label="Number",
+                                                                  choices=c("# 1","# 2","# 3"))
+                                                   ),
+                                                   mainPanel(
+                                                     imageOutput("y_face_map")
+                                                   ),
+                                                   position="right"
+                                                 )
+                                                 
+                                        ),
+                                        tabPanel("Face",
+                                                 titlePanel(h1("Face Detection")),
+                                                 sidebarLayout(
+                                                   sidebarPanel(
+                                                     fileInput(inputId='y_files',
+                                                               label='Select an Image',
+                                                               multiple=TRUE,
+                                                               accept=c('image/png','image/jpeg','image/jpg'))
+                                                   ),
+                                                   mainPanel(
+                                                     tabsetPanel(type="pill",
+                                                                 tabPanel("Original Image",
+                                                                          imageOutput('y_images')
+                                                                 ),
+                                                                 tabPanel("Processed Image",
+                                                                          imageOutput('y_pro_images')
+                                                                 ),
+                                                                 tabPanel("Face Area",
+                                                                          dataTableOutput("y_area")
+                                                                 ),
+                                                                 tabPanel("RGB Feature",
+                                                                          imageOutput("y_rgb_plot")
+                                                                 )
+                                                                 
+                                                     )
+                                                   )
+                                                 )
+                                        ),
+                                        tabPanel("Text",
+                                                 titlePanel(h1("Text Detection")),
+                                                 sidebarLayout(
+                                                   sidebarPanel(
+                                                     fileInput(inputId='zs_files',
+                                                               label='Select an Image',
+                                                               multiple=TRUE,
+                                                               accept=c('image/png','image/jpeg','image/jpg'))
+                                                   ),
+                                                   mainPanel(
+                                                     tabsetPanel(type="pill",
+                                                                 tabPanel("Original Image",
+                                                                          imageOutput('zs_images')
+                                                                 ),
+                                                                 tabPanel("Processed Image",
+                                                                          imageOutput('zs_pro_images')
+                                                                 ),
+                                                                 tabPanel("Text Area",
+                                                                          dataTableOutput("zs_area")
+                                                                 )
+                                                                 
+                                                     )
+                                                   )
+                                                 )
+                                        )
+                            )
+                   ),
         
                    tabPanel("Genre Prediction",
                             #titlePanel(h3("Genre Prediction")),

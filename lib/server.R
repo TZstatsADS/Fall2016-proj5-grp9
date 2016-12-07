@@ -2,9 +2,15 @@ library(RColorBrewer)
 library(shiny)
 library(ggplot2)
 library(plotly)
+library(imager)
+library(EBImage)
 
-wd<-"/Users/Cristina/Desktop/16 Fall/5243 ADS/Project 5/Fall2016-proj5-grp9"
+wd<-"/Users/YaqingXie/Desktop/3-Applied Data Science/Fall2016-proj5-grp9"
 setwd(wd)
+
+y_path<-c("C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9")
+x_path<-"/Users/YaqingXie/Desktop/3-Applied Data Science/Fall2016-proj5-grp9"
+y_path = x_path
 
 s_gross_genre<-read.csv("./data/s_gross_genre.csv")
 s_gross_genre<-as.data.frame(s_gross_genre)
@@ -163,6 +169,7 @@ shinyServer(function(input, output) {
     x_values$x_progress <- 'Analyzing...'
     x_values$x_predict_table <- NULL
     source('./lib/genre_prediction.R')
+    library(data.table)
     genre_predict(input$x_file$name)
     x_values$x_progress <- 'Done!'
     x_fileName <- input$x_file$name
@@ -321,6 +328,225 @@ shinyServer(function(input, output) {
     x_fileImage <- paste0(wd , '/data/train_images/', x_fileName)
     return(list(src=x_fileImage, contentType="image/jpg",alt="No Image", width=200))
   }, deleteFile = FALSE)
+  
+  
+  
+#########QING YIN AND SEN ZHUANG#########FACE AND TEXT DETECTION###################
+  face_det<-reactive({
+    #inFile<-input$y_files
+    #python.load('Face_Rec.py')
+    #python.assign("path_read",inFile$datapath)
+    #python.assign("path_write","./output/image_write_test")
+    #python.assign("path_write_face","./output/image_write_face_test")
+    #python.assign("path_haar","./lib")
+    #python.exec('face_det(path_haar,path_read,path_write,path_write_face)')
+  })
+  face_size<-reactive({
+    inFile<-input$y_files
+    file_list<-list.files(paste0(y_path,"/output/image_write_face_test"))
+    img_size<-vector()
+    for(i in 1:length(file_list)){
+      img_load<-load.image(paste0(y_path,"/output/image_write_face_test/",file_list[i]))
+      img_size[i]<-dim(img_load)[1]*dim(img_load)[2]
+    }
+    img_cat<-substr(file_list,1,11)
+    img_num<-table(img_cat)
+    img_cum<-vector()
+    for(i in 1:length(img_num)){
+      img_cum[i]<-sum(img_num[1:i])
+    }
+    img_area<-sum(img_size[1:img_cum[1]])
+    for(i in 2:length(img_cum)){
+      img_area[i]<-sum(img_size[(img_cum[i-1]+1):img_cum[i]])
+    }
+    names(img_area)<-names(img_num)
+    img_area_df<-data.frame(cbind(img_area,img_num))
+    file_list_new<-list.files(paste0(y_path,"/output/image_write_test"))
+    img_size_new<-vector()
+    for(i in 1:length(file_list_new)){
+      img_load_new<-load.image(paste0(y_path,"/output/image_write_test/",file_list_new[i]))
+      img_size_new[i]<-dim(img_load_new)[1]*dim(img_load_new)[2]
+    }
+    names(img_size_new)<-substr(file_list_new,7,17)
+    img_area_df<-cbind(img_area_df,img_size_new)
+    img_area_df$prop<-img_area/img_size_new
+    img_area_df<-cbind(id=rownames(img_area_df),img_area_df)
+    colnames(img_area_df)<-c("id","face_area","num_face","full_area","proportion")
+    img_area_cur<-img_area_df[img_area_df$id==inFile$name,]
+    write.csv(img_area_cur[,5],file=paste0(y_path,"/output/",substr(inFile$name,1,nchar(inFile$name)-4),"_face.csv"))
+    return(img_area_cur)
+  })
+  
+  rgb_ext<-reactive({
+    inFile<-input$y_files
+    
+    nR<-10
+    nG<-8
+    nB<-10
+    
+    rBin<-seq(0,1,length.out=nR)
+    gBin<-seq(0,1,length.out=nG)
+    bBin<-seq(0,1,length.out=nB)
+    
+    color_data<-matrix(0,1,nR*nG*nB)
+    
+    for(i in 1:1){
+      mat<-imageData(readImage(paste0(y_path,"/data/test_images/",inFile$name)))
+      freq_rgb<-as.data.frame(table(factor(findInterval(mat[,,1],rBin),levels=1:nR),
+                                    factor(findInterval(mat[,,2],gBin),levels=1:nG),
+                                    factor(findInterval(mat[,,3],bBin),levels=1:nB)))
+      rgb_feature<-as.numeric(freq_rgb$Freq)/(ncol(mat)*nrow(mat))
+      color_data[i,]<-rgb_feature
+    }
+    write.csv(color_data,file=paste0(y_path,"/output/",substr(inFile$name,1,nchar(inFile$name)-4),"_rgb.csv"))
+  })
+  
+  output$y_images<-renderImage({
+    inFile<-input$y_files
+    
+    if(is.null(inFile)){
+      return(list(src=paste0(y_path,"/figs/ask_for_image.png"),contentType="image/png",alt="No Image"))
+    }
+    else{
+      return(list(src=inFile$datapath,contentType="image/jpg",alt="No Image"))
+    }
+  },deleteFile=F)
+  
+  output$zs_images<-renderImage({
+    inFile<-input$zs_files
+    
+    if(is.null(inFile)){
+      return(list(src=paste0(y_path,"/figs/ask_for_image.png"),contentType="image/png",alt="No Image"))
+    }
+    else{
+      return(list(src=inFile$datapath,contentType="image/jpg",alt="No Image"))
+    }
+  },deleteFile=F)
+  
+  output$y_pro_images<-renderImage({
+    inFile<-input$y_files
+    #face_det()
+    #return(list(src=paste0("C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9/output/image_write_test/sample",inFile$name,".jpg"),contentType="image/jpg",alt="No Image"))
+    return(list(src=paste0(y_path,"/output/image_write_test/sample",inFile$name,".jpg"),contentType="image/jpg",alt="No Image"))
+  },deleteFile=F)
+  
+  output$zs_pro_images<-renderImage({
+    inFile<-input$zs_files
+    name <- inFile$name
+    name <- substring(name,1,nchar(name)-4)
+    #system('./lib/text_recognition.py) #please modify the wd accordingly
+    return(list(src=paste0(x_path,"/output/text_detection/",name,'_contours.png'),alt="No Image"))
+  },deleteFile=F)
+  
+  output$y_area<-renderDataTable({
+    face_size()
+  })
+  
+  output$zs_area <- renderDataTable({
+    inFile<-input$zs_files
+    name <- inFile$name
+    name <- substring(name,1,nchar(name)-4)
+    text_area <- read.csv(paste0(x_path, '/output/text_detection/', name, '_text.csv'))
+    text_area[1,1] <- name
+    colnames(text_area) <- c("ID","Text Area Proportion")
+    return(text_area)
+  })
+  
+  y_values <- reactiveValues(y_rgb_table = NULL, y_rgb_table_processed = NULL)
+  
+  #output$y_rgb<-renderDataTable({
+  #rgb_ext()
+  #filename <- input$y_files$name
+  #filename <- substring(filename,1,nchar(filename)-4)
+  #y_values$y_rgb_table <- read.csv(paste0(y_path, '/output/',filename,'_rgb.csv'))
+  #return(y_values$y_rgb_table)
+  #})
+  
+  output$y_rgb_plot <- renderPlot({
+    library(reshape)
+    library(ggplot2)
+    library(plotly)
+    #rgb_ext()
+    filename <- input$y_files$name
+    filename <- substring(filename,1,nchar(filename)-4)
+    y_values$y_rgb_table <- read.csv(paste0(y_path, '/output/',filename,'_rgb.csv'))
+    y_rgb_table_processed <- y_values$y_rgb_table
+    y_rgb_table_processed <- t(y_rgb_table_processed)
+    y_rgb_table_processed<-data.frame(value=y_rgb_table_processed[2:801],color=rep(1:800))
+    y_color<-melt(y_rgb_table_processed, id="color")
+    p = ggplot(data=y_color,aes(x=color,y=value)) +
+      geom_line(col="Blue")+ggtitle("RGB Plot")+
+      theme(axis.text=element_text(size=14),legend.key=element_rect(fill="black"),
+            legend.background=element_rect(fill="grey40"),legend.position=c(0.14,0.80),
+            panel.grid.major=element_line(colour="grey40"),panel.grid.minor=element_blank(),
+            panel.background=element_rect(fill="black"),
+            plot.background=element_rect(fill="black",colour="black",size=2))
+    print(p)
+  })
+  
+  
+  output$y_face_map<-renderImage({
+    if(input$y_year_map=="2011"&input$y_map_number=="# 1"){
+      return(list(src=paste0(y_path,"/figs/face_map_2011_01.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2011"&input$y_map_number=="# 2"){
+      return(list(src=paste0(y_path,"/figs/face_map_2011_02.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2011"&input$y_map_number=="# 3"){
+      return(list(src=paste0(y_path,"/figs/face_map_2011_03.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2012"&input$y_map_number=="# 1"){
+      return(list(src=paste0(y_path,"/figs/face_map_2012_01.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2012"&input$y_map_number=="# 2"){
+      return(list(src=paste0(y_path,"/figs/face_map_2012_02.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2012"&input$y_map_number=="# 3"){
+      return(list(src=paste0(y_path,"/figs/face_map_2012_03.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2013"&input$y_map_number=="# 1"){
+      return(list(src=paste0(y_path,"/figs/face_map_2013_01.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2013"&input$y_map_number=="# 2"){
+      return(list(src=paste0(y_path,"/figs/face_map_2013_02.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2013"&input$y_map_number=="# 3"){
+      return(list(src=paste0(y_path,"/figs/face_map_2013_03.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2014"&input$y_map_number=="# 1"){
+      return(list(src=paste0(y_path,"/figs/face_map_2014_01.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2014"&input$y_map_number=="# 2"){
+      return(list(src=paste0(y_path,"/figs/face_map_2014_02.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2014"&input$y_map_number=="# 3"){
+      return(list(src=paste0(y_path,"/figs/face_map_2014_03.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2015"&input$y_map_number=="# 1"){
+      return(list(src=paste0(y_path,"/figs/face_map_2015_01.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2015"&input$y_map_number=="# 2"){
+      return(list(src=paste0(y_path,"/figs/face_map_2015_02.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+    else if(input$y_year_map=="2015"&input$y_map_number=="# 3"){
+      return(list(src=paste0(y_path,"/figs/face_map_2015_03.jpeg"),
+                  contentType="image/jpeg",alt="No Image",height=600,width=800))
+    }
+  },deleteFile=F)
   
 })
 
