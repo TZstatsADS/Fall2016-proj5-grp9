@@ -1,11 +1,8 @@
-# ADS Final Project: 
-
-Term: Fall 2016
 
 # ADS Final Project: 
 
 Term: Fall 2016
-
+![screenshot](doc/=image1.jpeg)
 + [Data link](http://www.imdb.com/search/title?year=2014,2014&title_type=feature&sort=boxoffice_gross_us,desc&page=4&ref_=adv_prv)
 + [Data description](doc/readme.html)
 + [Shiny App link](http://prezi.com/biyahojmsvrg/?utm_campaign=share&utm_medium=copy)
@@ -61,7 +58,6 @@ Term: Fall 2016
 + (1)Use all the features to predict the Box of a new poster
 + (2)Using the Random Forest model to predict the box level of the movie
 
-![screenshot](doc/=image1.jpeg)
 
 ![screenshot](doc/image2.jpeg)
 
