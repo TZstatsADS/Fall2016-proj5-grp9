@@ -44,24 +44,54 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                    tabPanel("EDA",
                             titlePanel(h1("EDA")),
                             tabsetPanel(
-                              tabPanel("Barchart of Genre",
-                                       titlePanel(h3("Bar Chart")),
+                              tabPanel("Barchart of Gross in Genre",
                                        sidebarLayout(
                                          sidebarPanel(
                                            selectInput("s_movie_year", 
                                                        label="Choose a Year to Display",
-                                                       choices=c("2011","2012","2013","2014","2015")
+                                                       choices=c("2011","2012","2013","2014","2015")),
+                                           selectInput("s_movie_genre", 
+                                                       label="Choose a Genre to Display",
+                                                       choices=c("Action","Adventure","Animation","Biography","Comedy",
+                                                                 "Crime","Documentary","Drama","Family","Fantacy",
+                                                                 "History","Horror","Music","Mystery","Romance",
+                                                                 "Sci_Fi","Sport","Thriller","War","Western")
                                            )
                                          ),
                                          mainPanel(
-                                           plotlyOutput("ggBarPlotA",height="600px")
-                                         )
-                                       )
-                              ),
+                                           plotlyOutput("ggBarPlotA",height="400px",width = "600px")
+                                         ))),
                               tabPanel("Piechart of Genre",
-                                       titlePanel(h3("Pie Chart")),
-                                       plotlyOutput("ggPiePlot",height="600px"))))
-                            ,
+                                       sidebarLayout(
+                                         sidebarPanel(
+                                           selectInput("s_movie_year2", 
+                                                       label="Choose a Year to Display",
+                                                       choices=c("2011","2012","2013","2014","2015"))),
+                                         mainPanel(plotlyOutput("ggPiePlot",height="600px")
+                                         ))),
+                              tabPanel("Bubble Plot of Face",
+                                       sidebarLayout(
+                                         sidebarPanel(
+                                           selectInput("s_movie_year4", 
+                                                       label="Choose a Year to Display",
+                                                       choices=c("2011","2012","2013","2014","2015"))),
+                                         mainPanel(plotlyOutput("BubblePlot",height="600px")
+                                         ))),
+                              tabPanel("Color Plot in Genre",
+                                       sidebarLayout(
+                                         sidebarPanel(
+                                           selectInput("s_movie_genre3", 
+                                                       label="Choose a Genre to Display",
+                                                       choices=c("Action","Adventure","Animation","Biography","Comedy",
+                                                                 "Crime","Documentary","Drama","Family","Fantacy",
+                                                                 "History","Horror","Music","Mystery","Romance",
+                                                                 "Sci_Fi","Sport","Thriller","War","Western")
+                                           )
+                                         ),
+                                         mainPanel(
+                                           plotlyOutput("ggLinePlot",height="400px",width = "600px")
+                                         ))))),
+                   
                    tabPanel("Face and Text Detection",
                             titlePanel(h1("Face Detection"))
                             ),
