@@ -2,10 +2,10 @@
 # ADS Final Project: Movie Poster Evaluator
 
 Term: Fall 2016
-![screenshot](doc/image1.jpeg)
+![screenshot](doc/cover/cover.jpeg)
 + [Data link](http://www.imdb.com/search/title?year=2014,2014&title_type=feature&sort=boxoffice_gross_us,desc&page=4&ref_=adv_prv)
 + [Data description](doc/readme.html)
-+ [Shiny App link](http://prezi.com/biyahojmsvrg/?utm_campaign=share&utm_medium=copy)
++ [Shiny App link]
 + Team members
 	+ team member 1 Yaqing Xie
 	+ team member 2 Qin Ying
@@ -38,25 +38,34 @@ Term: Fall 2016
 
 # Part 1: Exploratory Data Analysis of Posters
 + (1)Analyze the annually gross in different genres
+![screenshot](doc/cover/barplot.jpg)
 + (2)Summarize the annually frequency of movies from different genres
+![screenshot](doc/cover/piechart.jpg)
 + (3)Investigate the relationship between face numbers on a poster,face area proportion on a poster and genres
+![screenshot](doc/cover/bubble.jpg)
 + (4)Plot each genre's RGB distribution and find interesting results including:
+![screenshot](doc/cover/rgb.jpg)
 +  Posters of Thrillers tends to use dark color like black and red 
 +  Drama and Comedy tends to use bright color like yelow and green
 
 # Part 2: Face Detection and Text Detection of Posters
 + (1)Use python and Opencv to detect face and test in posters
+![screenshot](doc/cover/facemap.jpg)
 + (2)Calculate the number of faces, the area proportion of faces in each poster
+![screenshot](doc/cover/face_detection.jpg)
 + (3)Calculate the number of characters detected and the area proportion of text in each poster
+![screenshot](doc/cover/text_detection.jpg)
 
 # Part 3: Genre Prediction
 +  (1)Used Caffe to extract deep features of posters
 +  (2)Used KNN Moldeling to link the posters and genres and predict the genre of a new poster
 +  (3)if the predicted genres are incorrect, we will show the audience 6 correct posters once they choose their own genre
+![screenshot](doc/cover/color_revise.jpg)
 
 # Part 4: Box Prediction
 + (1)Use all the features to predict the Box of a new poster
 + (2)Using the Random Forest model to predict the box level of the movie
+![screenshot](doc/cover/box_prediction.jpg)
 
 
 ![screenshot](doc/image2.jpeg)
