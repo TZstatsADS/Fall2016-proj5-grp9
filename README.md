@@ -13,7 +13,7 @@ Term: Fall 2016
 	+ team member 4 Sen Zhuang
 	+ team member 5 Yueqi Zhang
 + Project title: Movie Poster Designer
-+ Project theme: Movie Poster Analysis: Face Detection& Text Detextion & Color Detextion
++ Project theme: Movie Poster Analysis: Genre Predition & Face Detection & Text Detextion & Color Detextion
 
 ## Project summary: 
 + 1.Poster Exploration
@@ -37,11 +37,11 @@ Term: Fall 2016
 + (4)Used Opencv to extract the RGB features of each poster
 
 # Part 1: Exploratory Data Analysis of Posters
-+ (1)Analyze the annually gross in different genres
++ (1)Analyze the annual gross in different genres
 ![screenshot](doc/cover/barplot.jpg)
-+ (2)Summarize the annually frequency of movies from different genres
++ (2)Summarize the annual frequency of movies from different genres
 ![screenshot](doc/cover/piechart.jpg)
-+ (3)Investigate the relationship between face numbers on a poster,face area proportion on a poster and genres
++ (3)Investigate the relationship between face numbers on a poster, face area proportion on a poster and genres
 ![screenshot](doc/cover/bubble.jpg)
 + (4)Plot each genre's RGB distribution and find interesting results including:
 ![screenshot](doc/cover/rgb.jpg)
@@ -58,12 +58,13 @@ Term: Fall 2016
 
 # Part 3: Genre Prediction
 +  (1)Used Caffe to extract deep features of posters
-+  (2)Used KNN Moldeling to link the posters and genres and predict the genre of a new poster
-+  (3)if the predicted genres are incorrect, we will show the audience 6 correct posters once they choose their own genre
++  (2)Used KNN Modeling to link the posters and genres and predict the genre of a new poster (according to CV, k=13)
++  (3) Display six most similar poster to give a clue how the model predict the poster's genre
++  (4)if the predicted genres are incorrect, we will show the audience 6 correct posters once they input the real genres
 ![screenshot](doc/cover/color_revise.jpg)
 
 # Part 4: Box Prediction
-+ (1)Use all the features to predict the Box of a new poster
++ (1)Extract deep features to predict movie's genre, detect face/text and calculate face/text area proportion, get rgb information, and then use all these features to predict the Box of a new poster
 + (2)Using the Random Forest model to predict the box level of the movie
 ![screenshot](doc/cover/box_prediction.jpg)
 
