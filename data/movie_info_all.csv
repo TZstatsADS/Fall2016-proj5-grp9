@@ -3,7 +3,7 @@
 2,2011002,Transformers: Dark of the Moon,"Action, Adventure, Sci-Fi",Michael Bay,"Shia LaBeouf, Rosie Huntington-Whiteley, Tyrese Gibson, Josh Duhamel",352360000,0,1,3,3,1,0.00420509
 3,2011003,The Twilight Saga: Breaking Dawn - Part 1,"Adventure, Drama, Fantasy",Bill Condon,"Kristen Stewart, Robert Pattinson, Taylor Lautner, Gil Birmingham",281280000,0,1,2,2,3,0.213307122
 4,2011004,The Hangover Part II,"Comedy, Mystery",Todd Phillips,"Bradley Cooper, Zach Galifianakis, Ed Helms, Justin Bartha",254460000,0,1,4,4,0,0
-5,2011005,Pirates of the Caribbean: On Stranger Tides,"Action, Adventure, Fantasy",Rob Marshall,"Johnny Depp, Penå_lope Cruz, Ian McShane, Geoffrey Rush",241060000,0,1,4,4,7,0.121171852
+5,2011005,Pirates of the Caribbean: On Stranger Tides,"Action, Adventure, Fantasy",Rob Marshall,"Johnny Depp, PenŒ_lope Cruz, Ian McShane, Geoffrey Rush",241060000,0,1,4,4,7,0.121171852
 6,2011006,Fast Five,"Action, Crime, Thriller",Justin Lin,"Vin Diesel, Paul Walker, Dwayne Johnson, Jordana Brewster",209810000,0,1,11,3,1,0.004161481
 7,2011007,Mission: Impossible - Ghost Protocol,"Action, Adventure, Thriller",Brad Bird,"Tom Cruise, Jeremy Renner, Simon Pegg, Paula Patton",209360000,0,1,4,4,8,0.08197037
 8,2011008,Cars 2,"Animation, Adventure, Comedy","John Lasseter, Brad Lewis","Owen Wilson, Larry the Cable Guy, Michael Caine, Emily Mortimer",191450000,0,1,4,4,0,0
@@ -63,13 +63,13 @@
 62,2011062,Madea's Big Happy Family,"Comedy, Drama",Tyler Perry,"Tyler Perry, Loretta Devine, Shad Moss, Cassi Davis",53310000,0,1,15,15,19,0.187219259
 63,2011063,Diary of a Wimpy Kid: Rodrick Rules,"Comedy, Family",David Bowers,"Zachary Gordon, Devon Bostick, Robert Capron, Rachael Harris",52690000,0,1,4,2,3,0.015841481
 64,2011064,Footloose,"Comedy, Drama, Music",Craig Brewer,"Kenny Wormald, Julianne Hough, Dennis Quaid, Andie MacDowell",51780000,0,1,5,2,1,0.014123631
-65,2011065,Ghost Rider: Spirit of Vengeance,"Action, Fantasy, Thriller","Mark Neveldine, Brian Taylor","Nicolas Cage, Ciarå¢n Hinds, Idris Elba, Violante Placido",51770000,0,1,1,1,0,0
+65,2011065,Ghost Rider: Spirit of Vengeance,"Action, Fantasy, Thriller","Mark Neveldine, Brian Taylor","Nicolas Cage, CiarŒ¢n Hinds, Idris Elba, Violante Placido",51770000,0,1,1,1,0,0
 66,2011066,The Grey,"Action, Adventure, Drama",Joe Carnahan,"Liam Neeson, Dermot Mulroney, Frank Grillo, Dallas Roberts",51530000,0,1,1,1,1,0.535371914
 67,2011067,The Dilemma,"Comedy, Drama",Ron Howard,"Vince Vaughn, Kevin James, Winona Ryder, Jennifer Connelly",48430000,1,1,2,2,2,0.143468148
 68,2011068,Arthur Christmas,"Animation, Adventure, Comedy","Sarah Smith, Barry Cook","James McAvoy, Jim Broadbent, Bill Nighy, Hugh Laurie",46440000,0,1,13,13,2,0.011866667
 69,2011069,The Best Exotic Marigold Hotel,"Comedy, Drama",John Madden,"Judi Dench, Bill Nighy, Maggie Smith, Tom Wilkinson",46380000,1,1,6,4,3,0.069632201
 70,2011070,Hall Pass,"Comedy, Romance","Bobby Farrelly, Peter Farrelly","Owen Wilson, Jason Sudeikis, Christina Applegate, Jenna Fischer",45050000,1,1,3,3,3,0.106738166
-71,2011071,The Artist,"Comedy, Drama, Romance",Michel Hazanavicius,"Jean Dujardin, Bå_rå_nice Bejo, John Goodman, James Cromwell",44670000,1,1,2,2,1,0.010810811
+71,2011071,The Artist,"Comedy, Drama, Romance",Michel Hazanavicius,"Jean Dujardin, BŒ_rŒ_nice Bejo, John Goodman, James Cromwell",44670000,1,1,2,2,1,0.010810811
 72,2011072,Soul Surfer,"Biography, Drama, Family",Sean McNamara,"AnnaSophia Robb, Dennis Quaid, Helen Hunt, Carrie Underwood",43850000,0,1,1,1,0,0
 73,2011073,Final Destination 5,Horror,Steven Quale,"Nicholas D'Agosto, Emma Bell, Arlen Escarpeta, Miles Fisher",42580000,0,1,0,0,2,0.402133333
 74,2011074,The Ides of March,Drama,George Clooney,"Paul Giamatti, George Clooney, Philip Seymour Hoffman, Ryan Gosling",40960000,0,1,1,1,1,0.283376052
@@ -86,14 +86,14 @@
 85,2011085,Jumping the Broom,"Comedy, Drama",Salim Akil,"Paula Patton, Laz Alonso, Angela Bassett, Loretta Devine",37300000,0,1,8,8,10,0.081655786
 86,2011086,30 Minutes or Less,"Action, Comedy, Crime",Ruben Fleischer,"Jesse Eisenberg, Danny McBride, Nick Swardson, Aziz Ansari",37050000,0,1,4,4,4,0.045829021
 87,2011087,The Change-Up,"Comedy, Fantasy",David Dobkin,"Jason Bateman, Ryan Reynolds, Olivia Wilde, Leslie Mann",37040000,1,1,5,5,4,0.067301187
-88,2011088,Colombiana,"Action, Crime, Drama",Olivier Megaton,"Zoe Saldana, Michael Vartan, Callum Blue, Jordi Mollå_",36670000,0,1,1,1,1,0.005149408
+88,2011088,Colombiana,"Action, Crime, Drama",Olivier Megaton,"Zoe Saldana, Michael Vartan, Callum Blue, Jordi MollŒ_",36670000,0,1,1,1,1,0.005149408
 89,2011089,Sucker Punch,"Action, Fantasy",Zack Snyder,"Emily Browning, Vanessa Hudgens, Abbie Cornish, Jena Malone",36380000,1,1,5,5,1,0.01225
 90,2011090,Larry Crowne,"Comedy, Drama, Romance",Tom Hanks,"Tom Hanks, Julia Roberts, Sarah Mahoney, Roxana Ortega",35570000,0,1,24,2,4,0.048544164
 91,2011091,Drive,"Crime, Drama",Nicolas Winding Refn,"Ryan Gosling, Carey Mulligan, Bryan Cranston, Albert Brooks",35050000,1,1,1,1,0,0
 92,2011092,A Very Harold & Kumar 3D Christmas,"Adventure, Comedy",Todd Strauss-Schulson,"Kal Penn, John Cho, Neil Patrick Harris, Patton Oswalt",35030000,0,1,5,3,5,0.04692
 93,2011093,50/50,"Comedy, Drama, Romance",Jonathan Levine,"Joseph Gordon-Levitt, Seth Rogen, Anna Kendrick, Bryce Dallas Howard",34960000,0,1,2,2,2,0.250838279
 94,2011094,Courageous,Drama,Alex Kendrick,"Alex Kendrick, Ken Bevel, Kevin Downes, Renee Jewell",34520000,1,1,13,4,3,0.014463343
-95,2011095,The Rite,"Drama, Horror, Mystery",Mikael H<U+00E5>fstr<U+00F6>m,"Colin O'Donoghue, Anthony Hopkins, Ciarå¢n Hinds, Alice Braga",33040000,0,1,1,1,1,0.444894815
+95,2011095,The Rite,"Drama, Horror, Mystery",Mikael H<U+00E5>fstr<U+00F6>m,"Colin O'Donoghue, Anthony Hopkins, CiarŒ¢n Hinds, Alice Braga",33040000,0,1,1,1,1,0.444894815
 96,2011096,Arthur,"Comedy, Romance",Jason Winer,"Russell Brand, Helen Mirren, Jennifer Garner, Greta Gerwig",33020000,0,1,3,3,8,0.102285926
 97,2011097,Extremely Loud & Incredibly Close,"Adventure, Drama, Mystery",Stephen Daldry,"Thomas Horn, Tom Hanks, Sandra Bullock, Max von Sydow",31840000,1,1,1,1,1,0.489814815
 98,2011098,The Sitter,Comedy,David Gordon Green,"Jonah Hill, Ari Graynor, Sam Rockwell, Max Records",30540000,0,1,4,1,8,0.073826409
@@ -115,12 +115,12 @@
 114,2011114,Dream House,"Drama, Mystery, Thriller",Jim Sheridan,"Daniel Craig, Rachel Weisz, Naomi Watts, Elias Koteas",21280000,0,1,1,0,0,0
 115,2011115,Conan the Barbarian,"Action, Adventure, Fantasy",Marcus Nispel,"Jason Momoa, Ron Perlman, Rose McGowan, Stephen Lang",21270000,0,1,4,4,5,0.055197329
 116,2011116,The Three Musketeers,"Action, Adventure, Romance",Paul W.S. Anderson,"Logan Lerman, Matthew Macfadyen, Ray Stevenson, Milla Jovovich",20320000,0,1,8,8,13,0.139126113
-117,2011117,The Eagle,"Action, Adventure, Drama",Kevin Macdonald,"Channing Tatum, Jamie Bell, Donald Sutherland, Istvå¢n G<U+00F6>z",19480000,0,1,2,2,1,0.032939169
+117,2011117,The Eagle,"Action, Adventure, Drama",Kevin Macdonald,"Channing Tatum, Jamie Bell, Donald Sutherland, IstvŒ¢n G<U+00F6>z",19480000,0,1,2,2,1,0.032939169
 118,2011118,Haywire,"Action, Thriller",Steven Soderbergh,"Gina Carano, Ewan McGregor, Michael Fassbender, Michael Angarano",18930000,0,1,8,8,6,0.080784689
 119,2011119,Shark Night 3D,"Horror, Thriller",David R. Ellis,"Sara Paxton, Dustin Milligan, Chris Carmack, Katharine McPhee",18860000,1,1,2,0,4,0.04305625
 120,2011120,You're Next,"Horror, Thriller",Adam Wingard,"Sharni Vinson, Joe Swanberg, AJ Bowen, Nicholas Tucci",18470000,0,1,1,0,4,0.042524691
 121,2011121,Fright Night,"Comedy, Horror",Craig Gillespie,"Anton Yelchin, Colin Farrell, David Tennant, Toni Collette",18300000,0,1,2,1,0,0
-122,2011122,Apollo 18,"Horror, Mystery, Sci-Fi",Gonzalo LåÂpez-Gallego,"Warren Christie, Lloyd Owen, Ryan Robbins, Michael Kopsa",17680000,0,1,1,0,0,0
+122,2011122,Apollo 18,"Horror, Mystery, Sci-Fi",Gonzalo LŒåpez-Gallego,"Warren Christie, Lloyd Owen, Ryan Robbins, Michael Kopsa",17680000,0,1,1,0,0,0
 123,2011123,The Thing,"Horror, Mystery, Sci-Fi",Matthijs van Heijningen Jr.,"Mary Elizabeth Winstead, Joel Edgerton, Ulrich Thomsen, Eric Christian Olsen",16910000,0,1,0,0,0,0
 124,2011124,Young Adult,"Comedy, Drama",Jason Reitman,"Charlize Theron, Patrick Wilson, Patton Oswalt, Elizabeth Reaser",16300000,1,1,2,1,3,0.097379688
 125,2011125,Judy Moody and the Not Bummer Summer,"Comedy, Family",John Schultz,"Jordana Beatty, Heather Graham, Parris Mosteller, Janet Varney",1.50E+07,0,1,3,3,4,0.08955638
@@ -160,26 +160,26 @@
 159,2011159,Shame,Drama,Steve McQueen,"Michael Fassbender, Carey Mulligan, James Badge Dale, Lucy Walters",4.00E+06,1,1,0,0,0,0
 160,2011160,Don 2,"Action, Crime, Thriller",Farhan Akhtar,"Shah Rukh Khan, Florian Lukas, Om Puri, Priyanka Chopra",3650000,1,1,1,1,2,0.098589918
 161,2011161,Like Crazy,"Drama, Romance",Drake Doremus,"Felicity Jones, Anton Yelchin, Jennifer Lawrence, Charlie Bewley",3390000,0,1,2,2,0,0
-162,2011162,La piel que habito,"Crime, Drama, Thriller",Pedro AlmodåÂvar,"Antonio Banderas, Elena Anaya, Jan Cornet, Marisa Paredes",3190000,1,1,2,2,1,0.129201794
+162,2011162,La piel que habito,"Crime, Drama, Thriller",Pedro AlmodŒåvar,"Antonio Banderas, Elena Anaya, Jan Cornet, Marisa Paredes",3190000,1,1,2,2,1,0.129201794
 163,2011163,Life is Precious,"Adventure, Comedy, Drama",Zoya Akhtar,"Katrina Kaif, Hrithik Roshan, Aditya Roy Kapoor, Farhan Akhtar",3080000,1,1,3,0,2,0.026127168
 164,2011164,Melancholia,Drama,Lars von Trier,"Kirsten Dunst, Charlotte Gainsbourg, Kiefer Sutherland, Alexander Skarsg<U+00E5>rd",3030000,1,1,1,1,3,0.102964392
 165,2011165,From Prada to Nada,"Comedy, Drama, Romance",Angel Gracia,"Camilla Belle, Alexa PenaVega, Kuno Becker, Tina French",3020000,0,1,3,3,7,0.04231454
-166,2011166,Albert Nobbs,"Drama, Romance",Rodrigo Garcåéa,"Glenn Close, Mia Wasikowska, Aaron Taylor-Johnson, Antonia Campbell-Hughes",3010000,0,1,3,3,4,0.127262222
+166,2011166,Albert Nobbs,"Drama, Romance",Rodrigo GarcŒ_a,"Glenn Close, Mia Wasikowska, Aaron Taylor-Johnson, Antonia Campbell-Hughes",3010000,0,1,3,3,4,0.127262222
 167,2011167,Martha Marcy May Marlene,"Drama, Mystery, Thriller",Sean Durkin,"Elizabeth Olsen, Sarah Paulson, John Hawkes, Christopher Abbott",2980000,0,1,1,1,0,0
 168,2011168,Ra.One,"Action, Adventure, Sci-Fi",Anubhav Sinha,"Shah Rukh Khan, Arjun Rampal, Kareena Kapoor, Shahana Goswami",2510000,1,1,2,2,2,0.018722222
 169,2011169,Bucky Larson: Born to Be a Star,Comedy,Tom Brady,"Nick Swardson, Don Johnson, Christina Ricci, Stephen Dorff",2330000,0,1,1,1,1,0.0103064
-170,2011170,Monsieur Lazhar,"Comedy, Drama",Philippe Falardeau,"Mohamed Fellag, Sophie Nå_lisse, å_milien Nå_ron, Danielle Proulx",2010000,1,1,8,7,21,0.235920322
+170,2011170,Monsieur Lazhar,"Comedy, Drama",Philippe Falardeau,"Mohamed Fellag, Sophie NŒ_lisse, Œ_milien NŒ_ron, Danielle Proulx",2010000,1,1,8,7,21,0.235920322
 171,2011171,Hearat Shulayim,"Comedy, Drama",Joseph Cedar,"Shlomo Bar-Aba, Lior Ashkenazi, Aliza Rosen, Alma Zack",2010000,1,1,1,1,1,0.005537202
 172,2011172,Killer Joe,"Crime, Drama, Thriller",William Friedkin,"Matthew McConaughey, Emile Hirsch, Juno Temple, Thomas Haden Church",1990000,0,1,2,2,0,0
 173,2011173,Hysteria,"Comedy, Romance",Tanya Wexler,"Maggie Gyllenhaal, Hugh Dancy, Jonathan Pryce, Felicity Jones",1800000,0,1,2,2,2,0.118872372
-174,2011174,A Better Life,"Drama, Romance",Chris Weitz,"Demiå¢n Bichir, Joså_ Juliå¢n, Eddie 'Piolin' Sotelo, Joaquåén Cosio",1750000,1,1,0,0,1,0.01090566
+174,2011174,A Better Life,"Drama, Romance",Chris Weitz,"DemiŒ¢n Bichir, JosŒ_ JuliŒ¢n, Eddie 'Piolin' Sotelo, JoaquŒ_n Cosio",1750000,1,1,0,0,1,0.01090566
 175,2011175,We Need to Talk About Kevin,"Crime, Drama, Mystery",Lynne Ramsay,"Tilda Swinton, John C. Reilly, Ezra Miller, Jasper Newell",1740000,1,1,2,1,0,0
 176,2011176,Take Shelter,"Drama, Thriller",Jeff Nichols,"Michael Shannon, Jessica Chastain, Shea Whigham, Tova Stewart",1730000,0,1,3,0,0,0
 177,2011177,Your Sister's Sister,"Comedy, Drama",Lynn Shelton,"Mark Duplass, Emily Blunt, Rosemarie DeWitt, Mike Birbiglia",1570000,1,1,3,3,6,0.163531794
 178,2011178,Delhi Belly,"Comedy, Crime, Drama","Abhinay Deo, Akshat Verma","Imran Khan, Vir Das, Kunaal Roy Kapur, Shenaz Treasurywala",1530000,1,1,3,3,4,0.184591667
 179,2011179,The Art of Getting By,"Drama, Romance",Gavin Wiesen,"Freddie Highmore, Emma Roberts, Michael Angarano, Sasha Spielberg",1430000,0,1,2,2,2,0.00881454
-180,2011180,Saving Private Perez,"Adventure, Comedy, Western",Beto GåÂmez,"Miguel Rodarte, Jeså_s Ochoa, Joaquåén Cosio, Gerardo Taracena",1390000,0,1,8,7,8,0.042981375
-181,2011181,The Kid with a Bike,Drama,"Jean-Pierre Dardenne, Luc Dardenne","Thomas Doret, Cå_cile De France, Jå_rå_mie Renier, Fabrizio Rongione",1380000,1,1,2,1,0,0
+180,2011180,Saving Private Perez,"Adventure, Comedy, Western",Beto GŒåmez,"Miguel Rodarte, JesŒ_s Ochoa, JoaquŒ_n Cosio, Gerardo Taracena",1390000,0,1,8,7,8,0.042981375
+181,2011181,The Kid with a Bike,Drama,"Jean-Pierre Dardenne, Luc Dardenne","Thomas Doret, CŒ_cile De France, JŒ_rŒ_mie Renier, Fabrizio Rongione",1380000,1,1,2,1,0,0
 182,2011182,The Devil's Double,"Biography, Drama, Thriller",Lee Tamahori,"Dominic Cooper, Ludivine Sagnier, Raad Rawi, Philip Quast",1360000,0,1,1,1,1,0.007906528
 183,2011183,The Oscar Nominated Short Films: Animation,Animation,NULL,NULL,1350000,0,0,0,0,0,0
 184,2011184,Snow Flower and the Secret Fan,"Drama, History",Wayne Wang,"Bingbing Li, Ji-hyun Jun, Vivian Wu, Russell Wong",1350000,1,1,1,0,0,0
@@ -188,156 +188,156 @@
 187,2011187,Hodejegerne,"Crime, Drama, Thriller",Morten Tyldum,"Aksel Hennie, Synn<U+00F8>ve Macody Lund, Nikolaj Coster-Waldau, Julie R. <U+00D8>lgaard",1200000,1,1,5,5,3,0.099112426
 188,2011188,Kill the Irishman,"Biography, Crime, Drama",Jonathan Hensleigh,"Ray Stevenson, Christopher Walken, Vincent D'Onofrio, Val Kilmer",1190000,1,1,4,4,0,0
 189,2011189,The Deep Blue Sea,"Drama, Romance",Terence Davies,"Rachel Weisz, Tom Hiddleston, Ann Mitchell, Jolyon Coy",1120000,1,1,2,2,3,0.039480769
-190,2011190,There Be Dragons,"Biography, Drama, War",Roland Joffå_,"Charlie Cox, Wes Bentley, Dougray Scott, Rodrigo Santoro",1070000,0,1,1,0,0,0
+190,2011190,There Be Dragons,"Biography, Drama, War",Roland JoffŒ_,"Charlie Cox, Wes Bentley, Dougray Scott, Rodrigo Santoro",1070000,0,1,1,0,0,0
 191,2011191,Desi Boyz,"Comedy, Drama",Rohit Dhawan,"Akshay Kumar, John Abraham, Deepika Padukone, Chitrangda Singh",1070000,1,1,4,4,8,0.117336232
-192,2011192,In Darkness,"Drama, War",Agnieszka Holland,"Robert Wieckiewicz, Benno Få_rmann, Agnieszka Grochowska, Maria Schrader",1040000,1,1,2,1,3,0.021333824
+192,2011192,In Darkness,"Drama, War",Agnieszka Holland,"Robert Wieckiewicz, Benno FŒ_rmann, Agnieszka Grochowska, Maria Schrader",1040000,1,1,2,1,3,0.021333824
 193,2011193,Attack the Block,"Action, Comedy, Sci-Fi",Joe Cornish,"John Boyega, Jodie Whittaker, Alex Esmail, Leeon Jones",1020000,0,1,7,0,2,0.009308605
 194,2011194,Damsels in Distress,"Comedy, Drama, Romance",Whit Stillman,"Greta Gerwig, Adam Brody, Analeigh Tipton, Megalyn Echikunwoke",1010000,1,1,5,0,0,0
-195,2012001,The Avengers,Action|Adventure|Sci-Fi,Joss Whedon,Robert Downey Jr,623279547,1,1,7,7,0,NA
-196,2012002,The Dark Knight Rises,Action|Thriller,Christopher Nolan,Christian Bale,448130642,1,1,1,1,4,0.022675556
-197,2012003,The Hunger Games,Adventure|Drama|Sci-Fi|Thriller,Gary Ross,Jennifer Lawrence,407999255,1,1,1,1,1,0.014814815
-198,2012004,Skyfall,Adventure|Fantasy,Sam Mendes,Daniel Craig,304360277,0,1,1,1,0,0
-199,2012005,The Hobbit: An Unexpected Journey,Adventure|Drama|Fantasy|Romance,Peter Jackson,Martin Freeman,303001229,1,1,1,1,0,0
-200,2012006,The Twilight Saga: Breaking Dawn - Part 2,Adventure|Drama|Fantasy|Romance,Bill Condon,Kristen Stewart,292298923,1,1,1,1,3,0.265313056
-201,2012007,The Amazing Spider-Man,Action|Adventure|Fantasy,Marc Webb,Andrew Garfield,262030663,0,1,1,1,7,0.334799703
-202,2012008,Brave,Adventure|Animation|Comedy|Family|Fantasy,Mark Andrews,NA,237282182,0,1,1,0,0,0
-203,2012009,Ted,Comedy|Fantasy,Seth MacFarlane,Mark Wahlberg,218628680,0,1,2,1,2,0.02424
-204,2012010,Madagascar 3: Europe's Most Wanted,Adventure|Animation|Comedy|Family,Eric Darnell,NA,216366733,0,1,4,0,1,0.015220285
-205,2012011,Wreck-It Ralph,Adventure|Animation|Comedy|Family|Sci-Fi,Rich Moore,NA,189412677,0,1,8,0,0,0
-206,2012012,Lincoln,Biography|Drama|History|War,Steven Spielberg,Daniel Day-Lewis,182204440,1,1,1,1,3,0.033718101
-207,2012013,Men in Black 3,Action|Adventure|Comedy|Family|Fantasy|Sci-Fi,Barry Sonnenfeld,Will Smith,179020854,0,1,3,3,0,0
-208,2012014,Django Unchained,Drama|Western,Quentin Tarantino,NA,162804648,1,1,3,3,3,0.242691395
-209,2012015,Ice Age: Continental Drift,Adventure|Animation|Comedy|Family,Steve Martino,NA,161317423,0,1,4,0,2,0.040356083
-210,2012016,Snow White and the Huntsman,Action|Adventure|Drama|Fantasy,Rupert Sanders,NA,155111815,0,1,1,0,0,0
-211,2012017,Les Misí©rables,Drama|Musical|Romance,Tom Hooper,Amanda Seyfried,148775460,1,1,1,1,0,0
-212,2012018,Hotel Transylvania,Animation|Comedy|Family|Fantasy,Genndy Tartakovsky,NA,148313048,0,1,5,0,1,0.230320475
-213,2012019,21 Jump Street,Action|Comedy|Crime,Phil Lord,Jonah Hill,138447667,1,1,2,2,1,0.007063798
-214,2012020,Argo,Biography|Drama|History|Thriller,Ben Affleck,Ben Affleck,136019448,0,1,1,1,4,0.051814236
-215,2012021,Silver Linings Playbook,Comedy|Drama|Romance,David O. Russell,Bradley Cooper,132088910,0,1,2,2,0,0
-216,2012022,Prometheus,Adventure|Mystery|Sci-Fi,Ridley Scott,NA,126464904,0,1,0,0,0,0
-217,2012023,Safe House,Action|Crime|Mystery|Thriller,Daniel Espinosa,Denzel Washington,126149655,1,0,2,2,0,0
-218,2012024,The Vow,Drama|Romance,Michael Sucsy,Rachel McAdams,125014030,0,1,2,2,3,0.062835556
-219,2012025,Life of Pi,Adventure|Drama|Fantasy,Ang Lee,Suraj Sharma,124976634,1,1,2,1,0,0
-220,2012026,Magic Mike,Comedy|Drama,Steven Soderbergh,Channing Tatum,113709992,1,1,5,5,0,0
-221,2012027,The Bourne Legacy,Action|Adventure|Thriller,Tony Gilroy,Jeremy Renner,113165635,0,1,1,1,0,0
-222,2012028,Journey 2: The Mysterious Island,Action|Adventure|Comedy|Family|Fantasy|Sci-Fi,Brad Peyton,Dwayne Johnson,103812241,1,1,3,3,0,0
-223,2012029,Rise of the Guardians,Adventure|Animation|Family|Fantasy,Peter Ramsey,NA,103400692,0,1,7,0,6,0.039985163
-224,2012030,Zero Dark Thirty,Drama|History|Thriller,Kathryn Bigelow,Jason Clarke,95720716,1,1,0,0,3,0.027724728
-225,2012031,Flight,Drama|Thriller,Robert Zemeckis,Denzel Washington,93749203,1,1,1,1,0,0
-226,2012032,Think Like a Man,Comedy|Romance,Tim Story,Michael Ealy,91547205,0,1,9,9,0,0
+195,2012001,The Avengers,"Action, Adventure, Sci-Fi",Joss Whedon,Robert Downey Jr,623279547,1,1,7,7,0,NA
+196,2012002,The Dark Knight Rises,"Action, Thriller",Christopher Nolan,Christian Bale,448130642,1,1,1,1,4,0.022675556
+197,2012003,The Hunger Games,"Adventure, Drama, Sci-Fi, Thriller",Gary Ross,Jennifer Lawrence,407999255,1,1,1,1,1,0.014814815
+198,2012004,Skyfall,"Adventure, Fantasy",Sam Mendes,Daniel Craig,304360277,0,1,1,1,0,0
+199,2012005,The Hobbit: An Unexpected Journey,"Adventure, Drama, Fantasy, Romance",Peter Jackson,Martin Freeman,303001229,1,1,1,1,0,0
+200,2012006,The Twilight Saga: Breaking Dawn - Part 2,"Adventure, Drama, Fantasy, Romance",Bill Condon,Kristen Stewart,292298923,1,1,1,1,3,0.265313056
+201,2012007,The Amazing Spider-Man,"Action, Adventure, Fantasy",Marc Webb,Andrew Garfield,262030663,0,1,1,1,7,0.334799703
+202,2012008,Brave,"Adventure, Animation, Comedy, Family, Fantasy",Mark Andrews,NA,237282182,0,1,1,0,0,0
+203,2012009,Ted,"Comedy, Fantasy",Seth MacFarlane,Mark Wahlberg,218628680,0,1,2,1,2,0.02424
+204,2012010,Madagascar 3: Europe's Most Wanted,"Adventure, Animation, Comedy, Family",Eric Darnell,NA,216366733,0,1,4,0,1,0.015220285
+205,2012011,Wreck-It Ralph,"Adventure, Animation, Comedy, Family, Sci-Fi",Rich Moore,NA,189412677,0,1,8,0,0,0
+206,2012012,Lincoln,"Biography, Drama, History, War",Steven Spielberg,Daniel Day-Lewis,182204440,1,1,1,1,3,0.033718101
+207,2012013,Men in Black 3,"Action, Adventure, Comedy, Family, Fantasy, Sci-Fi",Barry Sonnenfeld,Will Smith,179020854,0,1,3,3,0,0
+208,2012014,Django Unchained,"Drama, Western",Quentin Tarantino,NA,162804648,1,1,3,3,3,0.242691395
+209,2012015,Ice Age: Continental Drift,"Adventure, Animation, Comedy, Family",Steve Martino,NA,161317423,0,1,4,0,2,0.040356083
+210,2012016,Snow White and the Huntsman,"Action, Adventure, Drama, Fantasy",Rupert Sanders,NA,155111815,0,1,1,0,0,0
+211,2012017,Les Mis’©rables,"Drama, Musical, Romance",Tom Hooper,Amanda Seyfried,148775460,1,1,1,1,0,0
+212,2012018,Hotel Transylvania,"Animation, Comedy, Family, Fantasy",Genndy Tartakovsky,NA,148313048,0,1,5,0,1,0.230320475
+213,2012019,21 Jump Street,"Action, Comedy, Crime",Phil Lord,Jonah Hill,138447667,1,1,2,2,1,0.007063798
+214,2012020,Argo,"Biography, Drama, History, Thriller",Ben Affleck,Ben Affleck,136019448,0,1,1,1,4,0.051814236
+215,2012021,Silver Linings Playbook,"Comedy, Drama, Romance",David O. Russell,Bradley Cooper,132088910,0,1,2,2,0,0
+216,2012022,Prometheus,"Adventure, Mystery, Sci-Fi",Ridley Scott,NA,126464904,0,1,0,0,0,0
+217,2012023,Safe House,"Action, Crime, Mystery, Thriller",Daniel Espinosa,Denzel Washington,126149655,1,0,2,2,0,0
+218,2012024,The Vow,"Drama, Romance",Michael Sucsy,Rachel McAdams,125014030,0,1,2,2,3,0.062835556
+219,2012025,Life of Pi,"Adventure, Drama, Fantasy",Ang Lee,Suraj Sharma,124976634,1,1,2,1,0,0
+220,2012026,Magic Mike,"Comedy, Drama",Steven Soderbergh,Channing Tatum,113709992,1,1,5,5,0,0
+221,2012027,The Bourne Legacy,"Action, Adventure, Thriller",Tony Gilroy,Jeremy Renner,113165635,0,1,1,1,0,0
+222,2012028,Journey 2: The Mysterious Island,"Action, Adventure, Comedy, Family, Fantasy, Sci-Fi",Brad Peyton,Dwayne Johnson,103812241,1,1,3,3,0,0
+223,2012029,Rise of the Guardians,"Adventure, Animation, Family, Fantasy",Peter Ramsey,NA,103400692,0,1,7,0,6,0.039985163
+224,2012030,Zero Dark Thirty,"Drama, History, Thriller",Kathryn Bigelow,Jason Clarke,95720716,1,1,0,0,3,0.027724728
+225,2012031,Flight,"Drama, Thriller",Robert Zemeckis,Denzel Washington,93749203,1,1,1,1,0,0
+226,2012032,Think Like a Man,"Comedy, Romance",Tim Story,Michael Ealy,91547205,0,1,9,9,0,0
 227,2012033,The Campaign,Comedy,Jay Roach,Will Ferrel,86897182,0,1,2,2,14,0.164267062
-228,2012034,The Expendables 2,Action|Adventure|Thriller,Simon West,Sylvester Stallone,85017401,1,1,9,4,0,0
-229,2012035,Wrath of the Titans,Action|Adventure|Fantasy,Jonathan Liebesman,Sam Worthington,83640426,0,1,2,0,3,0.045980826
-230,2012036,Jack Reacher,Action|Crime|Mystery|Thriller,Christopher McQuarrie,Tom Cruise,80033643,1,1,1,1,0,0
-231,2012037,Dark Shadows,Action|Crime|Mystery|Thriller,Tim Burton,Johnny Depp,79711678,0,1,9,9,2,0.036212644
-232,2012038,Parental Guidance,Comedy|Fantasy|Horror,Andy Fickman,Billy Crastal,77264926,1,1,4,4,4,0.021815351
-233,2012039,John Carter,Comedy|Family,Andrew Stanton,Taylor Kitsch,73058679,0,0,1,1,4,0.027354599
-234,2012040,Act of Valor,Action|Adventure|Sci-Fi,Mike McCoy,Rorke Denver,70011073,1,1,7,0,1,0.004161481
-235,2012041,This Is 40,Action|Adventure|Drama|Thriller|War,Judd Apatow,Paul Rudd,67523385,1,1,2,2,0,0
-236,2012042,Contraband,Comedy,Baltasar Kormí€Œçkur,Robert Wahlberg,66489425,1,1,4,3,3,0.071486647
-237,2012043,Looper,Action|Crime|Drama|Thriller,Rian Johnson,Joseph Gordon-Levitt,66468315,1,1,2,2,2,0.040808605
-238,2012044,Madea's Witness Protection,Action|Crime|Drama|Sci-Fi|Thriller,Tyler Perry,Tyler Perry,65623128,0,1,5,5,4,0.042173333
-239,2012045,Battleship,Comedy|Crime|Drama,Peter Berg,Taylor Kitsch,65173160,0,1,1,0,1,0.004991098
-240,2012046,Pitch Perfect,Action|Adventure|Sci-Fi|Thriller,Jason Moore,Anna Kendrick,64998368,0,1,7,7,1,0.004621236
-241,2012047,Mirror Mirror,Comedy|Music|Romance,Tarsem Singh,Lily Collins,64933670,0,0,1,1,3,0.015657686
-242,2012048,Chronicle,Adventure|Comedy|Drama|Family|Fantasy,Josh Trank,NA,64572496,0,0,0,0,1,0.270517804
-243,2012049,Hope Springs,Drama|Sci-Fi|Thriller,David Frankel,Meryl Streep,63536011,1,1,2,2,0,0
-244,2012050,Underworld: Awakening,Comedy|Drama|Romance,Mans Marlind,Kate Beckinsale,62321039,0,1,1,1,2,0.073900875
-245,2012051,The Lucky One,Action|Fantasy|Horror,Scott Hicks,Zac Efron,60443237,1,1,2,2,1,0.019875923
-246,2012052,The Dictator,Drama|Romance,Larry Charles,Sacha Baron Cohen,59617068,1,1,1,1,0,0
-247,2012053,American Reunion,Comedy|Romance,Jon Hurwitz,Jason Biggs,56724080,0,1,9,9,1,0.04332
+228,2012034,The Expendables 2,"Action, Adventure, Thriller",Simon West,Sylvester Stallone,85017401,1,1,9,4,0,0
+229,2012035,Wrath of the Titans,"Action, Adventure, Fantasy",Jonathan Liebesman,Sam Worthington,83640426,0,1,2,0,3,0.045980826
+230,2012036,Jack Reacher,"Action, Crime, Mystery, Thriller",Christopher McQuarrie,Tom Cruise,80033643,1,1,1,1,0,0
+231,2012037,Dark Shadows,"Action, Crime, Mystery, Thriller",Tim Burton,Johnny Depp,79711678,0,1,9,9,2,0.036212644
+232,2012038,Parental Guidance,"Comedy, Fantasy, Horror",Andy Fickman,Billy Crastal,77264926,1,1,4,4,4,0.021815351
+233,2012039,John Carter,"Comedy, Family",Andrew Stanton,Taylor Kitsch,73058679,0,0,1,1,4,0.027354599
+234,2012040,Act of Valor,"Action, Adventure, Sci-Fi",Mike McCoy,Rorke Denver,70011073,1,1,7,0,1,0.004161481
+235,2012041,This Is 40,"Action, Adventure, Drama, Thriller, War",Judd Apatow,Paul Rudd,67523385,1,1,2,2,0,0
+236,2012042,Contraband,Comedy,Baltasar Korm’ÛÎçkur,Robert Wahlberg,66489425,1,1,4,3,3,0.071486647
+237,2012043,Looper,"Action, Crime, Drama, Thriller",Rian Johnson,Joseph Gordon-Levitt,66468315,1,1,2,2,2,0.040808605
+238,2012044,Madea's Witness Protection,"Action, Crime, Drama, Sci-Fi, Thriller",Tyler Perry,Tyler Perry,65623128,0,1,5,5,4,0.042173333
+239,2012045,Battleship,"Comedy, Crime, Drama",Peter Berg,Taylor Kitsch,65173160,0,1,1,0,1,0.004991098
+240,2012046,Pitch Perfect,"Action, Adventure, Sci-Fi, Thriller",Jason Moore,Anna Kendrick,64998368,0,1,7,7,1,0.004621236
+241,2012047,Mirror Mirror,"Comedy, Music, Romance",Tarsem Singh,Lily Collins,64933670,0,0,1,1,3,0.015657686
+242,2012048,Chronicle,"Adventure, Comedy, Drama, Family, Fantasy",Josh Trank,NA,64572496,0,0,0,0,1,0.270517804
+243,2012049,Hope Springs,"Drama, Sci-Fi, Thriller",David Frankel,Meryl Streep,63536011,1,1,2,2,0,0
+244,2012050,Underworld: Awakening,"Comedy, Drama, Romance",Mans Marlind,Kate Beckinsale,62321039,0,1,1,1,2,0.073900875
+245,2012051,The Lucky One,"Action, Fantasy, Horror",Scott Hicks,Zac Efron,60443237,1,1,2,2,1,0.019875923
+246,2012052,The Dictator,"Drama, Romance",Larry Charles,Sacha Baron Cohen,59617068,1,1,1,1,0,0
+247,2012053,American Reunion,"Comedy, Romance",Jon Hurwitz,Jason Biggs,56724080,0,1,9,9,1,0.04332
 248,2012054,ParaNorman,Comedy,Chris Butler,NA,55994557,0,1,12,0,6,0.11451981
-249,2012055,This Means War,Adventure|Animation|Comedy|Family|Fantasy,McG,Reese Witherspoon,54758461,0,0,3,3,2,0.025084896
-250,2012056,Project X,Action|Comedy|Romance,Nima Nourizadeh,Oliver Cooper,54724272,0,1,3,3,4,0.076752959
-251,2012057,The Woman in Black,Comedy|Crime,James Watkins,Daniel Radcliffe,54322273,0,1,1,1,1,0.006259259
+249,2012055,This Means War,"Adventure, Animation, Comedy, Family, Fantasy",McG,Reese Witherspoon,54758461,0,0,3,3,2,0.025084896
+250,2012056,Project X,"Action, Comedy, Romance",Nima Nourizadeh,Oliver Cooper,54724272,0,1,3,3,4,0.076752959
+251,2012057,The Woman in Black,"Comedy, Crime",James Watkins,Daniel Radcliffe,54322273,0,1,1,1,1,0.006259259
 252,2012058,Paranormal Activity 4,Horror,Henry Joost,NA,53884821,0,1,1,0,0,0
 253,2012059,The Devil Inside,Horror,William Brent Bell,Fernada Andrade,53245055,0,1,1,0,0,0
-254,2012060,The Odd Life of Timothy Green,Comedy|Drama|Family|Fantasy,Peter Hedges,NA,51853450,0,0,0,0,1,0.00432
-255,2012061,Red Tails,Action|Adventure|Drama|History|War,Anthony Hemingway,NA,49875589,0,1,0,0,1,0.048606825
-256,2012062,The Possession,Horror|Thriller,Ole Bornedal,NA,49122319,1,1,0,0,0,0
-257,2012063,Diary of a Wimpy Kid: Dog Days,Horror|Thriller,David Bowers,Zachary Gordon,49002815,0,0,4,3,0,0
-258,2012064,Sinister,Comedy|Family,Scott Derrickson,NA,48056940,1,1,1,0,0,0
-259,2012065,Savages,Horror|Mystery,Oliver Stone,Aaron Taylor-Johnson,47307550,0,1,6,6,0,0
-260,2012066,Moonrise Kingdom,Crime|Drama|Thriller,Wes Anderson,NA,45507053,1,1,0,0,3,0.137014263
-261,2012067,Here Comes the Boom,Adventure|Comedy|Drama|Romance,Frank Coraci,Kevin James,45290318,0,1,1,1,1,0.006077151
-262,2012068,The Three Stooges,Action|Comedy|Sport,Bobby Farrelly,Sean Hayes,44328238,0,1,3,0,4,0.119937685
+254,2012060,The Odd Life of Timothy Green,"Comedy, Drama, Family, Fantasy",Peter Hedges,NA,51853450,0,0,0,0,1,0.00432
+255,2012061,Red Tails,"Action, Adventure, Drama, History, War",Anthony Hemingway,NA,49875589,0,1,0,0,1,0.048606825
+256,2012062,The Possession,"Horror, Thriller",Ole Bornedal,NA,49122319,1,1,0,0,0,0
+257,2012063,Diary of a Wimpy Kid: Dog Days,"Horror, Thriller",David Bowers,Zachary Gordon,49002815,0,0,4,3,0,0
+258,2012064,Sinister,"Comedy, Family",Scott Derrickson,NA,48056940,1,1,1,0,0,0
+259,2012065,Savages,"Horror, Mystery",Oliver Stone,Aaron Taylor-Johnson,47307550,0,1,6,6,0,0
+260,2012066,Moonrise Kingdom,"Crime, Drama, Thriller",Wes Anderson,NA,45507053,1,1,0,0,3,0.137014263
+261,2012067,Here Comes the Boom,"Adventure, Comedy, Drama, Romance",Frank Coraci,Kevin James,45290318,0,1,1,1,1,0.006077151
+262,2012068,The Three Stooges,"Action, Comedy, Sport",Bobby Farrelly,Sean Hayes,44328238,0,1,3,0,4,0.119937685
 263,2012069,The Cabin in the Woods,Comedy,Drew Goddard,NA,42043633,1,1,0,0,0,0
-264,2012070,What to Expect When You're Expecting,Fantasy|Horror|Mystery|Thriller,Kirk Jones,Cameron Diaz,41102171,1,1,8,8,1,0.009734421
-265,2012071,End of Watch,Comedy|Drama|Romance,David Ayer,Jack Gullenhaal,40983001,1,1,2,2,5,0.03334273
-266,2012072,Rock of Ages,Crime|Drama|Thriller,Adam Shankman,NA,38509342,1,1,9,9,3,0.063842349
-267,2012073,Abraham Lincoln: Vampire Hunter,Comedy|Drama|Musical|Romance,Timur Bekmambetov,Abraham Lincoln,37516013,1,1,0,0,5,0.024813333
-268,2012074,The Guilt Trip,Action|Fantasy|Horror,Anne Fletcher,Barbra Streisand,37101011,1,1,2,2,0,0
-269,2012075,That's My Boy,Comedy|Drama,Sean Anders,Adam Sandler,36931089,0,1,1,0,2,0.173068433
-270,2012076,Trouble with the Curve,Drama|Sport,Robert Lorenz,Clint Eastwood,35754555,1,1,7,6,3,0.022946667
-271,2012077,Frankenweenie,Animation|Comedy|Family|Horror|Sci-Fi,Tim Burton,NA,35287788,1,1,0,0,1,0.00625
-272,2012078,Step Up Revolution,Drama|Music|Romance,Scott Speer,Kathryn McCormick,35057332,1,1,0,1,0,0
-273,2012079,Good Deeds,Comedy|Drama|Romance,Tyler Perry,Tyler Perry,35010192,0,1,1,1,0,0
-274,2012080,The Watch,Action|Comedy|Sci-Fi,Akiva Schaffer,Ben Stiller,34350553,1,1,4,4,1,0.013061728
-275,2012081,2016: Obama's America,Action|Comedy|Sci-Fi,Dinesh D'Souza,Barack Obama,33349949,1,1,1,1,7,0.160618795
+264,2012070,What to Expect When You're Expecting,"Fantasy, Horror, Mystery, Thriller",Kirk Jones,Cameron Diaz,41102171,1,1,8,8,1,0.009734421
+265,2012071,End of Watch,"Comedy, Drama, Romance",David Ayer,Jack Gullenhaal,40983001,1,1,2,2,5,0.03334273
+266,2012072,Rock of Ages,"Crime, Drama, Thriller",Adam Shankman,NA,38509342,1,1,9,9,3,0.063842349
+267,2012073,Abraham Lincoln: Vampire Hunter,"Comedy, Drama, Musical, Romance",Timur Bekmambetov,Abraham Lincoln,37516013,1,1,0,0,5,0.024813333
+268,2012074,The Guilt Trip,"Action, Fantasy, Horror",Anne Fletcher,Barbra Streisand,37101011,1,1,2,2,0,0
+269,2012075,That's My Boy,"Comedy, Drama",Sean Anders,Adam Sandler,36931089,0,1,1,0,2,0.173068433
+270,2012076,Trouble with the Curve,"Drama, Sport",Robert Lorenz,Clint Eastwood,35754555,1,1,7,6,3,0.022946667
+271,2012077,Frankenweenie,"Animation, Comedy, Family, Horror, Sci-Fi",Tim Burton,NA,35287788,1,1,0,0,1,0.00625
+272,2012078,Step Up Revolution,"Drama, Music, Romance",Scott Speer,Kathryn McCormick,35057332,1,1,0,1,0,0
+273,2012079,Good Deeds,"Comedy, Drama, Romance",Tyler Perry,Tyler Perry,35010192,0,1,1,1,0,0
+274,2012080,The Watch,"Action, Comedy, Sci-Fi",Akiva Schaffer,Ben Stiller,34350553,1,1,4,4,1,0.013061728
+275,2012081,2016: Obama's America,"Action, Comedy, Sci-Fi",Dinesh D'Souza,Barack Obama,33349949,1,1,1,1,7,0.160618795
 276,2012082,Joyful Noise,Documentary,Todd Graff,Queen Latifah,30920167,0,1,4,4,1,0.197705518
-277,2012083,The Five-Year Engagement,Comedy|Music,Nicholas Stoller,Jason Segel,28644770,1,1,2,2,6,0.088048889
-278,2012084,One for the Money,Comedy|Romance,Julie Anne Robinson,Katherine Heigl,26404753,1,1,1,1,3,0.061356083
-279,2012085,Alex Cross,Action|Comedy|Crime|Romance|Thriller,Rob Cohen,Tyler Perry,25863915,1,1,1,0,2,0.049807122
-280,2012086,Katy Perry: Part of Me,Action|Crime|Mystery|Thriller,Dan Cutforth,Katy Perry,25240988,0,1,1,1,0,0
-281,2012087,Sparkle,Documentary|Music,Salim Akil,Jordin Sparks,24397469,1,1,1,0,1,0.028577961
+277,2012083,The Five-Year Engagement,"Comedy, Music",Nicholas Stoller,Jason Segel,28644770,1,1,2,2,6,0.088048889
+278,2012084,One for the Money,"Comedy, Romance",Julie Anne Robinson,Katherine Heigl,26404753,1,1,1,1,3,0.061356083
+279,2012085,Alex Cross,"Action, Comedy, Crime, Romance, Thriller",Rob Cohen,Tyler Perry,25863915,1,1,1,0,2,0.049807122
+280,2012086,Katy Perry: Part of Me,"Action, Crime, Mystery, Thriller",Dan Cutforth,Katy Perry,25240988,0,1,1,1,0,0
+281,2012087,Sparkle,"Documentary, Music",Salim Akil,Jordin Sparks,24397469,1,1,1,0,1,0.028577961
 282,2012088,Mud,Drama,Jeff Nichols,Matthew McConaughey,21589307,1,1,1,1,4,0.035793769
-283,2012089,The Place Beyond the Pines,Crime|Drama|Thriller,Derek Cianfrance,Ryan Gosling,21383298,1,1,3,3,1,0.032939169
-284,2012090,Premium Rush,Action|Crime|Thriller,David Koepp,Joseph Gordon-Levitt,20275446,0,1,1,1,2,0.085785494
-285,2012091,Big Miracle,Biography|Drama|Romance,Ken Kwapis,Drew Barrymore,20113965,1,1,3,3,0,0
-286,2012092,Man on a Ledge,Action|Crime|Thriller,Asger Leth,Sam Worthington,18600911,1,1,6,6,0,0
-287,2012093,A Thousand Words,Comedy|Drama,Brian Robbins,Eddie Murphy,18438149,0,1,13,11,12,0.066614243
-288,2012094,Chernobyl Diaries,Horror|Mystery|Sci-Fi|Thriller,Bradley Parker,NA,18112929,1,1,0,0,6,0.065311573
-289,2012095,The Perks of Being a Wallflower,Drama|Romance,Stephen Chbosky,Logan Lerman,17738570,1,1,3,3,0,0
+283,2012089,The Place Beyond the Pines,"Crime, Drama, Thriller",Derek Cianfrance,Ryan Gosling,21383298,1,1,3,3,1,0.032939169
+284,2012090,Premium Rush,"Action, Crime, Thriller",David Koepp,Joseph Gordon-Levitt,20275446,0,1,1,1,2,0.085785494
+285,2012091,Big Miracle,"Biography, Drama, Romance",Ken Kwapis,Drew Barrymore,20113965,1,1,3,3,0,0
+286,2012092,Man on a Ledge,"Action, Crime, Thriller",Asger Leth,Sam Worthington,18600911,1,1,6,6,0,0
+287,2012093,A Thousand Words,"Comedy, Drama",Brian Robbins,Eddie Murphy,18438149,0,1,13,11,12,0.066614243
+288,2012094,Chernobyl Diaries,"Horror, Mystery, Sci-Fi, Thriller",Bradley Parker,NA,18112929,1,1,0,0,6,0.065311573
+289,2012095,The Perks of Being a Wallflower,"Drama, Romance",Stephen Chbosky,Logan Lerman,17738570,1,1,3,3,0,0
 290,2012096,Wanderlust,Comedy,David Wain,Jennifer Aniston,17225675,1,1,2,2,6,0.104264793
-291,2012097,Safe,Action|Crime|Thriller,Boaz Yakin,Jason Statham,17120019,1,1,2,2,4,0.046619177
-292,2012098,To Rome with Love,Comedy|Romance,Woody Allen,NA,16684352,1,1,0,0,2,0.038179012
+291,2012097,Safe,"Action, Crime, Thriller",Boaz Yakin,Jason Statham,17120019,1,1,2,2,4,0.046619177
+292,2012098,To Rome with Love,"Comedy, Romance",Woody Allen,NA,16684352,1,1,0,0,2,0.038179012
 293,2012099,The Master,Drama,Paul Thomas Anderson,Philip Seymour Hoffman,16377274,1,1,3,3,0,0
-294,2012100,The Raven,Crime|Mystery|Thriller,James McTeigue,John Cusack,16005978,1,1,1,0,114,0.769276442
+294,2012100,The Raven,"Crime, Mystery, Thriller",James McTeigue,John Cusack,16005978,1,1,1,0,114,0.769276442
 295,2012101,The Man with the Iron Fists,Action,RZA,Russell Crowe,15608545,1,1,7,6,0,0
-296,2012102,Killing Them Softly,Crime|Thriller,Andrew Dominik,Brad Pitt,14938570,1,1,1,1,7,0.05340729
-297,2012103,Spring Breakers,Crime|Drama,Harmony Korine,James Franco,14123773,1,1,5,5,1,0.029824561
-298,2012104,Hit and Run,Action|Comedy|Romance,David Palmer,Kristen Bell,13746550,1,1,5,4,2,0.432877657
-299,2012105,Playing for Keeps,Comedy|Romance|Sport,Gabriele Muccino,Gerard Butler,13101142,1,1,5,5,7,0.043222552
-300,2012106,Beasts of the Southern Wild,Drama|Fantasy,Benh Zeitlin,Quvenzhaní© Wallis,12784397,1,1,1,0,8,0.141521605
+296,2012102,Killing Them Softly,"Crime, Thriller",Andrew Dominik,Brad Pitt,14938570,1,1,1,1,7,0.05340729
+297,2012103,Spring Breakers,"Crime, Drama",Harmony Korine,James Franco,14123773,1,1,5,5,1,0.029824561
+298,2012104,Hit and Run,"Action, Comedy, Romance",David Palmer,Kristen Bell,13746550,1,1,5,4,2,0.432877657
+299,2012105,Playing for Keeps,"Comedy, Romance, Sport",Gabriele Muccino,Gerard Butler,13101142,1,1,5,5,7,0.043222552
+300,2012106,Beasts of the Southern Wild,"Drama, Fantasy",Benh Zeitlin,Quvenzhan’© Wallis,12784397,1,1,1,0,8,0.141521605
 301,2012107,Cirque du Soleil: Worlds Away,Fantasy,Andrew Adamson,Erica Linz,12495865,1,1,2,0,0,0
-302,2012108,The Words,Drama|Mystery|Romance|Thriller,Brian Klugman,Bradley Cooper,11434867,1,1,2,2,2,0.025005944
-303,2012109,Bullet to the Head,Action|Thriller,Walter Hill,Sylvester Stallone,9483821,1,1,5,3,0,0
-304,2012110,Fun Size,Adventure|Comedy,Josh Schwartz,Victoria Justice,9402410,0,0,4,4,4,0.130955072
-305,2012111,Arbitrage,Drama|Thriller,Nicholas Jarecki,Richard Gere,7918283,1,1,1,1,4,0.092473315
+302,2012108,The Words,"Drama, Mystery, Romance, Thriller",Brian Klugman,Bradley Cooper,11434867,1,1,2,2,2,0.025005944
+303,2012109,Bullet to the Head,"Action, Thriller",Walter Hill,Sylvester Stallone,9483821,1,1,5,3,0,0
+304,2012110,Fun Size,"Adventure, Comedy",Josh Schwartz,Victoria Justice,9402410,0,0,4,4,4,0.130955072
+305,2012111,Arbitrage,"Drama, Thriller",Nicholas Jarecki,Richard Gere,7918283,1,1,1,1,4,0.092473315
 306,2012112,Promised Land,Drama,Gus Van Sant,Matt Damon,7556708,1,1,1,1,1,0.113665283
-307,2012113,The Collection,Action|Horror|Thriller,Marcus Dunstan,Richard Coyle,6842058,0,0,3,3,2,0.010340741
-308,2012114,Seeking a Friend for the End of the World,Adventure|Comedy|Drama|Romance|Sci-Fi,Lorene Scafaria,Steve Carell,6619173,1,1,3,2,5,0.037013333
-309,2012115,Chasing Mavericks,Biography|Drama|Sport,Michael Apted,Jonny Weston,6002756,1,1,2,2,1,0.007309489
-310,2012116,The Sessions,Biography|Comedy|Drama|Romance,Ben Lewin,John Hawkes,5997134,1,1,5,5,3,0.030922849
-311,2012117,Casa de mi Padre,Comedy|Western,Matt Piedmont,Will Ferrell,5895238,1,1,2,0,3,0.031217134
+307,2012113,The Collection,"Action, Horror, Thriller",Marcus Dunstan,Richard Coyle,6842058,0,0,3,3,2,0.010340741
+308,2012114,Seeking a Friend for the End of the World,"Adventure, Comedy, Drama, Romance, Sci-Fi",Lorene Scafaria,Steve Carell,6619173,1,1,3,2,5,0.037013333
+309,2012115,Chasing Mavericks,"Biography, Drama, Sport",Michael Apted,Jonny Weston,6002756,1,1,2,2,1,0.007309489
+310,2012116,The Sessions,"Biography, Comedy, Drama, Romance",Ben Lewin,John Hawkes,5997134,1,1,5,5,3,0.030922849
+311,2012117,Casa de mi Padre,"Comedy, Western",Matt Piedmont,Will Ferrell,5895238,1,1,2,0,3,0.031217134
 312,2012118,Won't Back Down,Drama,Daniel Barnz,Viola Davis,5308553,1,1,2,2,3,0.022714286
-313,2012119,The Apparition,Horror|Thriller,Todd Lincoln,Ashley Greene,4930798,0,1,1,1,4,0.05530963
-314,2012120,Frances Ha,Comedy|Drama|Romance,Noah Baumbach,Greta Gerwig,4063238,1,1,1,1,2,0.074696296
-315,2012121,Safety Not Guaranteed,Comedy|Drama|Romance,Colin Trevorrow,NA,4007792,1,1,0,0,1,0.010814757
-316,2012122,The Cold Light of Day,Action|Thriller,Mabrouk El Mechri,Henry Cavill,3749061,1,1,3,3,0,0
-317,2012123,Atlas Shrugged II: The Strike,Drama|Mystery|Sci-Fi,John Putch,NA,3333823,0,1,1,0,5,0.099499259
-318,2012124,Robot & Frank,Comedy|Crime|Drama|Sci-Fi,Jake Schreier,Peter Sarsgaard,3325638,1,1,2,1,0,0
-319,2012125,Celeste & Jesse Forever,Comedy|Drama|Romance,Lee Toland Krieger,Rashida Jones,3094687,1,1,2,2,6,0.040115727
-320,2012126,Filly Brown,Drama|Music,Youssef Delara,Gina Rodriguez,2833383,0,1,1,1,4,0.113091564
-321,2012127,The Iceman,Biography|Crime|Drama,Ariel Vromen,Michael Shannon,1939441,1,1,1,1,1,0.033333333
+313,2012119,The Apparition,"Horror, Thriller",Todd Lincoln,Ashley Greene,4930798,0,1,1,1,4,0.05530963
+314,2012120,Frances Ha,"Comedy, Drama, Romance",Noah Baumbach,Greta Gerwig,4063238,1,1,1,1,2,0.074696296
+315,2012121,Safety Not Guaranteed,"Comedy, Drama, Romance",Colin Trevorrow,NA,4007792,1,1,0,0,1,0.010814757
+316,2012122,The Cold Light of Day,"Action, Thriller",Mabrouk El Mechri,Henry Cavill,3749061,1,1,3,3,0,0
+317,2012123,Atlas Shrugged II: The Strike,"Drama, Mystery, Sci-Fi",John Putch,NA,3333823,0,1,1,0,5,0.099499259
+318,2012124,Robot & Frank,"Comedy, Crime, Drama, Sci-Fi",Jake Schreier,Peter Sarsgaard,3325638,1,1,2,1,0,0
+319,2012125,Celeste & Jesse Forever,"Comedy, Drama, Romance",Lee Toland Krieger,Rashida Jones,3094687,1,1,2,2,6,0.040115727
+320,2012126,Filly Brown,"Drama, Music",Youssef Delara,Gina Rodriguez,2833383,0,1,1,1,4,0.113091564
+321,2012127,The Iceman,"Biography, Crime, Drama",Ariel Vromen,Michael Shannon,1939441,1,1,1,1,1,0.033333333
 322,2012128,"For a Good Time, Call...",Comedy,Jamie Travis,Ari Graynor,1243961,0,1,2,2,0,0
-323,2012129,The Lords of Salem,Drama|Fantasy|Horror|Thriller,Rob Zombie,Sheri Moon Zombie,1163508,1,1,1,1,1,0.005703264
-324,2012130,The Oogieloves in the Big Balloon Adventure,Adventure|Family|Fantasy|Musical,Matthew Diamond,NA,1064277,0,1,3,0,1,0.058166172
+323,2012129,The Lords of Salem,"Drama, Fantasy, Horror, Thriller",Rob Zombie,Sheri Moon Zombie,1163508,1,1,1,1,1,0.005703264
+324,2012130,The Oogieloves in the Big Balloon Adventure,"Adventure, Family, Fantasy, Musical",Matthew Diamond,NA,1064277,0,1,3,0,1,0.058166172
 325,2013001,The Hunger Games: Catching Fire,"Action, Adventure, Mystery",Francis Lawrence,"Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, Philip Seymour Hoffman",424650000,1,1,1,1,2,0.02784
 326,2013002,Iron Man Three,"Action, Adventure, Sci-Fi",Shane Black,"Robert Downey Jr., Guy Pearce, Gwyneth Paltrow, Don Cheadle",408990000,1,1,7,5,2,0.158565282
 327,2013003,Frozen,"Animation, Adventure, Comedy","Chris Buck, Jennifer Lee","Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad",400740000,0,1,5,5,4,0.050837143
 328,2013004,Despicable Me 2,"Animation, Adventure, Comedy","Pierre Coffin, Chris Renaud","Steve Carell, Kristen Wiig, Benjamin Bratt, Miranda Cosgrove",368050000,1,0,2,2,2,0.025810089
 329,2013005,Man of Steel,"Action, Adventure, Fantasy",Zack Snyder,"Henry Cavill, Amy Adams, Michael Shannon, Diane Lane",291020000,1,1,1,0,0,0
-330,2013006,Gravity,"Adventure, Drama, Sci-Fi",Alfonso Cuarí_n,"Sandra Bullock, George Clooney, Ed Harris, Orto Ignatiussen",274080000,1,1,1,0,0,0
+330,2013006,Gravity,"Adventure, Drama, Sci-Fi",Alfonso Cuar’_n,"Sandra Bullock, George Clooney, Ed Harris, Orto Ignatiussen",274080000,1,1,1,0,0,0
 331,2013007,Monsters University,"Animation, Adventure, Comedy",Dan Scanlon,"Billy Crystal, John Goodman, Steve Buscemi, Helen Mirren",268490000,0,1,30,30,0,0
 332,2013008,The Hobbit: The Desolation of Smaug,"Adventure, Fantasy",Peter Jackson,"Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",258360000,1,1,7,7,2,0.031485491
 333,2013009,Furious 6,"Action, Crime, Thriller",Justin Lin,"Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez",238670000,0,0,9,9,6,0.063874074
 334,2013010,Oz the Great and Powerful,"Adventure, Family, Fantasy",Sam Raimi,"James Franco, Michelle Williams, Rachel Weisz, Mila Kunis",234900000,0,1,4,4,0,0
 335,2013011,Star Trek Into Darkness,"Action, Adventure, Sci-Fi",J.J. Abrams,"Chris Pine, Zachary Quinto, Zoe Saldana, Benedict Cumberbatch",228760000,1,1,0,0,2,0.029718935
-336,2013012,Thor: The Dark World,"Action, Adventure, Fantasy",Alan Taylor,"Chris Hemsworth, Natalie Portman, Tom Hiddleston, Stellan Skarsgí«rd",206360000,1,1,6,10,0,0
+336,2013012,Thor: The Dark World,"Action, Adventure, Fantasy",Alan Taylor,"Chris Hemsworth, Natalie Portman, Tom Hiddleston, Stellan Skarsg’Çrd",206360000,1,1,6,10,0,0
 337,2013013,World War Z,"Action, Adventure, Horror",Marc Forster,"Brad Pitt, Mireille Enos, Daniella Kertesz, James Badge Dale",202350000,1,1,1,0,8,0.072322857
 338,2013014,The Croods,"Animation, Adventure, Comedy","Kirk De Micco, Chris Sanders","Nicolas Cage, Ryan Reynolds, Emma Stone, Catherine Keener",187170000,1,1,22,12,0,0
-339,2013015,The Heat,"Action, Comedy, Crime",Paul Feig,"Sandra Bullock, Michael McDonald, Melissa McCarthy, Demiíçn Bichir",159580000,1,1,19,7,4,0.066826667
+339,2013015,The Heat,"Action, Comedy, Crime",Paul Feig,"Sandra Bullock, Michael McDonald, Melissa McCarthy, Demi’çn Bichir",159580000,1,1,19,7,4,0.066826667
 340,2013016,We're the Millers,"Comedy, Crime",Rawson Marshall Thurber,"Jason Sudeikis, Jennifer Aniston, Emma Roberts, Ed Helms",150370000,0,1,4,4,5,0.041985163
 341,2013017,American Hustle,"Crime, Drama",David O. Russell,"Christian Bale, Amy Adams, Bradley Cooper, Jennifer Lawrence",150120000,1,0,5,5,6,0.060801481
 342,2013018,The Great Gatsby,"Drama, Romance",Baz Luhrmann,"Leonardo DiCaprio, Carey Mulligan, Joel Edgerton, Tobey Maguire",144810000,1,1,6,6,12,0.091569733
@@ -352,7 +352,7 @@
 351,2013027,The Wolf of Wall Street,"Biography, Comedy, Crime",Martin Scorsese,"Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",116870000,1,1,20,1,4,0.024275701
 352,2013028,The Butler,"Biography, Drama",Lee Daniels,"Forest Whitaker, Oprah Winfrey, John Cusack, Jane Fonda",116630000,1,1,1,0,6,0.077264095
 353,2013029,The Hangover Part III,"Comedy, Crime",Todd Phillips,"Bradley Cooper, Zach Galifianakis, Ed Helms, Justin Bartha",112190000,0,1,3,3,0,0
-354,2013030,Epic,"Animation, Adventure, Family",Chris Wedge,"Amanda Seyfried, Josh Hutcherson, Beyoncí© Knowles, Colin Farrell",107520000,0,1,7,7,2,0.025848532
+354,2013030,Epic,"Animation, Adventure, Family",Chris Wedge,"Amanda Seyfried, Josh Hutcherson, Beyonc’© Knowles, Colin Farrell",107520000,0,1,7,7,2,0.025848532
 355,2013031,Captain Phillips,"Biography, Drama, Thriller",Paul Greengrass,"Tom Hanks, Barkhad Abdi, Barkhad Abdirahman, Catherine Keener",107100000,1,1,2,0,2,0.04620944
 356,2013032,Bad Grandpa,Comedy,Jeff Tremaine,"Johnny Knoxville, Jackson Nicoll, Greg Harris, Georgina Cates",101980000,0,1,2,2,0,0
 357,2013033,Pacific Rim,"Action, Adventure, Sci-Fi",Guillermo del Toro,"Idris Elba, Charlie Hunnam, Rinko Kikuchi, Charlie Day",101790000,1,1,4,2,0,0
@@ -366,9 +366,9 @@
 365,2013041,Insidious: Chapter 2,"Horror, Thriller",James Wan,"Patrick Wilson, Rose Byrne, Barbara Hershey, Lin Shaye",83570000,0,1,3,2,2,0.012836767
 366,2013042,Saving Mr. Banks,"Biography, Comedy, Drama",John Lee Hancock,"Emma Thompson, Tom Hanks, Annie Rose Buckley, Colin Farrell",83300000,0,1,2,0,0,0
 367,2013043,Turbo,"Animation, Adventure, Comedy",David Soren,"Ryan Reynolds, Paul Giamatti, Maya Rudolph, Samuel L. Jackson",83020000,0,1,9,6,0,0
-368,2013044,2 Guns,"Action, Comedy, Crime",Baltasar Kormíçkur,"Denzel Washington, Mark Wahlberg, Paula Patton, Bill Paxton",75570000,0,1,2,2,1,0.009259644
+368,2013044,2 Guns,"Action, Comedy, Crime",Baltasar Korm’çkur,"Denzel Washington, Mark Wahlberg, Paula Patton, Bill Paxton",75570000,0,1,2,2,1,0.009259644
 369,2013045,White House Down,"Action, Drama, Thriller",Roland Emmerich,"Channing Tatum, Jamie Foxx, Maggie Gyllenhaal, Jason Clarke",73100000,1,1,2,2,8,0.102534921
-370,2013046,Safe Haven,"Drama, Romance, Thriller",Lasse Hallstrí_m,"Julianne Hough, Josh Duhamel, Cobie Smulders, David Lyons",71350000,1,1,2,2,4,0.029720414
+370,2013046,Safe Haven,"Drama, Romance, Thriller",Lasse Hallstr’_m,"Julianne Hough, Josh Duhamel, Cobie Smulders, David Lyons",71350000,1,1,2,2,4,0.029720414
 371,2013047,The Smurfs 2,"Animation, Adventure, Comedy",Raja Gosnell,"Neil Patrick Harris, Jayma Mays, Katy Perry, Hank Azaria",71020000,0,1,6,6,2,0.039474074
 372,2013048,The Best Man Holiday,"Comedy, Drama",Malcolm D. Lee,"Monica Calhoun, Morris Chestnut, Melissa De Sousa, Taye Diggs",70490000,0,1,9,9,4,0.062626996
 373,2013049,Percy Jackson: Sea of Monsters,"Adventure, Family, Fantasy",Thor Freudenthal,"Logan Lerman, Alexandra Daddario, Brandon T. Jackson, Nathan Fillion",68560000,0,1,1,0,5,0.028144216
@@ -394,14 +394,14 @@
 393,2013069,Gangster Squad,"Action, Crime, Drama",Ruben Fleischer,"Sean Penn, Ryan Gosling, Emma Stone, Giovanni Ribisi",4.60E+07,0,1,10,4,3,0.044424779
 394,2013070,The Internship,Comedy,Shawn Levy,"Vince Vaughn, Owen Wilson, Rose Byrne, Aasif Mandvi",44670000,0,1,2,2,4,0.067755556
 395,2013071,Snitch,"Action, Drama, Thriller",Ric Roman Waugh,"Dwayne Johnson, Susan Sarandon, Jon Bernthal, Rafi Gavron",42920000,0,1,1,1,2,0.01489741
-396,2013072,Riddick,"Action, Sci-Fi, Thriller",David Twohy,"Vin Diesel, Karl Urban, Katee Sackhoff, Jordi Mollíæ",4.20E+07,0,1,1,0,2,0.061729569
+396,2013072,Riddick,"Action, Sci-Fi, Thriller",David Twohy,"Vin Diesel, Karl Urban, Katee Sackhoff, Jordi Moll’_",4.20E+07,0,1,1,0,2,0.061729569
 397,2013073,A Haunted House,"Comedy, Fantasy",Michael Tiddes,"Marlon Wayans, Essence Atkins, Marlene Forte, David Koechner",40040000,0,1,6,6,0,0
 398,2013074,47 Ronin,"Action, Adventure, Drama",Carl Rinsch,"Keanu Reeves, Hiroyuki Sanada, Ko Shibasaki, Tadanobu Asano",38300000,0,1,4,2,10,0.20474184
 399,2013075,August: Osage County,Drama,John Wells,"Meryl Streep, Dermot Mulroney, Julia Roberts, Juliette Lewis",37740000,0,1,9,1,1,0.008914422
 400,2013076,Philomena,"Biography, Drama",Stephen Frears,"Judi Dench, Steve Coogan, Sophie Kennedy Clark, Mare Winningham",37710000,0,1,2,2,5,0.035348665
 401,2013077,The Family,"Comedy, Crime, Thriller",Luc Besson,"Robert De Niro, Michelle Pfeiffer, Dianna Agron, John D'Leo",36920000,1,1,4,4,5,0.228709199
 402,2013078,Walking with Dinosaurs 3D,"Animation, Adventure, Family","Barry Cook, Neil Nightingale","Charlie Rowe, Karl Urban, Angourie Rice, John Leguizamo",36070000,0,1,11,4,8,0.111933642
-403,2013079,Carrie,"Drama, Horror",Kimberly Peirce,"Chloí‚ Grace Moretz, Julianne Moore, Gabriella Wilde, Portia Doubleday",35270000,0,1,1,1,1,0.007867694
+403,2013079,Carrie,"Drama, Horror",Kimberly Peirce,"Chlo’â Grace Moretz, Julianne Moore, Gabriella Wilde, Portia Doubleday",35270000,0,1,1,1,1,0.007867694
 404,2013080,Texas Chainsaw 3D,"Horror, Thriller",John Luessenhop,"Alexandra Daddario, Tania Raymonde, Scott Eastwood, Trey Songz",34330000,0,1,1,0,6,0.087418981
 405,2013081,R.I.P.D.,"Action, Comedy, Fantasy",Robert Schwentke,"Ryan Reynolds, Jeff Bridges, Mary-Louise Parker, Kevin Bacon",33590000,0,1,2,2,0,0
 406,2013082,Blue Jasmine,Drama,Woody Allen,"Cate Blanchett, Alec Baldwin, Peter Sarsgaard, Sally Hawkins",33400000,1,1,1,1,2,0.02355414
@@ -410,21 +410,21 @@
 409,2013085,The Mortal Instruments: City of Bones,"Fantasy, Horror, Mystery",Harald Zwart,"Lily Collins, Jamie Campbell Bower, Robert Sheehan, Jemima West",31170000,0,1,5,5,11,0.06569469
 410,2013086,Delivery Man,"Comedy, Drama",Ken Scott,"Vince Vaughn, Chris Pratt, Cobie Smulders, Jack Reynor",30660000,0,1,21,1,7,0.161068249
 411,2013087,Grudge Match,"Comedy, Sport",Peter Segal,"Robert De Niro, Sylvester Stallone, Kim Basinger, Alan Arkin",29800000,0,1,2,2,17,0.18134963
-412,2013088,Kick-Ass 2,"Action, Comedy, Crime",Jeff Wadlow,"Aaron Taylor-Johnson, Chloí‚ Grace Moretz, Christopher Mintz-Plasse, Jim Carrey",28750000,0,1,4,4,3,0.10858457
+412,2013088,Kick-Ass 2,"Action, Comedy, Crime",Jeff Wadlow,"Aaron Taylor-Johnson, Chlo’â Grace Moretz, Christopher Mintz-Plasse, Jim Carrey",28750000,0,1,4,4,3,0.10858457
 413,2013089,Oculus,"Horror, Mystery",Mike Flanagan,"Karen Gillan, Brenton Thwaites, Katee Sackhoff, Rory Cochrane",27690000,0,1,2,2,1,0.004082849
-414,2013090,Dallas Buyers Club,"Biography, Drama",Jean-Marc Vallí©e,"Matthew McConaughey, Jennifer Garner, Jared Leto, Steve Zahn",27300000,0,1,1,1,2,0.086381306
-415,2013091,Rush,"Action, Biography, Drama",Ron Howard,"Daniel Brí_hl, Chris Hemsworth, Olivia Wilde, Alexandra Maria Lara",26900000,1,1,1,1,0,0
+414,2013090,Dallas Buyers Club,"Biography, Drama",Jean-Marc Vall’©e,"Matthew McConaughey, Jennifer Garner, Jared Leto, Steve Zahn",27300000,0,1,1,1,2,0.086381306
+415,2013091,Rush,"Action, Biography, Drama",Ron Howard,"Daniel Br’_hl, Chris Hemsworth, Olivia Wilde, Alexandra Maria Lara",26900000,1,1,1,1,0,0
 416,2013092,The Host,"Action, Adventure, Romance",Andrew Niccol,"Saoirse Ronan, Max Irons, Jake Abel, Diane Kruger",26620000,1,1,3,3,2,0.210503175
 417,2013093,The World's End,"Action, Comedy, Sci-Fi",Edgar Wright,"Simon Pegg, Nick Frost, Martin Freeman, Rosamund Pike",2.60E+07,0,1,6,6,6,0.20692
 418,2013094,21 & Over,Comedy,"Jon Lucas, Scott Moore","Miles Teller, Justin Chon, Jonathan Keltz, Sarah Wright",25680000,0,0,1,0,5,0.025951039
 419,2013095,Her,"Drama, Romance, Sci-Fi",Spike Jonze,"Joaquin Phoenix, Amy Adams, Scarlett Johansson, Rooney Mara",25560000,1,1,1,1,0,0
-420,2013096,Escape Plan,"Action, Crime, Mystery",Mikael Hí«fstrí_m,"Sylvester Stallone, Arnold Schwarzenegger, 50 Cent, Vincent D'Onofrio",25120000,0,1,2,0,1,0.403158031
+420,2013096,Escape Plan,"Action, Crime, Mystery",Mikael H’Çfstr’_m,"Sylvester Stallone, Arnold Schwarzenegger, 50 Cent, Vincent D'Onofrio",25120000,0,1,2,0,1,0.403158031
 421,2013097,Don Jon,"Comedy, Drama, Romance",Joseph Gordon-Levitt,"Joseph Gordon-Levitt, Scarlett Johansson, Julianne Moore, Tony Danza",24480000,1,1,1,1,0,0
 422,2013098,The Incredible Burt Wonderstone,Comedy,Don Scardino,"Steve Carell, Luke Vanek, Steve Buscemi, Mason Cook",22530000,0,1,3,3,1,0.199763323
 423,2013099,The Big Wedding,Comedy,Justin Zackham,"Robert De Niro, Diane Keaton, Katherine Heigl, Amanda Seyfried",21780000,1,1,9,9,2,0.096287834
 424,2013100,Baggage Claim,Comedy,David E. Talbert,"Paula Patton, Taye Diggs, Jill Scott, Djimon Hounsou",21560000,1,1,9,9,14,0.136085926
 425,2013101,The Way Way Back,"Comedy, Drama","Nat Faxon, Jim Rash","Steve Carell, Toni Collette, Allison Janney, AnnaSophia Robb",21500000,0,1,7,1,11,0.100344907
-426,2013102,The Book Thief,"Drama, War",Brian Percival,"Sophie Ní©lisse, Geoffrey Rush, Emily Watson, Ben Schnetzer",21480000,0,1,2,2,1,0.010719585
+426,2013102,The Book Thief,"Drama, War",Brian Percival,"Sophie N’©lisse, Geoffrey Rush, Emily Watson, Ben Schnetzer",21480000,0,1,2,2,1,0.010719585
 427,2013103,Homefront,"Action, Crime, Drama",Gary Fleder,"Jason Statham, James Franco, Winona Ryder, Kate Bosworth",19780000,0,1,3,3,2,0.016618263
 428,2013104,Broken City,"Crime, Drama, Thriller",Allen Hughes,"Mark Wahlberg, Russell Crowe, Catherine Zeta-Jones, Jeffrey Wright",19690000,0,1,2,2,2,0.057666174
 429,2013105,Beautiful Creatures,"Drama, Fantasy, Romance",Richard LaGravenese,"Alice Englert, Viola Davis, Emma Thompson, Alden Ehrenreich",19450000,0,1,7,7,5,0.136731454
@@ -434,7 +434,7 @@
 433,2013109,Parker,"Action, Crime, Romance",Taylor Hackford,"Jason Statham, Jennifer Lopez, Michael Chiklis, Nick Nolte",17610000,0,1,2,1,0,0
 434,2013110,Enough Said,"Comedy, Drama, Romance",Nicole Holofcener,"Julia Louis-Dreyfus, James Gandolfini, Catherine Keener, Toni Collette",17540000,1,1,2,2,2,0.11434963
 435,2013111,Dark Skies,"Horror, Sci-Fi, Thriller",Scott Stewart,"Keri Russell, Jake Brennan, Josh Hamilton, Dakota Goyo",17410000,0,1,1,0,4,0.105164063
-436,2013112,The Counselor,"Crime, Drama, Thriller",Ridley Scott,"Michael Fassbender, Pení©lope Cruz, Cameron Diaz, Javier Bardem",16970000,1,1,5,5,0,0
+436,2013112,The Counselor,"Crime, Drama, Thriller",Ridley Scott,"Michael Fassbender, Pen’©lope Cruz, Cameron Diaz, Javier Bardem",16970000,1,1,5,5,0,0
 437,2013113,Begin Again,"Drama, Music",John Carney,"Keira Knightley, Mark Ruffalo, Adam Levine, Hailee Steinfeld",16170000,0,1,2,2,3,0.147362963
 438,2013114,Jobs,"Biography, Drama",Joshua Michael Stern,"Ashton Kutcher, Dermot Mulroney, Josh Gad, Lukas Haas",16120000,0,1,1,1,3,0.027546407
 439,2013115,Fruitvale Station,"Biography, Drama, Romance",Ryan Coogler,"Michael B. Jordan, Melonie Diaz, Octavia Spencer, Kevin Durand",16100000,0,1,1,1,0,0
@@ -458,20 +458,20 @@
 457,2013133,The Spectacular Now,"Comedy, Drama, Romance",James Ponsoldt,"Miles Teller, Shailene Woodley, Kyle Chandler, Jennifer Jason Leigh",6850000,0,1,2,0,9,0.110449004
 458,2013134,All Is Lost,"Action, Adventure, Drama",J.C. Chandor,Robert Redford,6260000,0,1,1,0,1,0.004313609
 459,2013135,The Bling Ring,"Biography, Crime, Drama",Sofia Coppola,"Katie Chang, Israel Broussard, Emma Watson, Claire Julien",5840000,1,1,5,5,0,0
-460,2013136,Closed Circuit,"Crime, Drama, Mystery",John Crowley,"Eric Bana, Rebecca Hall, Jim Broadbent, Ciaríçn Hinds",5730000,0,1,2,2,3,0.014152819
+460,2013136,Closed Circuit,"Crime, Drama, Mystery",John Crowley,"Eric Bana, Rebecca Hall, Jim Broadbent, Ciar’çn Hinds",5730000,0,1,2,2,3,0.014152819
 461,2013137,Snowpiercer,"Action, Drama, Sci-Fi",Joon-ho Bong,"Chris Evans, Jamie Bell, Tilda Swinton, Ed Harris",4560000,0,1,9,3,9,0.169602374
 462,2013138,The Lunchbox,"Drama, Romance",Ritesh Batra,"Irrfan Khan, Nimrat Kaur, Nawazuddin Siddiqui, Lillete Dubey",4230000,0,1,2,2,2,0.034102374
-463,2013139,Fading Gigolo,Comedy,John Turturro,"John Turturro, Woody Allen, Sharon Stone, Sofí_a Vergara",3760000,0,1,2,2,2,0.032477172
+463,2013139,Fading Gigolo,Comedy,John Turturro,"John Turturro, Woody Allen, Sharon Stone, Sof’_a Vergara",3760000,0,1,2,2,2,0.032477172
 464,2013140,The To Do List,"Comedy, Romance",Maggie Carey,"Aubrey Plaza, Johnny Simmons, Bill Hader, Alia Shawkat",3450000,0,1,20,0,1,0.010719585
-465,2013141,Metallica Through the Never,Music,Nimrí_d Antal,"Dane DeHaan, James Hetfield, Lars Ulrich, Kirk Hammett",3420000,0,1,1,0,0,0
-466,2013142,The Fifth Estate,"Biography, Drama, Thriller",Bill Condon,"Benedict Cumberbatch, Daniel Brí_hl, Carice van Houten, Alicia Vikander",3250000,0,1,2,2,0,0
+465,2013141,Metallica Through the Never,Music,Nimr’_d Antal,"Dane DeHaan, James Hetfield, Lars Ulrich, Kirk Hammett",3420000,0,1,1,0,0,0
+466,2013142,The Fifth Estate,"Biography, Drama, Thriller",Bill Condon,"Benedict Cumberbatch, Daniel Br’_hl, Carice van Houten, Alicia Vikander",3250000,0,1,2,2,0,0
 467,2013143,In a World...,Comedy,Lake Bell,"Lake Bell, Fred Melamed, Michaela Watkins, Rob Corddry",2960000,1,1,1,1,1,0.017601481
 468,2013144,Home Run,"Drama, Sport",David Boyd,"Scott Elrod, Dorian Brown Pham, Charles Henry Wyson, James Devoti",2860000,0,1,4,2,0,0
 469,2013145,Under the Skin,"Drama, Horror, Sci-Fi",Jonathan Glazer,"Scarlett Johansson, Jeremy McWilliams, Lynsey Taylor Mackay, Dougie McConnell",2610000,1,1,1,1,5,0.133128698
 470,2013146,Grace Unplugged,"Drama, Music",Brad J. Silverman,"AJ Michalka, Kelly Thiebaud, James Denton, Kevin Pollak",2510000,0,1,1,1,0,0
 471,2013147,I'm in Love with a Church Girl,"Drama, Romance",Steve Race,"Michael Madsen, Stephen Baldwin, Zahn McClarnon, Martin Kove",2380000,0,1,4,2,1,0.046413333
 472,2013148,Trance,"Crime, Drama, Mystery",Danny Boyle,"James McAvoy, Rosario Dawson, Vincent Cassel, Danny Sapani",2320000,1,1,1,0,3,0.085613333
-473,2013149,The East,"Adventure, Crime, Drama",Zal Batmanglij,"Brit Marling, Alexander Skarsgí«rd, Ellen Page, Toby Kebbell",2270000,0,1,9,4,1,0.004652819
+473,2013149,The East,"Adventure, Crime, Drama",Zal Batmanglij,"Brit Marling, Alexander Skarsg’Çrd, Ellen Page, Toby Kebbell",2270000,0,1,9,4,1,0.004652819
 474,2013150,The Christmas Candle,"Drama, Family",John Stephenson,"Hans Matheson, Samantha Barks, Lesley Manville, Sylvester McCoy",2210000,0,1,2,0,6,0.461494065
 475,2013151,Anchorman 2: The Legend Continues,Comedy,Adam McKay,"Will Ferrell, Christina Applegate, Paul Rudd, Steve Carell",2180000,0,1,4,4,2,0.285185185
 476,2013152,Words and Pictures,"Comedy, Drama, Romance",Fred Schepisi,"Clive Owen, Juliette Binoche, Bruce Davison, Amy Brenneman",2170000,0,1,2,2,2,0.01656984
@@ -520,7 +520,7 @@
 519,2014029,Mr. Peabody & Sherman,"Animation, Adventure, Comedy",Rob Minkoff,"Ty Burrell, Max Charles, Stephen Colbert, Leslie Mann",111510000,1,1,2,2,4,0.023784369
 520,2014030,300: Rise of an Empire,"Action, Drama, Fantasy",Noam Murro,"Sullivan Stapleton, Eva Green, Lena Headey, Hans Matheson",106370000,1,1,1,0,1,0.014249258
 521,2014031,The Maze Runner,"Action, Mystery, Sci-Fi",Wes Ball,"Dylan O'Brien, Kaya Scodelario, Will Poulter, Thomas Brodie-Sangster",102410000,1,1,7,1,1,0.007259259
-522,2014032,The Equalizer,"Action, Crime, Thriller",Antoine Fuqua,"Denzel Washington, Marton Csokas, Chlo’â Grace Moretz, David Harbour",101530000,0,1,1,1,0,0
+522,2014032,The Equalizer,"Action, Crime, Thriller",Antoine Fuqua,"Denzel Washington, Marton Csokas, ChloÕ‰ Grace Moretz, David Harbour",101530000,0,1,1,1,0,0
 523,2014033,Noah,"Action, Adventure, Drama",Darren Aronofsky,"Russell Crowe, Jennifer Connelly, Anthony Hopkins, Emma Watson",101160000,0,1,5,3,0,0
 524,2014034,Edge of Tomorrow,"Action, Adventure, Sci-Fi",Doug Liman,"Tom Cruise, Emily Blunt, Bill Paxton, Brendan Gleeson",100190000,1,1,2,2,4,0.078928948
 525,2014035,Heaven Is for Real,"Biography, Drama, Family",Randall Wallace,"Greg Kinnear, Kelly Reilly, Thomas Haden Church, Connor Corum",91440000,1,1,1,0,4,0.062025223
@@ -528,8 +528,8 @@
 527,2014037,The Imitation Game,"Biography, Drama, Thriller",Morten Tyldum,"Benedict Cumberbatch, Keira Knightley, Matthew Goode, Allen Leech",91120000,1,1,1,1,1,0.023587956
 528,2014038,Taken 3,"Action, Thriller",Olivier Megaton,"Liam Neeson, Forest Whitaker, Maggie Grace, Famke Janssen",89250000,0,1,1,1,1,0.308756305
 529,2014039,Dumb and Dumber To,Comedy,"Bobby Farrelly, Peter Farrelly","Jim Carrey, Jeff Daniels, Rob Riggle, Laurie Holden",86210000,0,1,2,2,0,0
-530,2014040,Annie,"Comedy, Drama, Family",Will Gluck,"Quvenzhan’© Wallis, Cameron Diaz, Jamie Foxx, Rose Byrne",85910000,0,1,6,5,0,0
-531,2014041,Fury,"Action, Drama, War",David Ayer,"Brad Pitt, Shia LaBeouf, Logan Lerman, Michael Pe’±a",85710000,1,1,5,3,9,0.060676558
+530,2014040,Annie,"Comedy, Drama, Family",Will Gluck,"QuvenzhanÕ© Wallis, Cameron Diaz, Jamie Foxx, Rose Byrne",85910000,0,1,6,5,0,0
+531,2014041,Fury,"Action, Drama, War",David Ayer,"Brad Pitt, Shia LaBeouf, Logan Lerman, Michael PeÕ±a",85710000,1,1,5,3,9,0.060676558
 532,2014042,Tammy,"Comedy, Romance",Ben Falcone,"Melissa McCarthy, Susan Sarandon, Kathy Bates, Allison Janney",84520000,0,1,1,1,4,0.106968843
 533,2014043,Annabelle,"Horror, Mystery, Thriller",John R. Leonetti,"Ward Horton, Annabelle Wallis, Alfre Woodard, Tony Amendola",84260000,1,1,1,0,1,0.051177515
 534,2014044,The Other Woman,"Comedy, Romance",Nick Cassavetes,"Cameron Diaz, Leslie Mann, Kate Upton, Nikolaj Coster-Waldau",83910000,1,1,3,3,0,0
@@ -547,18 +547,18 @@
 546,2014056,Son of God,"Biography, Drama, History",Christopher Spencer,"Diogo Morgado, Amber Rose Revah, Greg Hicks, Adrian Schiller",59700000,1,1,1,1,2,0.060642066
 547,2014057,Planes: Fire & Rescue,"Animation, Adventure, Comedy",Roberts Gannaway,"Dane Cook, Ed Harris, Julie Bowen, Curtis Armstrong",59160000,0,1,0,0,1,0.206117037
 548,2014058,The Grand Budapest Hotel,"Adventure, Comedy, Drama",Wes Anderson,"Ralph Fiennes, F. Murray Abraham, Mathieu Amalric, Adrien Brody",59070000,1,1,0,0,0,0
-549,2014059,RoboCop,"Action, Crime, Sci-Fi",Jos’© Padilha,"Joel Kinnaman, Gary Oldman, Michael Keaton, Abbie Cornish",58610000,1,1,1,0,0,0
+549,2014059,RoboCop,"Action, Crime, Sci-Fi",JosÕ© Padilha,"Joel Kinnaman, Gary Oldman, Michael Keaton, Abbie Cornish",58610000,1,1,1,0,0,0
 550,2014060,Dracula Untold,"Action, Drama, Fantasy",Gary Shore,"Luke Evans, Dominic Cooper, Sarah Gadon, Art Parkinson",55940000,1,1,1,1,1,0.019281899
 551,2014061,Horrible Bosses 2,"Comedy, Crime",Sean Anders,"Jason Bateman, Jason Sudeikis, Charlie Day, Jennifer Aniston",54410000,0,1,7,0,0,0
-552,2014062,The Hundred-Foot Journey,"Comedy, Drama",Lasse Hallstr’_m,"Helen Mirren, Om Puri, Manish Dayal, Charlotte Le Bon",54240000,1,1,15,3,11,0.163879311
+552,2014062,The Hundred-Foot Journey,"Comedy, Drama",Lasse HallstrÕ_m,"Helen Mirren, Om Puri, Manish Dayal, Charlotte Le Bon",54240000,1,1,15,3,11,0.163879311
 553,2014063,No Good Deed,"Crime, Thriller",Sam Miller,"Taraji P. Henson, Idris Elba, Leslie Bibb, Kate del Castillo",52540000,1,1,2,2,6,0.18426492
 554,2014064,Selma,"Biography, Drama, History",Ava DuVernay,"David Oyelowo, Carmen Ejogo, Tim Roth, Lorraine Toussaint",52070000,1,1,15,0,0,0
 555,2014065,Muppets Most Wanted,"Adventure, Comedy, Crime",James Bobin,"Ricky Gervais, Ty Burrell, Tina Fey, Steve Whitmire",51180000,0,1,13,3,0,0
 556,2014066,Ouija,"Horror, Thriller",Stiles White,"Olivia Cooke, Ana Coto, Daren Kagasoff, Bianca A. Santos",50820000,1,1,0,0,3,0.030688396
 557,2014067,The Boxtrolls,"Animation, Adventure, Comedy","Graham Annable, Anthony Stacchi","Ben Kingsley, Jared Harris, Nick Frost, Richard Ayoade",50810000,1,1,13,2,1,0.023976228
 558,2014068,Jack Ryan: Shadow Recruit,"Action, Drama, Thriller",Kenneth Branagh,"Chris Pine, Kevin Costner, Keira Knightley, Kenneth Branagh",50550000,1,1,3,3,2,0.061063798
-559,2014069,If I Stay,"Drama, Fantasy, Music",R.J. Cutler,"Chlo’â Grace Moretz, Mireille Enos, Jamie Blackley, Joshua Leonard",50460000,1,1,4,2,9,0.155793769
-560,2014070,The Book of Life,"Animation, Adventure, Comedy",Jorge R. Guti’©rrez,"Diego Luna, Zoe Saldana, Channing Tatum, Ron Perlman",50150000,1,1,3,3,5,0.057638012
+559,2014069,If I Stay,"Drama, Fantasy, Music",R.J. Cutler,"ChloÕ‰ Grace Moretz, Mireille Enos, Jamie Blackley, Joshua Leonard",50460000,1,1,4,2,9,0.155793769
+560,2014070,The Book of Life,"Animation, Adventure, Comedy",Jorge R. GutiÕ©rrez,"Diego Luna, Zoe Saldana, Channing Tatum, Ron Perlman",50150000,1,1,3,3,5,0.057638012
 561,2014071,About Last Night,"Comedy, Romance",Steve Pink,"Kevin Hart, Michael Ealy, Regina Hall, Joy Bryant",48640000,1,1,6,6,2,0.017915924
 562,2014072,Into the Storm,"Action, Thriller",Steven Quale,"Richard Armitage, Sarah Wayne Callies, Matt Walsh, Max Deacon",47550000,1,1,2,2,10,0.174163205
 563,2014073,The Judge,"Crime, Drama",David Dobkin,"Robert Downey Jr., Robert Duvall, Vera Farmiga, Billy Bob Thornton",47110000,1,1,2,0,3,0.025615942
@@ -569,12 +569,12 @@
 568,2014078,Need for Speed,"Action, Crime, Drama",Scott Waugh,"Aaron Paul, Dominic Cooper, Imogen Poots, Scott Mescudi",43570000,0,0,1,1,4,0.207271029
 569,2014079,John Wick,"Action, Crime, Thriller","Chad Stahelski, David Leitch","Keanu Reeves, Michael Nyqvist, Alfie Allen, Willem Dafoe",4.30E+07,1,1,1,1,1,0.064712593
 570,2014080,A Million Ways to Die in the West,"Comedy, Romance, Western",Seth MacFarlane,"Seth MacFarlane, Charlize Theron, Liam Neeson, Amanda Seyfried",42620000,1,1,3,3,1,0.116878378
-571,2014081,Birdman or (The Unexpected Virtue of Ignorance),"Comedy, Drama, Romance",Alejandro G. I’±’çrritu,"Michael Keaton, Zach Galifianakis, Edward Norton, Andrea Riseborough",42340000,1,1,7,7,7,0.190377179
+571,2014081,Birdman or (The Unexpected Virtue of Ignorance),"Comedy, Drama, Romance",Alejandro G. IÕ±Õçrritu,"Michael Keaton, Zach Galifianakis, Edward Norton, Andrea Riseborough",42340000,1,1,7,7,7,0.190377179
 572,2014082,Dolphin Tale 2,"Drama, Family",Charles Martin Smith,"Morgan Freeman, Ashley Judd, Nathan Gamble, Cozi Zuehlsdorff",42020000,1,1,2,0,11,0.160755193
 573,2014083,The Expendables 3,"Action, Adventure, Thriller",Patrick Hughes,"Sylvester Stallone, Jason Statham, Jet Li, Antonio Banderas",39290000,1,1,16,0,1,0.00685037
 574,2014084,Earth to Echo,"Adventure, Family, Sci-Fi",Dave Green,"Teo Halm, Astro, Reese Hartwig, Ella Wahlestedt",38920000,1,1,0,0,0,0
 575,2014085,Sex Tape,"Comedy, Romance",Jake Kasdan,"Jason Segel, Cameron Diaz, Rob Corddry, Ellie Kemper",38540000,1,1,2,2,0,0
-576,2014086,Wild,"Adventure, Biography, Drama",Jean-Marc Vall’©e,"Reese Witherspoon, Laura Dern, Gaby Hoffmann, Michiel Huisman",37880000,1,1,1,0,5,0.301362018
+576,2014086,Wild,"Adventure, Biography, Drama",Jean-Marc VallÕ©e,"Reese Witherspoon, Laura Dern, Gaby Hoffmann, Michiel Huisman",37880000,1,1,1,0,5,0.301362018
 577,2014087,Million Dollar Arm,"Biography, Drama, Sport",Craig Gillespie,"Jon Hamm, Aasif Mandvi, Alan Arkin, Suraj Sharma",36450000,0,1,4,1,1,0.004968981
 578,2014088,The Theory of Everything,"Biography, Drama, Romance",James Marsh,"Eddie Redmayne, Felicity Jones, Tom Prior, Sophie Perry",35890000,1,1,2,2,1,0.182702703
 579,2014089,This Is Where I Leave You,"Comedy, Drama",Shawn Levy,"Jason Bateman, Tina Fey, Jane Fonda, Adam Driver",34290000,1,1,8,8,2,0.012511869
@@ -584,7 +584,7 @@
 583,2014093,Unfriended,Horror,Levan Gabriadze,"Heather Sossaman, Matthew Bohrer, Courtney Halverson, Shelley Hennig",31540000,0,1,0,0,1,0.005625
 584,2014094,Chef,"Comedy, Drama",Jon Favreau,"Jon Favreau, Robert Downey Jr., Scarlett Johansson, Dustin Hoffman",31240000,0,1,4,0,0,0
 585,2014095,3 Days to Kill,"Action, Drama, Thriller",McG,"Kevin Costner, Hailee Steinfeld, Connie Nielsen, Amber Heard",30690000,1,1,1,1,5,0.031351471
-586,2014096,Deliver Us from Evil,"Horror, Mystery, Thriller",Scott Derrickson,"Eric Bana, Edgar Ram’_rez, Olivia Munn, Chris Coy",30520000,1,1,0,0,0,0
+586,2014096,Deliver Us from Evil,"Horror, Mystery, Thriller",Scott Derrickson,"Eric Bana, Edgar RamÕ_rez, Olivia Munn, Chris Coy",30520000,1,1,0,0,0,0
 587,2014097,Get on Up,"Biography, Drama, Music",Tate Taylor,"Chadwick Boseman, Nelsan Ellis, Dan Aykroyd, Viola Davis",30510000,1,1,1,1,0,0
 588,2014098,When the Game Stands Tall,"Drama, Family, Sport",Thomas Carter,"Jim Caviezel, Alexander Ludwig, Michael Chiklis, Laura Dern",30130000,1,1,2,0,2,0.021801902
 589,2014099,Draft Day,"Drama, Sport",Ivan Reitman,"Kevin Costner, Chadwick Boseman, Jennifer Garner, Frank Langella",28830000,1,1,1,1,0,0
@@ -599,14 +599,14 @@
 598,2014108,Pompeii,"Action, Adventure, Drama",Paul W.S. Anderson,"Kit Harington, Emily Browning, Kiefer Sutherland, Adewale Akinnuoye-Agbaje",23220000,1,1,2,0,0,0
 599,2014109,Transcendence,"Drama, Mystery, Romance",Wally Pfister,"Johnny Depp, Rebecca Hall, Morgan Freeman, Cillian Murphy",23010000,0,1,1,1,1,0.018253333
 600,2014110,Black or White,Drama,Mike Binder,"Kevin Costner, Octavia Spencer, Gillian Jacobs, Anthony Mackie",21570000,0,1,4,3,1,0.431040059
-601,2014111,"As Above, So Below","Horror, Mystery, Thriller",John Erick Dowdle,"Perdita Weeks, Ben Feldman, Edwin Hodge, Fran’_ois Civil",21200000,0,1,0,0,2,0.035338485
+601,2014111,"As Above, So Below","Horror, Mystery, Thriller",John Erick Dowdle,"Perdita Weeks, Ben Feldman, Edwin Hodge, FranÕ_ois Civil",21200000,0,1,0,0,2,0.035338485
 602,2014112,Brick Mansions,"Action, Crime, Sci-Fi",Camille Delamarre,"Paul Walker, David Belle, RZA, Gouchy Boy",20290000,1,1,3,3,0,0
 603,2014113,"I, Frankenstein","Action, Fantasy, Sci-Fi",Stuart Beattie,"Aaron Eckhart, Bill Nighy, Miranda Otto, Virginie Le Brun",19060000,1,1,1,0,3,0.029847181
 604,2014114,The Legend of Hercules,"Action, Adventure, Fantasy",Renny Harlin,"Kellan Lutz, Gaia Weiss, Scott Adkins, Roxanne McKee",18820000,0,1,1,1,0,0
 605,2014115,Still Alice,Drama,"Richard Glatzer, Wash Westmoreland","Julianne Moore, Alec Baldwin, Kristen Stewart, Kate Bosworth",18660000,1,1,1,1,2,0.01018125
 606,2014116,Addicted,"Drama, Thriller",Bille Woodruff,"Sharon Leal, Boris Kodjoe, John Newberg, Tyson Beckford",17380000,1,1,0,0,3,0.10470178
 607,2014117,A Haunted House 2,"Comedy, Fantasy",Michael Tiddes,"Marlon Wayans, Jaime Pressly, Cedric the Entertainer, Essence Atkins",17310000,0,1,2,0,0,0
-608,2014118,A Most Wanted Man,"Crime, Drama, Thriller",Anton Corbijn,"Philip Seymour Hoffman, Rachel McAdams, Daniel Br’_hl, Robin Wright",17240000,0,1,4,4,1,0.011213333
+608,2014118,A Most Wanted Man,"Crime, Drama, Thriller",Anton Corbijn,"Philip Seymour Hoffman, Rachel McAdams, Daniel BrÕ_hl, Robin Wright",17240000,0,1,4,4,1,0.011213333
 609,2014119,Seventh Son,"Action, Adventure, Fantasy",Sergei Bodrov,"Ben Barnes, Julianne Moore, Jeff Bridges, Alicia Vikander",17180000,0,1,5,4,5,0.095594955
 610,2014120,The Single Moms Club,"Comedy, Drama",Tyler Perry,"Nia Long, Wendi McLendon-Covey, Amy Smart, Zulay Henao",15990000,1,1,5,5,6,0.111389241
 611,2014121,Devil's Due,"Horror, Mystery","Matt Bettinelli-Olpin, Tyler Gillett","Allison Miller, Zach Gilford, Sam Anderson, Roger Payano",15820000,1,1,1,0,10,0.057137346
@@ -620,7 +620,7 @@
 619,2014129,Whiplash,"Drama, Music",Damien Chazelle,"Miles Teller, J.K. Simmons, Melissa Benoist, Paul Reiser",13090000,1,1,1,0,3,0.021294985
 620,2014130,Love & Mercy,"Biography, Drama, Music",Bill Pohlad,"John Cusack, Paul Dano, Elizabeth Banks, Paul Giamatti",12550000,0,1,0,0,0,0
 621,2014131,Foxcatcher,"Biography, Drama, Sport",Bennett Miller,"Steve Carell, Channing Tatum, Mark Ruffalo, Vanessa Redgrave",12100000,1,1,3,3,0,0
-622,2014132,The Drop,"Crime, Drama, Mystery",Micha’âl R. Roskam,"Tom Hardy, Noomi Rapace, James Gandolfini, Matthias Schoenaerts",10720000,1,1,0,0,5,0.074731454
+622,2014132,The Drop,"Crime, Drama, Mystery",MichaÕ‰l R. Roskam,"Tom Hardy, Noomi Rapace, James Gandolfini, Matthias Schoenaerts",10720000,1,1,0,0,5,0.074731454
 623,2014133,PK,"Comedy, Drama, Romance",Rajkumar Hirani,"Anushka Sharma, Sanjay Dutt, Boman Irani    ",10570000,1,1,2,2,0,0
 624,2014134,Magic in the Moonlight,"Comedy, Romance",Woody Allen,"Colin Firth, Emma Stone, Marcia Gay Harden, Hamish Linklater",10510000,1,1,2,2,5,0.084223512
 625,2014135,Sabotage,"Action, Crime, Drama",David Ayer,"Arnold Schwarzenegger, Sam Worthington, Terrence Howard, Olivia Williams",10500000,1,1,6,6,4,0.067905467
@@ -629,11 +629,11 @@
 628,2014138,Inherent Vice,"Comedy, Crime, Drama",Paul Thomas Anderson,"Joaquin Phoenix, Josh Brolin, Owen Wilson, Katherine Waterston",8090000,1,1,0,0,1,0.081635802
 629,2014139,Vampire Academy,"Action, Comedy, Fantasy",Mark Waters,"Zoey Deutch, Lucy Fry, Danila Kozlovsky, Gabriel Byrne",7790000,1,1,2,2,0,0
 630,2014140,While We're Young,"Comedy, Drama, Mystery",Noah Baumbach,"Ben Stiller, Naomi Watts, Adam Driver, Amanda Seyfried",7570000,1,1,2,2,4,0.052784866
-631,2014141,Cantinflas,"Biography, Comedy, Drama",Sebastian del Amo,"’–scar Jaenada, Michael Imperioli, Ilse Salas, B’çrbara Mori",6370000,1,1,1,1,4,0.026579688
+631,2014141,Cantinflas,"Biography, Comedy, Drama",Sebastian del Amo,"Õ_scar Jaenada, Michael Imperioli, Ilse Salas, BÕçrbara Mori",6370000,1,1,1,1,4,0.026579688
 632,2014142,The Interview,Comedy,"Evan Goldberg, Seth Rogen","James Franco, Seth Rogen, Randall Park, Lizzy Caplan",6110000,1,1,2,2,5,0.157462648
 633,2014143,The Loft,"Mystery, Romance, Thriller",Erik Van Looy,"Karl Urban, James Marsden, Wentworth Miller, Eric Stonestreet",5980000,1,1,1,0,11,0.164663205
 634,2014144,A Most Violent Year,"Action, Crime, Drama",J.C. Chandor,"Oscar Isaac, Jessica Chastain, David Oyelowo, Alessandro Nivola",5750000,1,1,2,0,0,0
-635,2014145,Cesar Chavez,"Biography, Drama",Diego Luna,"Michael Pe’±a, America Ferrera, Rosario Dawson, John Malkovich",5550000,1,1,10,1,0,0
+635,2014145,Cesar Chavez,"Biography, Drama",Diego Luna,"Michael PeÕ±a, America Ferrera, Rosario Dawson, John Malkovich",5550000,1,1,10,1,0,0
 636,2014146,The Skeleton Twins,"Comedy, Drama, Romance",Craig Johnson,"Kristen Wiig, Bill Hader, Luke Wilson, Ty Burrell",5280000,1,1,2,2,1,0.009013333
 637,2014147,Dear White People,"Comedy, Drama",Justin Simien,"Tyler James Williams, Tessa Thompson, Kyle Gallner, Teyonah Parris",4400000,1,1,1,1,2,0.111409861
 638,2014148,The Water Diviner,"Drama, War",Russell Crowe,"Russell Crowe, Olga Kurylenko, Jai Courtney, Isabel Lucas",4190000,1,1,1,1,0,0
@@ -641,23 +641,23 @@
 640,2014150,Mr. Turner,"Biography, Drama, History",Mike Leigh,"Timothy Spall, Paul Jesson, Dorothy Atkinson, Marion Bailey",3960000,0,1,1,1,4,0.081913169
 641,2014151,Calvary,Drama,John Michael McDonagh,"Brendan Gleeson, Chris O'Dowd, Kelly Reilly, Aidan Gillen",3590000,1,1,1,1,0,0
 642,2014152,Wish I Was Here,"Comedy, Drama",Zach Braff,"Zach Braff, Joey King, Pierce Gagnon, Kate Hudson",3590000,1,1,6,2,1,0.064300412
-643,2014153,Mommy,Drama,Xavier Dolan,"Anne Dorval, Antoine Olivier Pilon, Suzanne Cl’©ment, Patrick Huard",3490000,1,1,2,0,3,0.01701632
+643,2014153,Mommy,Drama,Xavier Dolan,"Anne Dorval, Antoine Olivier Pilon, Suzanne ClÕ©ment, Patrick Huard",3490000,1,1,2,0,3,0.01701632
 644,2014154,Learning to Drive,"Comedy, Drama, Romance",Isabel Coixet,"Patricia Clarkson, Ben Kingsley, Grace Gummer, Samantha Bee",3450000,0,1,2,2,2,0.219194362
 645,2014155,What We Do in the Shadows,"Comedy, Fantasy, Horror","Jemaine Clement, Taika Waititi","Jemaine Clement, Taika Waititi, Cori Gonzalez-Macuer, Jonny Brugh",3330000,0,1,3,3,1,0.058166172
 646,2014156,Veronica Mars,"Crime, Drama, Mystery",Rob Thomas,"Kristen Bell, Jason Dohring, Enrico Colantoni, Chris Lowell",3320000,0,1,10,5,5,0.029731454
 647,2014157,Obvious Child,"Comedy, Drama",Gillian Robespierre,"Jenny Slate, Jake Lacy, Gaby Hoffmann, Gabe Liedman",3120000,1,1,1,1,4,0.209296736
-648,2014158,Rosewater,"Biography, Drama",Jon Stewart,"Gael Garc’_a Bernal, Kim Bodnia, Dimitri Leonidas, Haluk Bilginer",3090000,1,1,1,0,1,0.104191395
-649,2014159,Relatos salvajes,"Comedy, Drama, Thriller",Dami’çn Szifr’_n,"Dar’_o Grandinetti, Mar’_a Marull, M’_nica Villa, Rita Cortese",3080000,1,1,10,0,1,0.011271451
+648,2014158,Rosewater,"Biography, Drama",Jon Stewart,"Gael GarcÕ_a Bernal, Kim Bodnia, Dimitri Leonidas, Haluk Bilginer",3090000,1,1,1,0,1,0.104191395
+649,2014159,Relatos salvajes,"Comedy, Drama, Thriller",DamiÕçn SzifrÕ_n,"DarÕ_o Grandinetti, MarÕ_a Marull, MÕ_nica Villa, Rita Cortese",3080000,1,1,10,0,1,0.011271451
 650,2014160,Before I Go to Sleep,"Drama, Mystery, Thriller",Rowan Joffe,"Nicole Kidman, Colin Firth, Mark Strong, Anne-Marie Duff",2960000,1,1,3,3,4,0.027038576
 651,2014161,The Trip to Italy,"Comedy, Drama",Michael Winterbottom,"Steve Coogan, Rob Brydon, Rosie Fellner, Claire Keelan",2870000,1,1,2,2,1,0.345613333
 652,2014162,The Fluffy Movie: Unity Through Laughter,Comedy,"Manny Rodriguez, Jay Lavender","Gabriel Iglesias, Jacqueline Obradors, Gina Brillon, Alfred Robles",2820000,0,1,1,1,4,0.097051852
 653,2014163,The Identical,"Drama, Music",   Dustin Marcellino,"Blake Rayne, Ray Liotta, Ashley Judd, Seth Green",2820000,0,1,4,4,3,0.351731167
 654,2014164,Saving Christmas,"Comedy, Family",Darren Doane,"Kirk Cameron, Darren Doane, Bridgette Cameron, Ben Kientz",2780000,1,1,1,1,4,0.28517258
-655,2014165,The Pyramid,"Action, Adventure, Horror",Gr’©gory Levasseur,"Ashley Grace, James Buckley, Denis O'Hare, Christa Nicola",2750000,1,1,0,0,1,0.009013333
+655,2014165,The Pyramid,"Action, Adventure, Horror",GrÕ©gory Levasseur,"Ashley Grace, James Buckley, Denis O'Hare, Christa Nicola",2750000,1,1,0,0,1,0.009013333
 656,2014166,The Good Lie,Drama,Philippe Falardeau,"Reese Witherspoon, Arnold Oceng, Ger Duany, Emmanuel Jal",2720000,1,1,4,0,0,0
 657,2014167,The Raid 2,"Action, Crime, Thriller",Gareth Evans,"Iko Uwais, Yayan Ruhian, Arifin Putra, Oka Antara",2630000,0,1,9,4,1,0.056416914
 658,2014168,The Admiral,"Adventure, Biography, War",   Han-min Kim,"Min-sik Choi, Seung-ryong Ryu, Jin-woong Jo, Myung-gon Kim",2590000,0,0,15,1,8,0.064486647
-659,2014169,Bang Bang,"Action, Adventure, Comedy","Siddharth Anand_,Katrina Kaif, Pavan Malhotra, Danny Denzongpa    ","Hrithik Roshan, Katrina Kaif, Pavan Malhotra, Danny Denzongpa",2550000,1,1,2,2,3,0.030558259
+659,2014169,Bang Bang,"Action, Adventure, Comedy","Siddharth Anand_,Katrina Kaif, Pavan Malhotra, Danny Denzongpa    ","Hrithik Roshan,ÊKatrina Kaif,ÊPavan Malhotra,ÊDanny Denzongpa",2550000,1,1,2,2,3,0.030558259
 660,2014170,Kick,"Action, Comedy, Romance",Sajid Nadiadwala,"Jacqueline Fernandez, Nawazuddin Siddiqui, Randeep Hooda    ",2460000,1,1,1,1,7,0.06525289
 661,2014171,Kill the Messenger,"Biography, Crime, Drama",Michael Cuesta,"Jeremy Renner, Robert Patrick, Jena Sims, Robert Pralgo",2450000,1,1,1,0,2,0.05350289
 662,2014172,Pawn Sacrifice,"Biography, Drama, Sport",Edward Zwick,"Tobey Maguire, Liev Schreiber, Peter Sarsgaard, Michael Stuhlbarg",2440000,1,1,1,1,2,0.104488131
@@ -669,19 +669,19 @@
 668,2014178,Cake,Drama,Daniel Barnz,"Jennifer Aniston, Adriana Barraza, Anna Kendrick, Sam Worthington",1870000,1,1,1,1,0,0
 669,2014179,Testament of Youth,"Biography, Drama, History",James Kent,"Alicia Vikander, Kit Harington, Taron Egerton, Dominic West",1820000,1,1,6,2,1,0.217639466
 670,2014180,Tusk,"Comedy, Drama, Horror",Kevin Smith,"Justin Long, Michael Parks, Haley Joel Osment, Genesis Rodriguez",1820000,1,1,1,0,4,0.067965875
-671,2014181,Clouds of Sils Maria,Drama,Olivier Assayas,"Juliette Binoche, Kristen Stewart, Chlo’â Grace Moretz, Lars Eidinger",1810000,0,1,2,2,1,0.005317578
+671,2014181,Clouds of Sils Maria,Drama,Olivier Assayas,"Juliette Binoche, Kristen Stewart, ChloÕ‰ Grace Moretz, Lars Eidinger",1810000,0,1,2,2,1,0.005317578
 672,2014182,The Letters,Drama,William Riead,"Juliet Stevenson, Rutger Hauer, Max von Sydow, Priya Darshini",1650000,0,1,2,1,8,0.338162963
 673,2014183,Persecuted,"Action, Drama, Mystery",Daniel Lusko,"James Remar, Dean Stockwell, Raoul Max Trujillo, Bruce Davison",1560000,0,1,1,0,1,0.005020896
 674,2014184,Infinitely Polar Bear,"Comedy, Drama, Romance",Maya Forbes,"Mark Ruffalo, Zoe Saldana, Imogene Wolodarsky, Ashley Aufderheide",1430000,1,1,4,2,0,0
 675,2014185,99 Homes,Drama,Ramin Bahrani,"Andrew Garfield, Michael Shannon, Laura Dern, Clancy Brown",1410000,0,1,2,2,3,0.044903561
-676,2014186,"Deux jours, une nuit",Drama,"Jean-Pierre Dardenne, Luc Dardenne","Marion Cotillard, Fabrizio Rongione, Catherine Sal’©e, Batiste Sornin",1330000,1,1,1,1,1,0.008100592
+676,2014186,"Deux jours, une nuit",Drama,"Jean-Pierre Dardenne, Luc Dardenne","Marion Cotillard, Fabrizio Rongione, Catherine SalÕ©e, Batiste Sornin",1330000,1,1,1,1,1,0.008100592
 677,2014187,'71,"Action, Drama, Thriller",Yann Demange,"Jack O'Connell, Sam Reid, Sean Harris, Paul Popplewell",1270000,1,1,1,1,2,0.195875021
 678,2014188,Singham Returns,"Action, Drama",Rohit Shetty,"Kareena Kapoor, Anupam Kher, Mahesh Manjrekar    ",1230000,1,1,2,0,3,0.102936296
 679,2014189,The Remaining,"Horror, Thriller",Casey La Scala,"Johnny Pacar, Shaun Sipos, Bryan Dechart, Alexa PenaVega",1170000,0,1,0,0,1,0.048534783
 680,2014190,Black Sea,"Adventure, Thriller",Kevin Macdonald,"Jude Law, Scoot McNairy, Ben Mendelsohn, David Threlfall",1170000,0,1,1,0,2,0.019924332
 681,2014191,Goodnight Mommy,"Mystery, Thriller","Severin Fiala, Veronika Franz","Lukas Schwarz, Elias Schwarz, Susanne Wuest, Hans Escher",1170000,0,1,2,0,0,0
 682,2014192,Hector and the Search for Happiness,"Adventure, Comedy, Drama",Peter Chelsom,"Simon Pegg, Rosamund Pike, Tracy Ann Oberman, Jean Reno",1120000,0,1,2,0,0,0
-683,2014193,The Rover,"Crime, Drama",David Mich’‚d,"Guy Pearce, Robert Pattinson, Scoot McNairy, David Field",1110000,0,1,2,0,1,0.004813333
+683,2014193,The Rover,"Crime, Drama",David MichÕâd,"Guy Pearce, Robert Pattinson, Scoot McNairy, David Field",1110000,0,1,2,0,1,0.004813333
 684,2014194,Where Hope Grows,"Drama, Family",Chris Dowling,"Kristoffer Polaha, David DeSanctis, McKaley Miller, Michael Grant",1100000,0,1,2,0,0,0
 685,2014195,Timbuktu,Drama,Abderrahmane Sissako,"Ibrahim Ahmed, Abel Jafri, Toulou Kiki, Layla Walet Mohamed",1070000,0,1,1,0,0,0
 686,2014196,50 to 1,Drama,Jim Wilson,"Skeet Ulrich, Christian Kane, William Devane, Madelyn Deutch",1060000,0,1,1,0,0,0
@@ -698,9 +698,9 @@
 697,2015007,The Hunger Games: Mockingjay - Part 2,"Action, Adventure, Sci-Fi",Francis Lawrence,"Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, Woody Harrelson",281670000,1,1,1,1,0,0
 698,2015008,The Martian,"Adventure, Drama, Sci-Fi",Ridley Scott,"Matt Damon, Jessica Chastain, Kristen Wiig, Kate Mara",228430000,1,1,1,1,5,0.048440162
 699,2015009,Cinderella,"Drama, Family, Fantasy",Kenneth Branagh,"Lily James, Cate Blanchett, Richard Madden, Helena Bonham Carter",201150000,1,1,1,1,1,0.417120667
-700,2015010,Spectre,"Action, Adventure, Thriller",Sam Mendes,"Daniel Craig, Christoph Waltz, Lí©a Seydoux, Ralph Fiennes",200070000,1,1,1,1,3,0.025689065
+700,2015010,Spectre,"Action, Adventure, Thriller",Sam Mendes,"Daniel Craig, Christoph Waltz, L’©a Seydoux, Ralph Fiennes",200070000,1,1,1,1,3,0.025689065
 701,2015011,Mission: Impossible - Rogue Nation,"Action, Adventure, Thriller",Christopher McQuarrie,"Tom Cruise, Rebecca Ferguson, Jeremy Renner, Simon Pegg",1.95E+08,0,1,1,1,3,0.079495389
-702,2015012,The Revenant,"Adventure, Drama, Thriller",Alejandro G. Ií±íçrritu,"Leonardo DiCaprio, Tom Hardy, Will Poulter, Domhnall Gleeson",183640000,1,0,1,1,0,0
+702,2015012,The Revenant,"Adventure, Drama, Thriller",Alejandro G. I’±’çrritu,"Leonardo DiCaprio, Tom Hardy, Will Poulter, Domhnall Gleeson",183640000,1,0,1,1,0,0
 703,2015013,Pitch Perfect 2,"Comedy, Music",Elizabeth Banks,"Anna Kendrick, Rebel Wilson, Hailee Steinfeld, Brittany Snow",183440000,0,1,8,8,1,0.001992754
 704,2015014,Ant-Man,"Action, Adventure, Comedy",Peyton Reed,"Paul Rudd, Michael Douglas, Corey Stoll, Evangeline Lilly",180190000,1,1,8,6,18,0.100614556
 705,2015015,Home,"Animation, Adventure, Comedy",Tim Johnson,"Jim Parsons, Rihanna, Steve Martin, Jennifer Lopez",177340000,0,1,2,2,10,0.075642292
@@ -709,7 +709,7 @@
 708,2015018,The SpongeBob Movie: Sponge Out of Water,"Animation, Adventure, Comedy","Paul Tibbitt, Mike Mitchell","Tom Kenny, Antonio Banderas, Bill Fagerbakke, Clancy Brown",162500000,0,1,5,5,2,0.005328405
 709,2015019,Straight Outta Compton,"Biography, Crime, Drama",F. Gary Gray,"O'Shea Jackson Jr., Corey Hawkins, Jason Mitchell, Neil Brown Jr.",161030000,0,1,5,5,4,0.073493821
 710,2015020,San Andreas,"Action, Adventure, Drama",Brad Peyton,"Dwayne Johnson, Carla Gugino, Alexandra Daddario, Colton Haynes",155180000,1,1,1,1,0,0
-711,2015021,Mad Max: Fury Road,"Action, Adventure, Sci-Fi",George Miller,"Tom Hardy, Charlize Theron, Nicholas Hoult, Zoí‚ Kravitz",153630000,0,1,1,0,0,0
+711,2015021,Mad Max: Fury Road,"Action, Adventure, Sci-Fi",George Miller,"Tom Hardy, Charlize Theron, Nicholas Hoult, Zo’â Kravitz",153630000,0,1,1,0,0,0
 712,2015022,Daddy's Home,"Comedy, Family",Sean Anders,"Will Ferrell, Mark Wahlberg, Linda Cardellini, Thomas Haden Church",150320000,1,1,2,2,0,0
 713,2015023,The Peanuts Movie,"Animation, Adventure, Comedy",Steve Martino,"Noah Schnapp, Bill Melendez, Hadley Belle Miller, Francesca Capaldi",130170000,0,1,12,4,3,0.018566122
 714,2015024,Insurgent,"Adventure, Sci-Fi, Thriller",Robert Schwentke,"Shailene Woodley, Ansel Elgort, Theo James, Kate Winslet",1.30E+08,1,1,2,2,6,0.011663209
@@ -728,7 +728,7 @@
 727,2015037,Pixels,"Animation, Action, Comedy",Chris Columbus,"Adam Sandler, Kevin James, Michelle Monaghan, Peter Dinklage",78750000,0,1,1,1,5,0.040513889
 728,2015038,The Intern,"Comedy, Drama",Nancy Meyers,"Robert De Niro, Anne Hathaway, Rene Russo, Anders Holm",75270000,1,1,2,2,0,0
 729,2015039,Bridge of Spies,"Drama, History, Thriller",Steven Spielberg,"Tom Hanks, Mark Rylance, Alan Alda, Amy Ryan",72310000,1,1,1,1,6,0.04213307
-730,2015040,Paul Blart: Mall Cop 2,"Action, Comedy, Crime",Andy Fickman,"Kevin James, Raini Rodriguez, Eduardo Veríçstegui, Daniella Alonso",71040000,0,1,1,1,1,0.005455204
+730,2015040,Paul Blart: Mall Cop 2,"Action, Comedy, Crime",Andy Fickman,"Kevin James, Raini Rodriguez, Eduardo Ver’çstegui, Daniella Alonso",71040000,0,1,1,1,1,0.005455204
 731,2015041,The Big Short,"Biography, Comedy, Drama",Adam McKay,"Christian Bale, Steve Carell, Ryan Gosling, Brad Pitt",70240000,1,1,4,4,0,0
 732,2015042,War Room,Drama,Alex Kendrick,"Priscilla C. Shirer, T.C. Stallings, Karen Abercrombie, Beth Moore",67790000,1,1,15,9,5,0.131114811
 733,2015043,Magic Mike XXL,"Comedy, Drama, Music",Gregory Jacobs,"Channing Tatum, Joe Manganiello, Matt Bomer, Adam Rodriguez",66010000,1,1,5,5,8,0.096412385
@@ -737,7 +737,7 @@
 736,2015046,Black Mass,"Biography, Crime, Drama",Scott Cooper,"Johnny Depp, Benedict Cumberbatch, Dakota Johnson, Joel Edgerton",62560000,1,1,8,8,8,0.0471846
 737,2015047,Vacation,"Adventure, Comedy","John Francis Daley, Jonathan Goldstein","Ed Helms, Christina Applegate, Skyler Gisondo, Steele Stebbins",58880000,0,1,4,4,15,0.208890646
 738,2015048,The Perfect Guy,"Drama, Thriller",David M. Rosenthal,"Sanaa Lathan, Michael Ealy, Morris Chestnut, L. Scott Caldwell",57020000,1,1,3,3,7,0.037693017
-739,2015049,Joy,Drama,David O. Russell,"Jennifer Lawrence, Robert De Niro, Bradley Cooper, Edgar Ramí_rez",56440000,1,1,1,1,7,0.289406571
+739,2015049,Joy,Drama,David O. Russell,"Jennifer Lawrence, Robert De Niro, Bradley Cooper, Edgar Ram’_rez",56440000,1,1,1,1,7,0.289406571
 740,2015050,Fantastic Four,"Action, Adventure, Sci-Fi",Josh Trank,"Miles Teller, Kate Mara, Michael B. Jordan, Jamie Bell",56110000,0,1,4,4,1,0.140608696
 741,2015051,The Hateful Eight,"Crime, Drama, Mystery",Quentin Tarantino,"Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh, Walton Goggins",54120000,1,1,16,8,4,0.027883399
 742,2015052,Focus,"Comedy, Crime, Drama","Glenn Ficarra, John Requa","Will Smith, Margot Robbie, Rodrigo Santoro, Adrian Martinez",53850000,0,1,2,2,1,0.004538208
@@ -750,7 +750,7 @@
 749,2015059,Spotlight,"Biography, Crime, Drama",Tom McCarthy,"Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber",44990000,1,1,5,5,4,0.046585639
 750,2015060,"McFarland, USA","Biography, Drama, Sport",Niki Caro,"Kevin Costner, Maria Bello, Ramiro Rodriguez, Carlos Pratts",44470000,1,1,8,1,6,0.018142012
 751,2015061,The Gift,"Mystery, Thriller",Joel Edgerton,"Jason Bateman, Rebecca Hall, Joel Edgerton, Allison Tolman",43770000,0,1,1,1,1,0.021581686
-752,2015062,Everest,"Adventure, Biography, Drama",Baltasar Kormíçkur,"Jason Clarke, Ang Phula Sherpa, Thomas M. Wright, Martin Henderson",43250000,1,1,0,0,0,0
+752,2015062,Everest,"Adventure, Biography, Drama",Baltasar Korm’çkur,"Jason Clarke, Ang Phula Sherpa, Thomas M. Wright, Martin Henderson",43250000,1,1,0,0,0,0
 753,2015063,The Night Before,Comedy,Jonathan Levine,"Joseph Gordon-Levitt, Seth Rogen, Jillian Bell, Lizzy Caplan",43040000,0,1,3,3,0,0
 754,2015064,Max,"Adventure, Family",Boaz Yakin,"Thomas Haden Church, Josh Wiggins, Luke Kleintank, Lauren Graham",42650000,1,1,1,0,1,0.011478261
 755,2015065,Krampus,"Comedy, Fantasy, Horror",Michael Dougherty,"Adam Scott, Toni Collette, David Koechner, Allison Tolman",42590000,0,1,1,0,1,0.009879217
@@ -760,18 +760,18 @@
 759,2015069,The Boy Next Door,"Mystery, Thriller",Rob Cohen,"Jennifer Lopez, Ryan Guzman, Kristin Chenoweth, John Corbett",35390000,0,1,1,1,0,0
 760,2015070,Pan,"Adventure, Family, Fantasy",Joe Wright,"Levi Miller, Hugh Jackman, Garrett Hedlund, Rooney Mara",34960000,1,1,4,4,2,0.044573793
 761,2015071,Concussion,"Biography, Drama, Sport",Peter Landesman,"Will Smith, Alec Baldwin, Albert Brooks, David Morse",34530000,1,1,1,1,1,0.007323878
-762,2015072,Hot Pursuit,"Action, Comedy, Crime",Anne Fletcher,"Reese Witherspoon, Sofí_a Vergara, Matthew Del Negro, Michael Mosley",34510000,0,1,2,2,0,0
+762,2015072,Hot Pursuit,"Action, Comedy, Crime",Anne Fletcher,"Reese Witherspoon, Sof’_a Vergara, Matthew Del Negro, Michael Mosley",34510000,0,1,2,2,0,0
 763,2015073,The DUFF,Comedy,Ari Sandel,"Mae Whitman, Bella Thorne, Robbie Amell, Allison Janney",34020000,1,1,4,4,5,0.084285903
-764,2015074,Woman in Gold,"Biography, Drama, History",Simon Curtis,"Helen Mirren, Ryan Reynolds, Daniel Brí_hl, Katie Holmes",33310000,1,1,2,2,8,0.069580369
+764,2015074,Woman in Gold,"Biography, Drama, History",Simon Curtis,"Helen Mirren, Ryan Reynolds, Daniel Br’_hl, Katie Holmes",33310000,1,1,2,2,8,0.069580369
 765,2015075,The Second Best Exotic Marigold Hotel,"Comedy, Drama",John Madden,"Judi Dench, Maggie Smith, Bill Nighy, Dev Patel",33070000,1,1,9,9,6,0.378476943
 766,2015076,Entourage,Comedy,Doug Ellin,"Adrian Grenier, Kevin Connolly, Jerry Ferrara, Kevin Dillon",32360000,1,1,5,5,9,0.084154507
 767,2015077,Paper Towns,"Drama, Mystery, Romance",Jake Schreier,"Nat Wolff, Cara Delevingne, Austin Abrams, Justice Smith",31990000,0,1,2,2,11,0.043648428
 768,2015078,Chappie,"Action, Crime, Drama",Neill Blomkamp,"Sharlto Copley, Dev Patel, Hugh Jackman, Sigourney Weaver",31570000,0,1,1,0,0,0
 769,2015079,Crimson Peak,"Drama, Fantasy, Horror",Guillermo del Toro,"Mia Wasikowska, Jessica Chastain, Tom Hiddleston, Charlie Hunnam",31060000,0,1,1,1,0,0
 770,2015080,A Walk in the Woods,"Adventure, Biography, Comedy",Ken Kwapis,"Robert Redford, Nick Nolte, Emma Thompson, Mary Steenburgen",29470000,1,1,2,2,4,0.016536431
-771,2015081,Point Break,"Action, Crime, Sport",Ericson Core,"Edgar Ramí_rez, Luke Bracey, Ray Winstone, Teresa Palmer",28770000,0,1,2,0,1,0.002371542
-772,2015082,Sinister 2,"Horror, Mystery, Thriller",Ciaríçn Foy,"James Ransone, Shannyn Sossamon, Robert Daniel Sloan, Dartanian Sloan",27740000,1,1,2,0,0,0
-773,2015083,The Last Witch Hunter,"Action, Adventure, Fantasy",Breck Eisner,"Vin Diesel, Rose Leslie, Elijah Wood, íñlafur Darri íñlafsson",27360000,1,1,1,1,1,0.056940711
+771,2015081,Point Break,"Action, Crime, Sport",Ericson Core,"Edgar Ram’_rez, Luke Bracey, Ray Winstone, Teresa Palmer",28770000,0,1,2,0,1,0.002371542
+772,2015082,Sinister 2,"Horror, Mystery, Thriller",Ciar’çn Foy,"James Ransone, Shannyn Sossamon, Robert Daniel Sloan, Dartanian Sloan",27740000,1,1,2,0,0,0
+773,2015083,The Last Witch Hunter,"Action, Adventure, Fantasy",Breck Eisner,"Vin Diesel, Rose Leslie, Elijah Wood, ’–lafur Darri ’–lafsson",27360000,1,1,1,1,1,0.056940711
 774,2015084,No Escape,"Action, Thriller",John Erick Dowdle,"Lake Bell, Pierce Brosnan, Owen Wilson, Chatchawai Kamonsakpitak",27290000,1,1,5,3,3,0.014431611
 775,2015085,Ricki and the Flash,"Comedy, Drama, Music",Jonathan Demme,"Meryl Streep, Kevin Kline, Mamie Gummer, Sebastian Stan",26820000,0,1,1,1,0,0
 776,2015086,Run All Night,"Action, Crime, Drama",Jaume Collet-Serra,"Liam Neeson, Ed Harris, Joel Kinnaman, Vincent D'Onofrio",26440000,1,1,4,4,2,0.034851594
@@ -781,7 +781,7 @@
 780,2015090,The VVitch: A New-England Folktale,"Horror, Mystery",Robert Eggers,"Anya Taylor-Joy, Ralph Ineson, Kate Dickie, Julian Richings",25140000,1,1,1,0,1,0.026614625
 781,2015091,In the Heart of the Sea,"Action, Adventure, Biography",Ron Howard,"Chris Hemsworth, Cillian Murphy, Brendan Gleeson, Ben Whishaw",24990000,1,1,4,0,0,0
 782,2015092,The Gallows,"Horror, Thriller","Travis Cluff, Chris Lofing","Reese Mishler, Pfeifer Brown, Ryan Shoos, Cassidy Gifford",22760000,0,1,1,0,0,0
-783,2015093,Hitman: Agent 47,"Action, Crime, Thriller",Aleksander Bach,"Rupert Friend, Hannah Ware, Zachary Quinto, Ciaríçn Hinds",22460000,0,1,1,1,0,0
+783,2015093,Hitman: Agent 47,"Action, Crime, Thriller",Aleksander Bach,"Rupert Friend, Hannah Ware, Zachary Quinto, Ciar’çn Hinds",22460000,0,1,1,1,0,0
 784,2015094,Project Almanac,"Sci-Fi, Thriller",Dean Israelite,"Amy Landecker, Sofia Black-D'Elia, Virginia Gardner, Jonny Weston",22330000,1,1,4,0,0,0
 785,2015095,Aloha,"Comedy, Drama, Romance",Cameron Crowe,"Bradley Cooper, Rachel McAdams, Emma Stone, Alec Baldwin",20990000,1,1,4,3,1,0.017100767
 786,2015096,Shaun the Sheep Movie,"Animation, Adventure, Comedy","Mark Burton, Richard Starzak","Justin Fletcher, John Sparkes, Omid Djalili, Richard Webber",19370000,1,1,8,8,0,0
@@ -795,7 +795,7 @@
 794,2015104,"Hello, My Name Is Doris","Comedy, Drama, Romance",Michael Showalter,"Sally Field, Max Greenfield, Tyne Daly, Wendi McLendon-Covey",14440000,1,1,1,1,1,0.011335042
 795,2015105,American Ultra,"Action, Comedy, Sci-Fi",Nima Nourizadeh,"Jesse Eisenberg, Kristen Stewart, Connie Britton, John Leguizamo",14430000,1,1,2,2,1,0.024538208
 796,2015106,Woodlawn,"Drama, Sport","Andrew Erwin, Jon Erwin","Caleb Castille, Sean Astin, Jon Voight, C. Thomas Howell",14390000,1,1,1,0,3,0.033873393
-797,2015107,Burnt,"Comedy, Drama",John Wells,"Bradley Cooper, Sienna Miller, Daniel Brí_hl, Riccardo Scamarcio",13650000,1,1,1,1,1,0.027711836
+797,2015107,Burnt,"Comedy, Drama",John Wells,"Bradley Cooper, Sienna Miller, Daniel Br’_hl, Riccardo Scamarcio",13650000,1,1,1,1,1,0.027711836
 798,2015108,Do You Believe?,Drama,Jon Gunn,"Mira Sorvino, Sean Astin, Alexa PenaVega, Ted McGinley",12990000,1,1,8,5,1,0.063317511
 799,2015109,The Danish Girl,"Biography, Drama, Romance",Tom Hooper,"Eddie Redmayne, Alicia Vikander, Amber Heard, Ben Whishaw",12710000,1,1,2,2,7,0.050603969
 800,2015110,Strange Magic,"Animation, Adventure, Comedy",Gary Rydstrom,"Evan Rachel Wood, Elijah Kelley, Kristin Chenoweth, Maya Rudolph",12430000,0,0,11,11,0,0
@@ -805,21 +805,21 @@
 804,2015114,The 33,"Biography, Drama, History",Patricia Riggen,"Antonio Banderas, Rodrigo Santoro, Juliette Binoche, James Brolin",12190000,0,1,21,3,3,0.032751647
 805,2015115,The Gunman,"Action, Crime, Drama",Pierre Morel,"Sean Penn, Idris Elba, Jasmine Trinca, Javier Bardem",10640000,0,1,1,0,9,0.052385375
 806,2015116,Unfinished Business,Comedy,Ken Scott,"Vince Vaughn, Dave Franco, Tom Wilkinson, James Marsden",10210000,1,1,3,3,0,0
-807,2015117,The Walk,"Adventure, Biography, Drama",Robert Zemeckis,"Joseph Gordon-Levitt, Charlotte Le Bon, Guillaume Baillargeon, í_milie Leclerc",10140000,0,1,1,0,8,0.060485258
+807,2015117,The Walk,"Adventure, Biography, Drama",Robert Zemeckis,"Joseph Gordon-Levitt, Charlotte Le Bon, Guillaume Baillargeon, ’_milie Leclerc",10140000,0,1,1,0,8,0.060485258
 808,2015118,The Lady in the Van,"Biography, Comedy, Drama",Nicholas Hytner,"Maggie Smith, Alex Jennings, Jim Broadbent, Clare Hammond",10020000,1,0,2,2,0,0
 809,2015119,Hardcore Henry,"Action, Adventure, Sci-Fi",Ilya Naishuller,"Sharlto Copley, Tim Roth, Haley Bennett, Danila Kozlovsky",9240000,0,1,0,0,4,0.017783754
-810,2015120,Huevos: Little Rooster's Egg-cellent Adventure,"Animation, Adventure, Comedy","Gabriel Riva Palacio Alatriste, Rodolfo Riva-Palacio Alatriste","Bruno Bichir, Carlos Espejel, Angí©lica Vale, Omar Chaparro",9070000,0,0,7,7,0,0
+810,2015120,Huevos: Little Rooster's Egg-cellent Adventure,"Animation, Adventure, Comedy","Gabriel Riva Palacio Alatriste, Rodolfo Riva-Palacio Alatriste","Bruno Bichir, Carlos Espejel, Ang’©lica Vale, Omar Chaparro",9070000,0,0,7,7,0,0
 811,2015121,The Lobster,"Comedy, Drama, Romance",Yorgos Lanthimos,"Colin Farrell, Rachel Weisz, Jessica Barden, Olivia Colman",8700000,1,1,1,1,7,0.0135145
 812,2015122,Bajrangi Bhaijaan,"Action, Comedy, Drama",Kabir Khan,"Kareena Kapoor, Nawazuddin Siddiqui, Harshaali Malhotra    ",8180000,1,1,7,2,1,0.000382543
 813,2015123,Mortdecai,"Action, Comedy, Crime",David Koepp,"Johnny Depp, Gwyneth Paltrow, Ewan McGregor, Olivia Munn",7610000,0,1,2,2,4,0.130728444
 814,2015124,I'll See You in My Dreams,"Comedy, Drama, Romance",Brett Haley,"Blythe Danner, Martin Starr, Sam Elliott, Malin Akerman",7430000,1,1,9,7,14,0.01905772
-815,2015125,Dragon Ball Z: Doragon bíÇru Z - Fukkatsu no 'F',"Animation, Action, Adventure",Tadayoshi Yamamuro,"Masako Nozawa, RyíÇ Horikawa, Hiromi Tsuru, Masaharu SatíÇ",7230000,0,1,10,10,7,0.026538867
+815,2015125,Dragon Ball Z: Doragon b’‚ru Z - Fukkatsu no 'F',"Animation, Action, Adventure",Tadayoshi Yamamuro,"Masako Nozawa, Ry’‚ Horikawa, Hiromi Tsuru, Masaharu Sat’‚",7230000,0,1,10,10,7,0.026538867
 816,2015126,Blackhat,"Action, Crime, Drama",Michael Mann,"Chris Hemsworth, Viola Davis, Wei Tang, Leehom Wang",7100000,1,1,1,1,5,0.082733333
 817,2015127,Our Brand Is Crisis,"Comedy, Drama",David Gordon Green,"Sandra Bullock, Billy Bob Thornton, Anthony Mackie, Joaquim de Almeida",7.00E+06,1,1,2,2,1,0.00154679
 818,2015128,Grandma,"Comedy, Drama",Paul Weitz,"Lily Tomlin, Julia Garner, Marcia Gay Harden, Judy Greer",6980000,1,1,2,2,2,0.093272555
 819,2015129,Me and Earl and the Dying Girl,"Comedy, Drama",Alfonso Gomez-Rejon,"Thomas Mann, RJ Cyler, Olivia Cooke, Nick Offerman",6740000,1,1,3,3,1,0.004754854
-820,2015130,Baahubali: The Beginning,"Action, Adventure, Drama",S.S. RajamouliŒæ,"Rana Daggubati, Anushka Shetty, Tamannaah Bhatia    ",6740000,0,1,3,1,0,0
-821,2015131,Bajirao Mastani,"Drama, History, Romance",Sanjay Leela BhansaliŒæ,"Priyanka Chopra, Deepika Padukone, Tanvi Azmi    ",6560000,1,1,3,3,2,0.012491767
+820,2015130,Baahubali: The Beginning,"Action, Adventure, Drama",S.S. RajamouliÎ_,"Rana Daggubati, Anushka Shetty, Tamannaah Bhatia    ",6740000,0,1,3,1,0,0
+821,2015131,Bajirao Mastani,"Drama, History, Romance",Sanjay Leela BhansaliÎ_,"Priyanka Chopra, Deepika Padukone, Tanvi Azmi    ",6560000,1,1,3,3,2,0.012491767
 822,2015132,Little Boy,"Drama, War",Alejandro Monteverde,"Jakob Salvati, Emily Watson, David Henrie, Michael Rapaport",6420000,1,1,1,0,1,0.005827651
 823,2015133,Victor Frankenstein,"Drama, Horror, Sci-Fi",Paul McGuigan,"Daniel Radcliffe, James McAvoy, Jessica Brown Findlay, Andrew Scott",5770000,1,1,2,2,0,0
 824,2015134,Danny Collins,"Comedy, Drama, Music",Dan Fogelman,"Al Pacino, Annette Bening, Jennifer Garner, Bobby Cannavale",5350000,1,1,1,0,5,0.237554483
@@ -827,7 +827,7 @@
 826,2015136,True Story,"Crime, Drama, Mystery",Rupert Goold,"James Franco, Jonah Hill, Felicity Jones, Maria Dizzia",4720000,1,1,0,0,4,0.303320868
 827,2015137,90 Minutes in Heaven,Drama,Michael Polish,"Kate Bosworth, Hayden Christensen, Hudson Meek, Bobby Batson",4700000,1,1,3,0,2,0.11246048
 828,2015138,Suffragette,"Biography, Drama, History",Sarah Gavron,"Carey Mulligan, Anne-Marie Duff, Helena Bonham Carter, Meryl Streep",4690000,1,1,3,3,0,0
-829,2015139,Prem Ratan Dhan Payo,"Action, Drama, Musical",Sooraj R. BarjatyaŒæ,"Sonam Kapoor, Neil Nitin Mukesh, Deepak Dobriyal    ",4360000,1,1,2,2,0,0
+829,2015139,Prem Ratan Dhan Payo,"Action, Drama, Musical",Sooraj R. BarjatyaÎ_,"Sonam Kapoor, Neil Nitin Mukesh, Deepak Dobriyal    ",4360000,1,1,2,2,0,0
 830,2015140,The Meddler,"Comedy, Drama, Romance",Lorene Scafaria,"Susan Sarandon, Rose Byrne, J.K. Simmons, Jerrod Carmichael",4270000,1,1,2,2,7,0.126656575
 831,2015141,45 Years,"Drama, Romance",Andrew Haigh,"Charlotte Rampling, Tom Courtenay, Geraldine James, Dolly Wells",4250000,1,1,2,2,4,0.111844364
 832,2015142,Irrational Man,"Comedy, Drama",Woody Allen,"Joaquin Phoenix, Emma Stone, Parker Posey, Joe Stapleton",4030000,1,1,1,1,0,0
@@ -839,8 +839,8 @@
 838,2015148,Anomalisa,"Animation, Comedy, Drama","Duke Johnson, Charlie Kaufman","David Thewlis, Jennifer Jason Leigh, Tom Noonan    ",3440000,1,1,2,0,3,0.049709486
 839,2015149,Maggie's Plan,"Comedy, Drama, Romance",Rebecca Miller,"Greta Gerwig, Ethan Hawke, Julianne Moore, Maya Rudolph",3350000,1,1,2,2,0,0
 840,2015150,Green Room,"Crime, Horror, Thriller",Jeremy Saulnier,"Anton Yelchin, Imogen Poots, Alia Shawkat, Patrick Stewart",3220000,0,1,1,0,3,0.040786911
-841,2015151,Ladrones,Comedy,Joe Menendez,"Fernando Colunga, Eduardo Yíçí±ez, Miguel Varoni, Jessica Lindsey",3060000,1,1,2,2,0,0
-842,2015152,En man som heter Ove,"Comedy, Drama",Hannes Holm,"Rolf Lassgí«rd, Bahar Pars, Zozan Akgí_n, Tobias Almborg",3030000,1,1,1,1,4,0.037986215
+841,2015151,Ladrones,Comedy,Joe Menendez,"Fernando Colunga, Eduardo Y’ç’±ez, Miguel Varoni, Jessica Lindsey",3060000,1,1,2,2,0,0
+842,2015152,En man som heter Ove,"Comedy, Drama",Hannes Holm,"Rolf Lassg’Çrd, Bahar Pars, Zozan Akg’_n, Tobias Almborg",3030000,1,1,1,1,4,0.037986215
 843,2015153,The End of the Tour,"Biography, Drama",James Ponsoldt,"Jason Segel, Jesse Eisenberg, Anna Chlumsky, Mamie Gummer",2990000,1,1,0,0,1,0.004344352
 844,2015154,Rock the Kasbah,"Comedy, Music, War",Barry Levinson,"Bill Murray, Leem Lubany, Zooey Deschanel, Bruce Willis",2980000,0,1,1,1,0,0
 845,2015155,Youth,"Comedy, Drama, Music",Paolo Sorrentino,"Michael Caine, Harvey Keitel, Rachel Weisz, Jane Fonda",2700000,0,1,2,1,1,0.235560847
@@ -856,13 +856,13 @@
 855,2015165,Tamasha,"Comedy, Drama, Romance",Imtiaz Ali,"Ranbir Kapoor, Piyush Mishra, Javed Sheikh    ",2070000,1,1,13,2,4,0.133851706
 856,2015166,Amsal,"Drama, History, Thriller",Dong-hoon Choi,"Ji-hyun Jun, Jung-jae Lee, Jung-woo Ha, Dal-su Oh",1900000,1,1,3,3,5,0.064550691
 857,2015167,Legend,"Biography, Crime, Drama",Brian Helgeland,"Tom Hardy, Emily Browning, Taron Egerton, Paul Anderson",1870000,0,1,2,2,4,0.064765245
-858,2015168,Desierto,"Drama, Thriller",Joníçs Cuarí_n,"Gael Garcí_a Bernal, Jeffrey Dean Morgan, Alondra Hidalgo, Diego Cataí±o",1830000,0,0,1,0,4,0.090308023
-859,2015169,Demolition,Drama,Jean-Marc Vallí©e,"Jake Gyllenhaal, Naomi Watts, Chris Cooper, Judah Lewis",1820000,1,1,1,1,0,0
+858,2015168,Desierto,"Drama, Thriller",Jon’çs Cuar’_n,"Gael Garc’_a Bernal, Jeffrey Dean Morgan, Alondra Hidalgo, Diego Cata’±o",1830000,0,0,1,0,4,0.090308023
+859,2015169,Demolition,Drama,Jean-Marc Vall’©e,"Jake Gyllenhaal, Naomi Watts, Chris Cooper, Judah Lewis",1820000,1,1,1,1,0,0
 860,2015170,The Dressmaker,Drama,Jocelyn Moorhouse,"Kate Winslet, Judy Davis, Liam Hemsworth, Hugo Weaving",1820000,1,1,1,1,1,0.259963469
-861,2015171,Saul fia,"Drama, Thriller, War",Líçszlí_ Nemes,"Gí©za Rí_hrig, Levente Molníçr, Urs Rechn, Todd Charmont",1780000,1,1,3,1,1,0.010002732
-862,2015172,The Vatican Tapes,"Horror, Thriller",Mark Neveldine,"Olivia Taylor Dudley, Michael Peí±a, Dougray Scott, Djimon Hounsou",1710000,1,1,1,0,2,0.057503186
+861,2015171,Saul fia,"Drama, Thriller, War",L’çszl’_ Nemes,"G’©za R’_hrig, Levente Moln’çr, Urs Rechn, Todd Charmont",1780000,1,1,3,1,1,0.010002732
+862,2015172,The Vatican Tapes,"Horror, Thriller",Mark Neveldine,"Olivia Taylor Dudley, Michael Pe’±a, Dougray Scott, Djimon Hounsou",1710000,1,1,1,0,2,0.057503186
 863,2015173,I Saw the Light,"Biography, Drama, Music",Marc Abraham,"Tom Hiddleston, Elizabeth Olsen, Maddie Hasson, Bradley Whitford",1650000,1,1,1,1,0,0
-864,2015174,The Diary of a Teenage Girl,"Drama, Romance",Marielle Heller,"Bel Powley, Alexander Skarsgí«rd, Kristen Wiig, Christopher Meloni",1480000,1,1,3,3,0,0
+864,2015174,The Diary of a Teenage Girl,"Drama, Romance",Marielle Heller,"Bel Powley, Alexander Skarsg’Çrd, Kristen Wiig, Christopher Meloni",1480000,1,1,3,3,0,0
 865,2015175,Lao pao er,"Action, Drama",Hu Guan,"Hanyu Zhang, Qing Xu, Kris Wu    ",1420000,1,1,2,2,14,0.091786631
 866,2015176,Welcome Back,"Action, Comedy, Crime",Anees Bazmee,"Nana Patekar, Dimple Kapadia, John Abraham    ",1390000,1,1,4,4,0,0
 867,2015177,The Little Prince,"Animation, Adventure, Drama",Mark Osborne,"Jeff Bridges, Mackenzie Foy, Rachel McAdams, Marion Cotillard",1340000,1,1,5,3,8,0.042638333
@@ -875,6 +875,5 @@
 874,2015184,Lazer Team,"Action, Comedy, Sci-Fi",Matt Hullum,"Burnie Burns, Gavin Free, Michael Jones, Colton Dunn",1150000,1,1,4,4,1,0.129941883
 875,2015185,Dough,"Comedy, Drama",John Goldschmidt,"Jerome Holder, Phil Davis, Ian Hart    ",1140000,1,1,3,3,6,0.083107813
 876,2015186,Papa Hemingway in Cuba,"Biography, Drama",Bob Yari,"Giovanni Ribisi, Joely Richardson, Adrian Sparks, Minka Kelly",1120000,1,1,4,4,5,0.075652199
-877,2015187,The Overnight,"Comedy, Mystery",Patrick Brice,"Adam Scott, Taylor Schilling, Jason Schwartzman, Judith GodríÂche",1100000,1,1,4,4,6,0.029640346
+877,2015187,The Overnight,"Comedy, Mystery",Patrick Brice,"Adam Scott, Taylor Schilling, Jason Schwartzman, Judith Godr’åche",1100000,1,1,4,4,6,0.029640346
 878,2015188,Beterang,"Action, Comedy, Crime",Seung-wan Ryoo,"Ah In Yoo, Hae-jin Yoo, Dal-su Oh    ",1050000,1,1,2,2,1,0.005033463
-,,,,,,,,,,,4,0.12677013
