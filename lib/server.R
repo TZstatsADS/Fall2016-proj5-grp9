@@ -808,7 +808,7 @@ shinyServer(function(input, output) {
     },deleteFile = FALSE)
     
     z_colname<-c("NO. of face","face proportion","text proportion")
-    z_num<-c(mean(z_info_rank1[z_order2[1:6],12]),mean(z_info_rank1[z_order2[1:6],13]),mean(z_info_rank1[z_order2[1:6],17])/400) #todo
+    z_num<-c(mean(z_info_rank1[z_order2[1:6],12]),mean(z_info_rank1[z_order2[1:6],13]),mean(z_info_rank1[z_order2[1:6],17])/100)
     z_table<-rbind(z_colname,z_num)
     colnames(z_table)<-c("NO. of face","face proportion","text proportion")
     z_table<-data.frame(t(as.matrix(z_table[2,])))
