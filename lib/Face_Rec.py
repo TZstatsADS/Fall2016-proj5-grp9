@@ -3,6 +3,10 @@ import cv2
 import os
 import numpy
 
+
+wd = 'C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9'
+
+
 def face_det(path_haar, path_read, path_write, path_write_face):
     face_cascade = cv2.CascadeClassifier(path_haar + '\\' + 'haarcascade_frontalface_default.xml')
     face_side_cascade = cv2.CascadeClassifier(path_haar + '\\' + 'haarcascade_profileface.xml')
@@ -33,7 +37,7 @@ def face_det(path_haar, path_read, path_write, path_write_face):
                 cv2.imwrite(path_write_face + '\\' + file + '_sideflip_' + str(numpy.where(faces_side_flip==x)[0][0]) + '.jpg', crop_img)
         cv2.imwrite(path_write + '\\' + 'sample' + file + '.jpg', img)
 
-face_det('C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9/lib',
-         'C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9/data/image_read_test',
-         'C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9/output/image_write_test',
-         'C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9/output/image_write_face_test')
+face_det(wd+'/lib',
+         wd+'/data/image_read_test',
+         wd+'/output/image_write_test',
+         wd+'/output/image_write_face_test')

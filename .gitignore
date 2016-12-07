@@ -6,3 +6,5 @@ data/pca_matrix.rda
 data/train_features.csv
 
 lib/.ipynb_checkpoints/caffe_feature_test-checkpoint.ipynb
+
+.Rhistory
