@@ -2,7 +2,7 @@
 # ADS Final Project: Movie Poster Evaluator
 
 Term: Fall 2016
-![screenshot](doc/=image1.jpeg)
+![screenshot](doc/image1.jpeg)
 + [Data link](http://www.imdb.com/search/title?year=2014,2014&title_type=feature&sort=boxoffice_gross_us,desc&page=4&ref_=adv_prv)
 + [Data description](doc/readme.html)
 + [Shiny App link](http://prezi.com/biyahojmsvrg/?utm_campaign=share&utm_medium=copy)
