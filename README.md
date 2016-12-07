@@ -1,5 +1,5 @@
 
-# ADS Final Project: 
+# ADS Final Project: Movie Poster Evaluator
 
 Term: Fall 2016
 ![screenshot](./doc/=image1.jpeg)
