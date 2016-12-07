@@ -68,8 +68,7 @@ Term: Fall 2016
 ![screenshot](doc/cover/box_prediction.jpg)
 
 
-![screenshot](doc/image2.jpeg)
 
-![screenshot](doc/image3.jpeg)
 
-![screenshot](doc/image4.jpeg)
+
+
