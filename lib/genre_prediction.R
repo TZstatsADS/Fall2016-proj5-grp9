@@ -3,9 +3,9 @@
 genre_predict <- function(test_id){
   ## extract features in caffe, save in ./data/test_features.csv ##
   # note: modifying the paths in .py is a must for loading caffe and saving data
-  #system('source ~/.bashrc')
-  #system('chmod 755 ./lib/caffe_feature_test.py') 
-  #system("./lib/caffe_feature_test.py")
+  system('source ~/.bashrc')
+  system('chmod 755 ./lib/caffe_feature_test.py') 
+  system("./lib/caffe_feature_test.py")
   
   
   

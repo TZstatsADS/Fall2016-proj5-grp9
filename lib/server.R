@@ -6,6 +6,7 @@ library(randomForest)
 library(imager)
 library(EBImage)
 library(reshape2)
+library(rPython)
 
 wd<-"/Users/YaqingXie/Desktop/3-Applied Data Science/Fall2016-proj5-grp9"
 setwd(wd)
@@ -340,14 +341,15 @@ shinyServer(function(input, output) {
   
 #########QING YIN AND SEN ZHUANG#########FACE AND TEXT DETECTION###################
   face_det<-reactive({
-    #inFile<-input$y_files
-    #python.load('Face_Rec.py')
-    #python.assign("path_read",inFile$datapath)
-    #python.assign("path_write","./output/image_write_test")
-    #python.assign("path_write_face","./output/image_write_face_test")
-    #python.assign("path_haar","./lib")
-    #python.exec('face_det(path_haar,path_read,path_write,path_write_face)')
+    inFile<-input$y_files
+    python.load('Face_Rec.py') #please modify the wd accordingly
+    python.assign("path_read",inFile$datapath)
+    python.assign("path_write","./output/image_write_test")
+    python.assign("path_write_face","./output/image_write_face_test")
+    python.assign("path_haar","./lib")
+    python.exec('face_det(path_haar,path_read,path_write,path_write_face)')
   })
+  
   face_size<-reactive({
     inFile<-input$y_files
     file_list<-list.files(paste0(y_path,"/output/image_write_face_test"))
@@ -432,8 +434,7 @@ shinyServer(function(input, output) {
   
   output$y_pro_images<-renderImage({
     inFile<-input$y_files
-    #face_det()
-    #return(list(src=paste0("C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9/output/image_write_test/sample",inFile$name,".jpg"),contentType="image/jpg",alt="No Image"))
+    face_det()
     return(list(src=paste0(y_path,"/output/image_write_test/sample",inFile$name,".jpg"),contentType="image/jpg",alt="No Image"))
   },deleteFile=F)
   
@@ -441,7 +442,7 @@ shinyServer(function(input, output) {
     inFile<-input$zs_files
     name <- inFile$name
     name <- substring(name,1,nchar(name)-4)
-    #system('./lib/text_recognition.py) #please modify the wd accordingly
+    system('./lib/text_recognition.py') #please modify the wd accordingly
     return(list(src=paste0(x_path,"/output/text_detection/",name,'_contours.png'),alt="No Image"))
   },deleteFile=F)
   
@@ -461,19 +462,11 @@ shinyServer(function(input, output) {
   
   y_values <- reactiveValues(y_rgb_table = NULL, y_rgb_table_processed = NULL)
   
-  #output$y_rgb<-renderDataTable({
-  #rgb_ext()
-  #filename <- input$y_files$name
-  #filename <- substring(filename,1,nchar(filename)-4)
-  #y_values$y_rgb_table <- read.csv(paste0(y_path, '/output/',filename,'_rgb.csv'))
-  #return(y_values$y_rgb_table)
-  #})
-  
   output$y_rgb_plot <- renderPlot({
     library(reshape)
     library(ggplot2)
     library(plotly)
-    #rgb_ext()
+    rgb_ext()
     filename <- input$y_files$name
     filename <- substring(filename,1,nchar(filename)-4)
     y_values$y_rgb_table <- read.csv(paste0(y_path, '/output/',filename,'_rgb.csv'))
@@ -704,8 +697,8 @@ shinyServer(function(input, output) {
     allinfo_pre<-cbind(z_Genre,z_info[,13],z_info[,17],rgb_feature_mat)
     
     z_filepath<-sub('....$','',z_value$z_name)
-    #system(zs.py)
-    #system(qy.yp)
+    system('./lib/text_recognition.py') #please modify the wd accordingly
+    face_det()
     z_filepath1<-normalizePath(file.path('./output',paste(z_filepath,'_genres.csv',sep='')))
     z_filepath2<-normalizePath(file.path('./output',paste(z_filepath,'_text.csv',sep='')))
     z_filepath3<-normalizePath(file.path('./output',paste(z_filepath,'_face.csv',sep='')))
