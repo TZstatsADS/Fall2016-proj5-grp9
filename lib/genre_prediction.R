@@ -142,6 +142,6 @@ accuracy <- 0.678
 ## predict and make recommendation ##
 test_predict <- knn_predict(k, train_features_pca, test_features_pca, train_id, test_id)
 test_genres <- test_predict[[2]]
-save(test_genres, file = paste(outputpath, substring('./output/', test_id, 1, nchar(test_id)-4),"_genres.rdata", sep=""))
+write.csv(test_genres, file = paste('./output/', substring(test_id, 1, nchar(test_id)-4),"_genres.csv", sep=""))
 test_neighbors <- test_predict[[3]]
-save(test_neighbors, file=paste(outputpath, substring('./output/', 1, nchar(test_id)-4),"_neighbors.rdata", sep=""))
+write.csv(test_neighbors, file=paste('./output/', substring(test_id, 1, nchar(test_id)-4),"_neighbors.csv", sep=""))
