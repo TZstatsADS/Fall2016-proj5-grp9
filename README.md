@@ -62,11 +62,17 @@ Term: Fall 2016
 +  (3) Display six most similar poster to give a clue how the model predict the poster's genre
 +  (4)if the predicted genres are incorrect, we will show the audience 6 correct posters once they input the real genres
 ![screenshot](doc/cover/color_revise.jpg)
+![screenshot](doc/cover/genre_prediction.jpg)
+
 
 # Part 4: Box Prediction
 + (1)Extract deep features to predict movie's genre, detect face/text and calculate face/text area proportion, get rgb information, and then use all these features to predict the Box of a new poster
 + (2)Using the Random Forest model to predict the box level of the movie
-![screenshot](doc/cover/box_prediction.jpg)
+![screenshot](doc/cover/box_prediction_top.jpg)
+![screenshot](doc/cover/box_prediction_middle.jpg)
+![screenshot](doc/cover/box_prediction_bottom.jpg)
+
+
 
 
 
