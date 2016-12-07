@@ -42,24 +42,16 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                                       )
                    ),
                    tabPanel("EDA",
-                            titlePanel(h1("EDA")),
                             tabsetPanel(
                               tabPanel("Barchart of Gross in Genre",
                                        sidebarLayout(
                                          sidebarPanel(
                                            selectInput("s_movie_year", 
                                                        label="Choose a Year to Display",
-                                                       choices=c("2011","2012","2013","2014","2015")),
-                                           selectInput("s_movie_genre", 
-                                                       label="Choose a Genre to Display",
-                                                       choices=c("Action","Adventure","Animation","Biography","Comedy",
-                                                                 "Crime","Documentary","Drama","Family","Fantacy",
-                                                                 "History","Horror","Music","Mystery","Romance",
-                                                                 "Sci_Fi","Sport","Thriller","War","Western")
-                                           )
+                                                       choices=c("2011","2012","2013","2014","2015"))
                                          ),
                                          mainPanel(
-                                           plotlyOutput("ggBarPlotA",height="400px",width = "600px")
+                                           plotlyOutput("ggBarPlotA",height="500px",width = "600px")
                                          ))),
                               tabPanel("Piechart of Genre",
                                        sidebarLayout(
@@ -67,7 +59,7 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                                            selectInput("s_movie_year2", 
                                                        label="Choose a Year to Display",
                                                        choices=c("2011","2012","2013","2014","2015"))),
-                                         mainPanel(plotlyOutput("ggPiePlot",height="600px")
+                                         mainPanel(plotlyOutput("ggPiePlot",height="500px",width = "500px")
                                          ))),
                               tabPanel("Bubble Plot of Face",
                                        sidebarLayout(
@@ -75,7 +67,7 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                                            selectInput("s_movie_year4", 
                                                        label="Choose a Year to Display",
                                                        choices=c("2011","2012","2013","2014","2015"))),
-                                         mainPanel(plotlyOutput("BubblePlot",height="600px")
+                                         mainPanel(plotlyOutput("BubblePlot",height="500px",width = "600px")
                                          ))),
                               tabPanel("Color Plot in Genre",
                                        sidebarLayout(
@@ -89,7 +81,7 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                                            )
                                          ),
                                          mainPanel(
-                                           plotlyOutput("ggLinePlot",height="400px",width = "600px")
+                                           plotlyOutput("ggLinePlot",height="500px",width = "600px")
                                          ))))),
                    
                    tabPanel("Face and Text Detection",

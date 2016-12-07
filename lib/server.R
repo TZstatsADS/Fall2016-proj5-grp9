@@ -23,7 +23,8 @@ shinyServer(function(input, output) {
                        "2014"=5,
                        "2015"=6)
     s_dat_<- data.frame(genre = factor(s_gross_genre$genre),
-                        gross = s_gross_genre[,s_year_num])
+                        gross = s_gross_genre[,s_year_num],
+                        number=c(rep(1:20)))
     return(s_dat_)
   })
   s_dataSwitch2<-reactive({
@@ -78,9 +79,10 @@ shinyServer(function(input, output) {
   })
   
   output$ggBarPlotA<-renderPlotly({
-    ggplot(data=s_dataSwitch(), aes(x=genre, y=gross/1000000, fill=genre)) +
-      geom_bar(colour="black",stat="identity")+
-      theme(axis.text=element_text(size=14),legend.key=element_rect(fill="black"),
+    ggplot(data=s_dataSwitch(), aes(y=gross/1000000,x=number,fill=genre)) +
+      geom_bar(colour="black",stat="identity")+ggtitle("Yearly Gross in Each Genre")+
+      theme(axis.text=element_text(size=14),
+            legend.key=element_rect(fill="black"),
             legend.background=element_rect(fill="grey40"),legend.position=c(0.14,0.80),
             panel.grid.major=element_line(colour="grey40"),panel.grid.minor=element_blank(),
             panel.background=element_rect(fill="black"),
@@ -112,7 +114,7 @@ shinyServer(function(input, output) {
   colors2<-c("blue","red","yellow","green","purple","pink","orange")
   output$ggLinePlot<-renderPlotly({
     ggplot(data=s_dataSwitch3(),aes(x=color,y=value,col=input$s_movie_genre3)) +
-      geom_line(col=sample(colors2,1))+
+      geom_line(col=sample(colors2,1))+ggtitle("RGB Plot")+
       theme(axis.text=element_text(size=14),legend.key=element_rect(fill="black"),
             legend.background=element_rect(fill="grey40"),legend.position=c(0.14,0.80),
             panel.grid.major=element_line(colour="grey40"),panel.grid.minor=element_blank(),
@@ -130,7 +132,7 @@ shinyServer(function(input, output) {
                           line = list(width = 2, color = '#FFFFFF')),
             text = ~paste('proportion', proportion, '<br>number:', face)) %>%
       layout(title = 'Face number v. Face proportion',
-             xaxis = list(title = 'face proportion of poster',
+             xaxis = list(title = 'face propotion of poster',
                           gridcolor = 'rgb(255, 255, 255)',
                           range = c(0, 0.15),
                           type = 'log',
