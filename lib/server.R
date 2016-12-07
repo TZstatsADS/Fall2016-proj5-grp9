@@ -2,8 +2,10 @@ library(RColorBrewer)
 library(shiny)
 library(ggplot2)
 library(plotly)
+library(randomForest)
 library(imager)
 library(EBImage)
+library(reshape2)
 
 wd<-"/Users/YaqingXie/Desktop/3-Applied Data Science/Fall2016-proj5-grp9"
 setwd(wd)
@@ -11,6 +13,11 @@ setwd(wd)
 y_path<-c("C:/Users/Qing/Documents/GitHub/Fall2016-proj5-grp9")
 x_path<-"/Users/YaqingXie/Desktop/3-Applied Data Science/Fall2016-proj5-grp9"
 y_path = x_path
+z_path= x_path
+z_info<-read.csv("./data/movie_info_all.csv")
+load("./data/boxoff_rf.RData")
+load("./data/rgb_feature_mat.RData")
+z_path<-"/Users/YaqingXie/Desktop/3-Applied Data Science/Fall2016-proj5-grp9"
 
 s_gross_genre<-read.csv("./data/s_gross_genre.csv")
 s_gross_genre<-as.data.frame(s_gross_genre)
@@ -136,16 +143,16 @@ shinyServer(function(input, output) {
             sizes = c(10, 50),
             marker = list(symbol = 'circle', sizemode = 'diameter',
                           line = list(width = 2, color = '#FFFFFF')),
-            text = ~paste('proportion', proportion, '<br>number:', face)) %>%
+            text = ~paste('nuber', proportion, '<br>proportion:', face)) %>%
       layout(title = 'Face number v. Face proportion',
-             xaxis = list(title = 'face propotion of poster',
+             xaxis = list(title = 'face number of poster',
                           gridcolor = 'rgb(255, 255, 255)',
                           range = c(0, 0.15),
                           type = 'log',
                           zerolinewidth = 1,
                           ticklen = 5,
                           gridwidth = 2),
-             yaxis = list(title = 'face number in each poster',
+             yaxis = list(title = 'face proportion in each poster',
                           gridcolor = 'rgb(255, 255, 255)',
                           range = c(1, 10),
                           zerolinewidth = 1,
@@ -547,6 +554,275 @@ shinyServer(function(input, output) {
                   contentType="image/jpeg",alt="No Image",height=600,width=800))
     }
   },deleteFile=F)
+  
+  ########### Box Prediction ##################
+  z_value<-reactiveValues(z_name= NULL, z_rgb_table=NULL)
+  # show the uploaded image 
+  output$z_Image <- renderImage({
+    # input$file1 will be NULL initially. After the user selects
+    # and uploads a file, it will be a data frame with 'name',
+    # 'size', 'type', and 'datapath' columns. The 'datapath'
+    # column will contain the local filenames where the data can
+    # be found.
+    
+    inFile <- input$z_file1
+    z_value$z_name<-inFile$name
+    
+    if (is.null(inFile)){
+      return(list(
+        src=paste0(z_path,'/figs/ask_for_image.png'),
+        filetype="image/png",
+        alt="no image"
+      )
+      )
+    } else {
+      return(list(
+        src=inFile$datapath,
+        width=200,
+        height=300,
+        filetype="image/jpg",
+        alt="no image"
+      ))
+    }
+    
+    
+  },deleteFile = FALSE)
+  
+  
+  z_face_size<-reactive({
+    inFile<-input$z_file1
+    file_list<-list.files(paste0(z_path,"/output/image_write_face_test"))
+    img_size<-vector()
+    for(i in 1:length(file_list)){
+      img_load<-load.image(paste0(z_path,"/output/image_write_face_test/",file_list[i]))
+      img_size[i]<-dim(img_load)[1]*dim(img_load)[2]
+    }
+    img_cat<-substr(file_list,1,11)
+    img_num<-table(img_cat)
+    img_cum<-vector()
+    for(i in 1:length(img_num)){
+      img_cum[i]<-sum(img_num[1:i])
+    }
+    img_area<-sum(img_size[1:img_cum[1]])
+    for(i in 2:length(img_cum)){
+      img_area[i]<-sum(img_size[(img_cum[i-1]+1):img_cum[i]])
+    }
+    names(img_area)<-names(img_num)
+    img_area_df<-data.frame(cbind(img_area,img_num))
+    file_list_new<-list.files(paste0(z_path,"/output/image_write_test"))
+    img_size_new<-vector()
+    for(i in 1:length(file_list_new)){
+      img_load_new<-load.image(paste0(z_path,"/output/image_write_test/",file_list_new[i]))
+      img_size_new[i]<-dim(img_load_new)[1]*dim(img_load_new)[2]
+    }
+    names(img_size_new)<-substr(file_list_new,7,17)
+    img_area_df<-cbind(img_area_df,img_size_new)
+    img_area_df$prop<-img_area/img_size_new
+    img_area_df<-cbind(id=rownames(img_area_df),img_area_df)
+    img_area_df <- img_area_df[,c(1,3,5,4)]
+    colnames(img_area_df)<-c("id","face_number","face_proportion","text_proportion")
+    img_area_cur<-img_area_df[img_area_df$id==inFile$name,]
+    id <- input$z_file1$name
+    id <- substring(id, 1, nchar(id)-4)
+    text_pro <- read.csv(paste0(z_path,"/output/", id, '_text.csv'))
+    print(text_pro)
+    img_area_cur[1,4] <- text_pro[1,2]
+    #write.csv(img_area_cur[,5],file=paste0(y_path,"/output/",substr(inFile$name,1,7),"_face.csv"))
+    return(img_area_cur)
+  })
+  
+  observeEvent(input$z_file1,{
+    output$z_table1<-renderDataTable(z_face_size())
+  })
+  
+  
+  z_rgb_ext<-reactive({
+    inFile<-input$z_file1
+    print("1")
+    nR<-10
+    nG<-8
+    nB<-10
+    
+    rBin<-seq(0,1,length.out=nR)
+    gBin<-seq(0,1,length.out=nG)
+    bBin<-seq(0,1,length.out=nB)
+    
+    color_data<-matrix(0,1,nR*nG*nB)
+    
+    for(i in 1:1){
+      mat<-imageData(readImage(paste0(z_path,"/data/test_images/",inFile$name)))
+      freq_rgb<-as.data.frame(table(factor(findInterval(mat[,,1],rBin),levels=1:nR),
+                                    factor(findInterval(mat[,,2],gBin),levels=1:nG),
+                                    factor(findInterval(mat[,,3],bBin),levels=1:nB)))
+      rgb_feature<-as.numeric(freq_rgb$Freq)/(ncol(mat)*nrow(mat))
+      color_data[i,]<-rgb_feature
+    }
+    write.csv(color_data,file=paste0(z_path,"/output/",sub('....$','',inFile$name),"_rgb.csv"))
+    z_a<-data.frame(color_data[2:801],rep(1:800))
+    z_a_color<-melt(z_a,id="color")
+    return(z_a_color)
+  })
+  
+  output$z_ggLinePlot <- renderPlot({
+    #library(reshape)
+    #library(ggplot2)
+    #library(plotly)
+    #rgb_ext()
+    filename <- input$z_file1$name
+    filename <- substring(filename,1,nchar(filename)-4)
+    z_value$z_rgb_table <- read.csv(paste0(z_path, '/output/',filename,'_rgb.csv'))
+    z_rgb_table_processed <- z_value$z_rgb_table
+    z_rgb_table_processed <- t(z_rgb_table_processed)
+    z_rgb_table_processed<-data.frame(value=z_rgb_table_processed[2:801],color=rep(1:800))
+    z_color<-melt(z_rgb_table_processed, id="color")
+    p = ggplot(data=z_color,aes(x=color,y=value)) +
+      geom_line(col="Blue")+ggtitle("RGB Plot")+
+      theme(axis.text=element_text(size=14),legend.key=element_rect(fill="black"),
+            legend.background=element_rect(fill="grey40"),legend.position=c(0.14,0.80),
+            panel.grid.major=element_line(colour="grey40"),panel.grid.minor=element_blank(),
+            panel.background=element_rect(fill="black"),
+            plot.background=element_rect(fill="black",colour="black",size=2))
+    print(p)
+  })
+  
+  
+  
+  
+  observeEvent(input$z_predict, {
+    
+    z_boxoff<-z_info[,7]
+    z_label<-rep("1M",878)
+    z_label[which(z_boxoff>=100000000)]<-"100M"
+    z_label[which(z_boxoff>=10000000 & z_boxoff<100000000)]<-"10M"
+    z_label<-as.factor(z_label)
+    z_genre<-c("Action","Adventure","Animation","Biography","Comedy","Crime","Documentary","Drama","Family","Fantasy","History","Horror","Music","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western")
+    z_Genre<-matrix(0,nrow = 878,ncol = length(z_genre))
+    for (i in 1:length(z_genre)){
+      z_order<-which(grepl(z_genre[i],z_info[,4])==1)
+      z_Genre[z_order,i]<-1
+    }
+    allinfo_pre<-cbind(z_Genre,z_info[,13],z_info[,17],rgb_feature_mat)
+    
+    z_filepath<-sub('....$','',z_value$z_name)
+    #system(zs.py)
+    #system(qy.yp)
+    z_filepath1<-normalizePath(file.path('./output',paste(z_filepath,'_genres.csv',sep='')))
+    z_filepath2<-normalizePath(file.path('./output',paste(z_filepath,'_text.csv',sep='')))
+    z_filepath3<-normalizePath(file.path('./output',paste(z_filepath,'_face.csv',sep='')))
+    z_filepath4<-normalizePath(file.path('./output',paste(z_filepath,'_rgb.csv',sep='')))
+    z_genre_test<-read.csv(z_filepath1)
+    #z_genre<-c("Action","Adventure","Animation","Biography","Comedy","Crime","Documentary","Drama","Family","Fantasy","History","Horror","Music","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western")
+    z_genre_test1<-rep(0,20)
+    z_genre_test1[which(z_genre==z_genre_test$x[1])]<-1
+    z_genre_test1[which(z_genre==z_genre_test$x[2])]<-1
+    z_text_test<-read.csv(z_filepath2)
+    z_face_test<-read.csv(z_filepath3)
+    z_rgb_test<-read.csv(z_filepath4)
+    allinfo_test<-c(z_genre_test1,z_text_test[1,2],z_face_test[1,2],z_rgb_test[2:801])
+    #allinfo_test<-c(0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0.1591985,13.5,color_data)
+    #allinfo_test<-t(allinfo_test)[2,]
+    #boxoff_rf<-randomForest(allinfo_pre,label,importance=T,proximity=T)
+    boxoff_rf_pre<-predict(boxoff_rf,allinfo_test)
+    
+    
+    output$z_predict<-renderText(
+      if (boxoff_rf_pre=="100M"){
+        print("Above 100 Millions")
+      } else if (boxoff_rf_pre=="10M"){
+        print("Among 10 Millions and 100 Millions")
+      } else if (boxoff_rf_pre=="1M"){
+        print("Among 1 Millions and 10 Millions")
+      }
+    )
+  })
+  
+  observeEvent(input$z_recommendation,{
+    output$z_recommendation<-renderText(
+      print("Top 6 posters in this Genre!")
+    )
+    # select top 6 posters' name
+    z_info_rank<-z_info[order(z_info[,7],decreasing=T),]
+    z_order1<-which(grepl("Drama",z_info_rank[,4])==1)
+    z_info_rank1<-z_info_rank[z_order1,]
+    z_order2<-which(grepl("Adventure",z_info_rank[,4])==1)
+    z_id_top<-z_info_rank1[z_order2[1:6],2]
+    
+    print("1")
+    output$z_image1<-renderImage({
+      filename<-normalizePath(file.path('./data/train_images',paste(z_id_top[1],'.jpg',sep='')))
+      list(
+        src=filename,
+        width=200,
+        height=300,
+        filetype="image/jpg",
+        alt="no image"
+      )
+    },deleteFile = FALSE)
+    
+    output$z_image2<-renderImage({
+      filename<-normalizePath(file.path('./data/train_images',paste(z_id_top[2],'.jpg',sep='')))
+      list(
+        src=filename,
+        filetype="image/jpg",
+        width=200,
+        height=300,
+        alt="no image"
+      )
+    },deleteFile = FALSE)
+    
+    output$z_image3<-renderImage({
+      filename<-normalizePath(file.path('./data/train_images',paste(z_id_top[3],'.jpg',sep='')))
+      list(
+        src=filename,
+        width=200,
+        height=300,
+        filetype="image/jpg",
+        alt="no image"
+      )
+    },deleteFile = FALSE)
+    
+    output$z_image4<-renderImage({
+      filename<-normalizePath(file.path('./data/train_images',paste(z_id_top[4],'.jpg',sep='')))
+      list(
+        src=filename,
+        width=200,
+        height=300,
+        filetype="image/jpg",
+        alt="no image"
+      )
+    },deleteFile = FALSE)
+    
+    output$z_image5<-renderImage({
+      filename<-normalizePath(file.path('./data/train_images',paste(z_id_top[5],'.jpg',sep='')))
+      list(
+        src=filename,
+        width=200,
+        height=300,
+        filetype="image/jpg",
+        alt="no image"
+      )
+    },deleteFile = FALSE)
+    
+    output$z_image6<-renderImage({
+      filename<-normalizePath(file.path('./data/train_images',paste(z_id_top[6],'.jpg',sep='')))
+      list(
+        src=filename,
+        width=200,
+        height=300,
+        filetype="image/jpg",
+        alt="no image"
+      )
+    },deleteFile = FALSE)
+    
+    z_colname<-c("NO. of face","face proportion","text proportion")
+    z_num<-c(mean(z_info_rank1[z_order2[1:6],12]),mean(z_info_rank1[z_order2[1:6],13]),mean(z_info_rank1[z_order2[1:6],17])/400) #todo
+    z_table<-rbind(z_colname,z_num)
+    colnames(z_table)<-c("NO. of face","face proportion","text proportion")
+    z_table<-data.frame(t(as.matrix(z_table[2,])))
+    
+    output$z_table2<-renderDataTable(z_table)
+    
+  })
   
 })
 

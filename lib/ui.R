@@ -5,16 +5,16 @@ library(plotly)
 library(imager)
 library(EBImage)
 # Define UI for application that draws 4 pages
-shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
+shinyUI(navbarPage(id="navbar",title="Movie Poster Evaluator",
                    theme="grey.css",
                    tabPanel("Introduction",
-                            h3("Hit Features of Movie Poster Designer:"),
+                            h3("Hit Features of Movie Poster Evaluater:"),
                             fluidPage( 
                                 fluidRow(
                                     column(3, h4('1. Poster Exploration')),
                                     column(3, h4('2. Face/Text Detection')),
-                                    column(3, h4('3. Movie Genre Predition')),
-                                    column(3, h4('4. Box Office Predition'))
+                                    column(3, h4('3. Movie Genre Prediction')),
+                                    column(3, h4('4. Box Office Prediction'))
                                         ),
                                 fluidRow(
                                   column(3, 
@@ -165,7 +165,7 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                             sidebarPanel(fileInput('x_file', 'Choose a poster to upload',
                                                 accept = c('image/jpg', '.jpg')),
                                          imageOutput('x_image',width = 280, height = 400),
-                                         actionButton('x_start_analyze', 'Start Analyze'),
+                                         actionButton('x_start_analyze', 'Start to Analyze'),
                                          textOutput('x_analyze_progess')),
                             mainPanel(
                              tabsetPanel(
@@ -242,7 +242,59 @@ shinyUI(navbarPage(id="navbar",title="Movie Poster Designer",
                             ), #end of tab
                             
                    tabPanel("Box Prediction",
-                            titlePanel(h1("Box Prediction"))),
+                            titlePanel(h1("Box Prediction")),
+                            sidebarPanel(
+                              fileInput('z_file1', 'Choose a poster to upload',
+                                        accept = c(
+                                          'text/comma-separated-values',
+                                          'image/png',
+                                          'image/jpg',
+                                          '.jpg',
+                                          '.png'
+                                        )
+                              ),
+                              actionButton("z_predict", "Showing predicting result"),
+                              actionButton("z_recommendation","Recommendation")
+                              
+                            ),
+                            mainPanel(
+                              fluidPage(
+                                fluidRow(
+                                  column(4,imageOutput("z_Image")),
+                                  column(8,imageOutput("z_ggLinePlot",height="300px"))
+                                )
+                              ),
+                              fluidPage(
+                                fluidRow(
+                                  column(12,dataTableOutput('z_table1'))
+                                )
+                              ),
+                              fluidPage(
+                                fluidRow(
+                                  column(12,h1(textOutput("z_predict")))
+                                )
+                              ),
+                              #actionButton("z_recommendation","Recommendation"),
+                              fluidPage(
+                                fluidRow(
+                                  column(12,h4(textOutput("z_recommendation")))),
+                                fluidRow(
+                                  column(4,imageOutput("z_image1")),
+                                  column(4,imageOutput("z_image2")),
+                                  column(4,imageOutput("z_image3")),
+                                  column(4,imageOutput("z_image4")),
+                                  column(4,imageOutput("z_image5")),
+                                  column(4,imageOutput("z_image6"))
+                                ),
+                                fluidRow(
+                                  column(12,dataTableOutput('z_table2'))
+                                )
+                              )
+                              
+                              
+                            )
+                            
+                   ),
                             
                           
                    tabPanel("Reference and Contact",
