@@ -21,13 +21,14 @@ Term: Fall 2016
 	+ Learn the movie/movie poster trend in the past five years!
 
 + 2.Face/Text Detection
-	+ Is your poster easy-to-read?
+	+ Is your poster well featured and easy-to-read?
 
 + 3.Movie Genre Predition
 	+ How will a poster viewer perceive your poster?
 
 + 4.Box Office Predition
 	+ Will your movie be a big success?
+
 
 ## Project Process
    Descriptions are in the project.rmd file in lib
