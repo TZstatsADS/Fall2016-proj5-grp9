@@ -62,21 +62,23 @@ Term: Fall 2016
 	+ The objective of this part is to understand how a poster viewer will give the movie a genre based on the poster only. 
 + (2) Methodology:  
 	+ The first step is to extract deep features of the posters we downloaded using Caffe 
-	+ With the features and the genre data we scraped from IMDB.com, use *KNN Modeling* to link the posters and genres and predict the genre of a new poster (according to cross validation, we choose k=13). 
+	+ With the features and the genre data we scraped from IMDB.com, use _KNN Modeling_ to link the posters and genres and predict the genre of a new poster. By cross validation, the k should be 13 and the accuracy is 70%. 
 	+ Save the two predicted genres of the poster and its thirteen neighbors. 
 + (3) Interface: 
 	+ In the "Movie Genre Prediction" tab, the user needs to upload a poster and then click on "Start to Analyze". Once the analysis is done, the two predicted genres will be shown. 
 	+ The user can also find similar posters in the database. Six most similar posters will be displayed to give a clue how the model predict the poster's genre. 
 	+ If the predicted genres are incorrect, we help the movie producer to improve his poster design. We will show him 6 top box-office-winners once they input the real genres. 
 + (4) Illustration:
+	+ In the following example, the model predicts the movie to be Horror and Drame. The similar posters explain why it regards it as a horror movie: 
 ![screenshot](doc/cover/color_revise.jpg)
+	+ What if the producer want the audience to perceive it more like a Romance movie? He can choose Romance and Drama as the the real genres, and the interface will show him the six Romance Drama movies in the past five years who have the best box office. It can be seen from the screenshot that the producer should make the color of the poster lighter and probaby consider decreasing the face area proportion on the poster.
 ![screenshot](doc/cover/genre_prediction.jpg)
 
 
 # Part 4: Box Prediction
 + (1)Extract deep features to predict movie's genre, detect face/text and calculate face/text area proportion, get rgb information, and then use all these features to predict the Box of a new poster
 + (2)Using the Random Forest model to predict the box level of the movie(Above 100M, Among 10M and 100M, Below 10M).
-+ (3)By cross validation, the accuracy of this model is 59%.
++ (3)By cross validation, the accuracy of this model is 60%.
 ![screenshot](doc/cover/box_prediction_top.jpg)
 ![screenshot](doc/cover/box_prediction_middle.jpg)
 ![screenshot](doc/cover/box_prediction_bottom.jpg)
