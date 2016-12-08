@@ -67,7 +67,8 @@ Term: Fall 2016
 
 # Part 4: Box Prediction
 + (1)Extract deep features to predict movie's genre, detect face/text and calculate face/text area proportion, get rgb information, and then use all these features to predict the Box of a new poster
-+ (2)Using the Random Forest model to predict the box level of the movie
++ (2)Using the Random Forest model to predict the box level of the movie(Above 100M, Among 10M and 100M, Below 10M).
++ (3)By cross validation, the accuracy of this model is 59%.
 ![screenshot](doc/cover/box_prediction_top.jpg)
 ![screenshot](doc/cover/box_prediction_middle.jpg)
 ![screenshot](doc/cover/box_prediction_bottom.jpg)
