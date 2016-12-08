@@ -57,17 +57,17 @@ Term: Fall 2016
 ![screenshot](doc/cover/text_detection.jpg)
 
 # Part 3: Genre Prediction
-+  (1) Objective:
-	The objective of this part is to understand how a poster viewer will give the movie a genre based on the poster only.
-+  (2) Methodology:
-        The first step is to extract deep features of the posters we downloaded using Caffe
-	With the features and the genre data we scraped from IMDB.com, use KNN Modeling to link the posters and genres and predict the genre of a new poster (according to CV, k=13).
-	Save the two predicted genres of the poster and its thirteen neighbors.
-+  (3) Interface:
-        In the "Movie Genre Prediction" tab, the user needs to upload a poster and then click on "Start to Analyze". Once the analysis is done, the two predicted genres 
-	The user can also find similar posters in the database. Six most similar posters will be displayed to give a clue how the model predict the poster's genre.
-        If the predicted genres are incorrect, we help the movie producer to improve his poster design. We will show him 6 top box-office-winners once they input the real genres.
-+  (4) Illustration:
++ (1) Objective: 
+	+ The objective of this part is to understand how a poster viewer will give the movie a genre based on the poster only. 
++ (2) Methodology:  
+	+ The first step is to extract deep features of the posters we downloaded using Caffe 
+	+ With the features and the genre data we scraped from IMDB.com, use *KNN Modeling* to link the posters and genres and predict the genre of a new poster (according to cross validation, we choose k=13). 
+	+ Save the two predicted genres of the poster and its thirteen neighbors. 
++ (3) Interface: 
+	+ In the "Movie Genre Prediction" tab, the user needs to upload a poster and then click on "Start to Analyze". Once the analysis is done, the two predicted genres will be shown. 
+	+ The user can also find similar posters in the database. Six most similar posters will be displayed to give a clue how the model predict the poster's genre. 
+	+ If the predicted genres are incorrect, we help the movie producer to improve his poster design. We will show him 6 top box-office-winners once they input the real genres. 
++ (4) Illustration:
 ![screenshot](doc/cover/color_revise.jpg)
 ![screenshot](doc/cover/genre_prediction.jpg)
 
