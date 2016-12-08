@@ -5,7 +5,8 @@ Term: Fall 2016
 ![screenshot](doc/cover/cover.jpeg)
 + [Data link](http://www.imdb.com/search/title?year=2014,2014&title_type=feature&sort=boxoffice_gross_us,desc&page=4&ref_=adv_prv)
 + [Data description](doc/readme.html)
-+ [Shiny App link]
++ [Shiny App](lib) 
+	+ Since the app interacts with Python and Python packages, the app needs to be installed locally. Python, Caffe (extract deep features) and OpenCV (face/text detection) are required.
 + Team members
 	+ team member 1 Yaqing Xie
 	+ team member 2 Qing Yin
