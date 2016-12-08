@@ -8,7 +8,7 @@ Term: Fall 2016
 + [Shiny App link]
 + Team members
 	+ team member 1 Yaqing Xie
-	+ team member 2 Qin Ying
+	+ team member 2 Qing Yin
 	+ team member 3 Tian Sheng
 	+ team member 4 Sen Zhuang
 	+ team member 5 Yueqi Zhang
