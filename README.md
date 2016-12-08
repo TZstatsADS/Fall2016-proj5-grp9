@@ -55,7 +55,7 @@ Term: Fall 2016
 ![screenshot](doc/cover/facemap.jpg)
 + (2)Calculate the number of faces, the area proportion of faces in each poster
 ![screenshot](doc/cover/face_detection.jpg)
-+ (3)Calculate the number of characters detected and the area proportion of text in each poster
++ (3)Calculate the number of characters detected, find text portions and compute the area proportion of text in each poster
 ![screenshot](doc/cover/text_detection.jpg)
 
 # Part 3: Genre Prediction
