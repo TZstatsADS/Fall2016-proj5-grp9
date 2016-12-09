@@ -33,39 +33,39 @@ Term: Fall 2016
 ## Project Process
    Descriptions are in the project.rmd file in lib
 # Prepare: Scrape the data from IMDB.com and preprocess the dataset
-+ (1)Scraped the movie data set(Box>100 million) and movie posters from 2011 to 2016
-+ (2)The data variables are: directors, stars, genres(1~3), gross, producer,etc.
-+ (3)Counted the numbers of faces and other information on the posters.
-+ (4)Used Opencv to extract the RGB features of each poster
++ (1) Scraped the movie data set(Box>100 million) and movie posters from 2011 to 2016
++ (2) The data variables are: directors, stars, genres(1~3), gross, producer,etc.
++ (3) Counted the numbers of faces and other information on the posters.
++ (4) Used Opencv to extract the RGB features of each poster
 
 # Part 1: Exploratory Data Analysis of Posters
-+ (1)Analyze the annual gross in different genres
++ (1) Analyze the annual gross in different genres
 ![screenshot](doc/cover/barplot.jpg)
-+ (2)Summarize the annual frequency of movies from different genres
++ (2) Summarize the annual frequency of movies from different genres
 ![screenshot](doc/cover/piechart.jpg)
-+ (3)Investigate the relationship between face numbers on a poster, face area proportion on a poster and genres
++ (3) Investigate the relationship between face numbers on a poster, face area proportion on a poster and genres
 ![screenshot](doc/cover/bubble.jpg)
-+ (4)Plot each genre's RGB distribution and find interesting results including:
++ (4) Plot each genre's RGB distribution and find interesting results including:
 ![screenshot](doc/cover/rgb.jpg)
 +  Posters of Thrillers tends to use dark color like black and red 
 +  Drama and Comedy tends to use bright color like yelow and green
 
 
 # Part 2: Face Detection and Text Detection of Posters
-+ (1) Objective:
-        + The objective of this part is to detect face and text, and then compute the relevant information, such as face proportions, face numbers and text proportions.
++ (1) Objective: 
+	+ The objective of this part is to detect face and text, and then compute the relevant information, such as face proportions, face numbers and text proportions.
 ![screenshot](doc/cover/facemap.jpg)
-+ (2) Methodology:
-        + The first step is to detect face by using Haar feature-based cascade classifiers in opencv and text by drawing contours on filtered and enhanced posters.
++ (2) Methodology: 
+	+ The first step is to detect face by using Haar feature-based cascade classifiers in opencv and text by drawing contours on filtered and enhanced posters.
 	+ Then, we can use extract areas to calculate the number of faces, the area proportion of faces, the number of characters and the area proportions of tect in each poster.
 ![screenshot](doc/cover/face_detection.jpg)
 ![screenshot](doc/cover/text_detection.jpg)
 + (3) Interface:
-        + In the "Face Map" tab, the user can explore all faces we extract from our original data sets.
+	+ In the "Face Map" tab, the user can explore all faces we extract from our original data sets.
 	+ In the "Face" tab, the user is suggested to upload a poster and then the python can generate a poster with detected faces in the green box, and finally the user can get the computed information of the detected faces.
 	+ In the "Text" tab, the user is suggested to upload a poster and then the python can generate a poster with detected text in the green box, and finally the user can get the computed information of the detected text.
 + (4) Note:
-        + All information in this part is served for the part 4: box prediction.
+	+ All information in this part is served for the part 4: box prediction.
 
 
 # Part 3: Genre Prediction
