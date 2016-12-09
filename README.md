@@ -67,7 +67,7 @@ Term: Fall 2016
 ![screenshot](doc/cover/facemap.jpg)
 + (2) Methodology: 
 	+ The first step is to detect face by using Haar feature-based cascade classifiers in opencv and text by drawing contours on filtered and enhanced posters.
-	+ Then, we can use extract areas to calculate the number of faces, the area proportion of faces, the number of characters and the area proportions of tect in each poster.
+	+ Then, we can use extract areas to calculate the number of faces, the area proportion of faces, the number of characters and the area proportions of text in each poster.
 ![screenshot](doc/cover/face_detection.jpg)
 ![screenshot](doc/cover/text_detection.jpg)
 + (3) Interface:
@@ -111,11 +111,4 @@ Term: Fall 2016
 ![screenshot](doc/cover/box_prediction_top.jpg)
 ![screenshot](doc/cover/box_prediction_middle.jpg)
 ![screenshot](doc/cover/box_prediction_bottom.jpg)
-
-
-
-
-
-
-
 
