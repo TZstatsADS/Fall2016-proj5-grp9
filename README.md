@@ -98,6 +98,7 @@ Term: Fall 2016
 
 # Part 4: Box Prediction
 + (1) Objective:
+
         + The objective of this part is to predict box office on the basis of a certain poster and give suggestions of improving attraction of it. 
 + (2) Methodology:
         + Extract deep features to predict movie's genre, detect face/text and calculate face/text area proportion, get rgb information, and then use all these features to predict the Box of a new poster
