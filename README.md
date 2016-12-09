@@ -4,7 +4,7 @@
 Term: Fall 2016
 ![screenshot](doc/cover/cover.jpeg)
 + [Data link](http://www.imdb.com/search/title?year=2014,2014&title_type=feature&sort=boxoffice_gross_us,desc&page=4&ref_=adv_prv)
-+ [Data description](doc/readme.html)
++ Data description: Our original data set includes original movie posters from imdb.com. Our processed data sets include deep features, detected face areas and face numbers, detected text areas, RGB features, etc.
 + [Shiny App](lib) 
 	+ Since the app interacts with Python and Python packages, the app needs to be installed locally. Python, Caffe (extract deep features) and OpenCV (face/text detection) are required.
 + Team members
@@ -13,8 +13,8 @@ Term: Fall 2016
 	+ team member 3 Tian Sheng
 	+ team member 4 Sen Zhuang
 	+ team member 5 Yueqi Zhang
-+ Project title: Movie Poster Designer
-+ Project theme: Movie Poster Analysis: Genre Predition & Face Detection & Text Detextion & Color Detextion
++ Project title: Movie Poster Evaluator
++ Project theme: Movie Poster Analysis: Genre Predition & Face Detection & Text Detection & Color Detection
 
 ## Project summary: 
 + 1.Poster Exploration
@@ -50,13 +50,23 @@ Term: Fall 2016
 +  Posters of Thrillers tends to use dark color like black and red 
 +  Drama and Comedy tends to use bright color like yelow and green
 
+
 # Part 2: Face Detection and Text Detection of Posters
-+ (1)Use python and Opencv to detect face and test in posters
++ (1) Objective:
+        + The objective of this part is to detect face and text, and then compute the relevant information, such as face proportions, face numbers and text proportions.
 ![screenshot](doc/cover/facemap.jpg)
-+ (2)Calculate the number of faces, the area proportion of faces in each poster
++ (2) Methodology:
+        + The first step is to detect face by using Haar feature-based cascade classifiers in opencv and text by drawing contours on filtered and enhanced posters.
+	+ Then, we can use extract areas to calculate the number of faces, the area proportion of faces, the number of characters and the area proportions of tect in each poster.
 ![screenshot](doc/cover/face_detection.jpg)
-+ (3)Calculate the number of characters detected, find text portions and compute the area proportion of text in each poster
 ![screenshot](doc/cover/text_detection.jpg)
++ (3) Interface:
+        + In the "Face Map" tab, the user can explore all faces we extract from our original data sets.
+	+ In the "Face" tab, the user is suggested to upload a poster and then the python can generate a poster with detected faces in the green box, and finally the user can get the computed information of the detected faces.
+	+ In the "Text" tab, the user is suggested to upload a poster and then the python can generate a poster with detected text in the green box, and finally the user can get the computed information of the detected text.
++ (4) Note:
+        + All information in this part is served for the part 4: box prediction.
+
 
 # Part 3: Genre Prediction
 + (1) Objective: 
