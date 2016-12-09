@@ -39,13 +39,23 @@ Term: Fall 2016
 + (4) Used Opencv to extract the RGB features of each poster
 
 # Part 1: Exploratory Data Analysis of Posters
-+ (1) Analyze the annual gross in different genres
++ (1) Objective: 
+	+ The objective of this part is to learn the trend of posters from 2011 to 2015, and the relationship between face numbers, face area proportion on poster and genre
++ (2) Methodology
+	+  The first step is to analyze the gross trend and frequency of diffrent genres from 2011 to 2015:
+	++ We find that there was an increasing trend of fatacy movies and decreasing trend of Sci-fiction movies
+	+  The second step is to analyze the relationship between face numbers, face area proportion on poster and genre:
+	++ We find that the Family movies and Comedy movies tend to use bigger face and more stars on the poster, and the thriller tend to use no more than 1 face on the poster
+	+  The third step is to analyze the RGB feature of each genre:
+	++ We find that the thriller and Sci-fic movies tend to use dark and red colors, and the comedy and fantacy movies tend to use bright color like yellow and blue
++ (3) Interface: 
++ <1> Analyze the annual gross in different genres
 ![screenshot](doc/cover/barplot.jpg)
-+ (2) Summarize the annual frequency of movies from different genres
++ <2> Summarize the annual frequency of movies from different genres
 ![screenshot](doc/cover/piechart.jpg)
-+ (3) Investigate the relationship between face numbers on a poster, face area proportion on a poster and genres
++ <3> Investigate the relationship between face numbers on a poster, face area proportion on a poster and genres
 ![screenshot](doc/cover/bubble.jpg)
-+ (4) Plot each genre's RGB distribution and find interesting results including:
++ <4> Plot each genre's RGB distribution and find interesting results including:
 ![screenshot](doc/cover/rgb.jpg)
 +  Posters of Thrillers tends to use dark color like black and red 
 +  Drama and Comedy tends to use bright color like yelow and green
