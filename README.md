@@ -98,14 +98,13 @@ Term: Fall 2016
 
 # Part 4: Box Prediction
 + (1) Objective:
-
         + The objective of this part is to predict box office on the basis of a certain poster and give suggestions of improving attraction of it. 
 + (2) Methodology:
         + Extract deep features to predict movie's genre, detect face/text and calculate face/text area proportion, get rgb information, and then use all these features to predict the Box of a new poster
         + Using the Random Forest model to predict the box level of the movie(Above 100M, Among 10M and 100M, Below 10M).
         + By cross validation, the accuracy of this model is 60%.
 	+ Giving face/text area proportion suggestion according to 6 posters with highest box office in the movie's genre predicted by deep feature in our database.
-+ (3)Interface:
++ (3) Interface:
         + Upload an upcoming poster first from local. Get the analysis result of this poster.
 	+ Click "Showing predicting result" to see the box office level.
 	+ Click "Recommendation" to see good examples and improving details we give
