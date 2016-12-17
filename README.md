@@ -14,7 +14,7 @@ Term: Fall 2016
 	+ team member 4 Sen Zhuang
 	+ team member 5 Yueqi Zhang
 + Project title: Movie Poster Evaluator
-+ Project theme: Movie Poster Analysis: Genre Predition & Face Detection & Text Detection & Color Detection
++ Project theme: Movie Poster Analysis: Genre Prediction & Face Detection & Text Detection & Color Detection
 
 ## Project summary: 
 + 1.Poster Exploration
