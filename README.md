@@ -1,32 +1,27 @@
 
 # ADS Final Project: Movie Poster Evaluator
 
-Term: Fall 2016
-![screenshot](doc/cover/cover.jpeg)
-+ [Data link](http://www.imdb.com/search/title?year=2014,2014&title_type=feature&sort=boxoffice_gross_us,desc&page=4&ref_=adv_prv)
-+ Data description: Our original data set includes original movie posters from imdb.com. Our processed data sets include deep features, detected face areas and face numbers, detected text areas, RGB features, etc.
-+ [Shiny App](lib) 
-	+ Since the app interacts with Python and Python packages, the app needs to be installed locally. Python, Caffe (extract deep features) and OpenCV (face/text detection) are required.
+Project Introduction
++ Background: According to authorities, 1/5 car accidents are caused by distracted driving, causing 425,000 people injured and 3,000 people killed every year. Therefore, the objective of this project is to enable dashboard cameras to automatically detect drivers engaging in distracted behaviors to avoid traffic accidents.
+
++ Data description: The dataset was collected from a Kaggle competition: State Farm Distracted Driver Detection. It includes two files: imgs.zip, a zipped folder of all (train/test) images, and driver_imgs_list.csv, a list of training images, their subject (driver) id, and class id.
+
 + Team members
 	+ team member 1 Yaqing Xie
-	+ team member 2 Qing Yin
-	+ team member 3 Tian Sheng
-	+ team member 4 Sen Zhuang
-	+ team member 5 Yueqi Zhang
-+ Project title: Movie Poster Evaluator
-+ Project theme: Movie Poster Analysis: Genre Prediction & Face Detection & Text Detection & Color Detection
+	+ team member 2 Yuhang Liu
+	+ team member 3 Jiaming Liu
 
 ## Project summary: 
-+ 1.Poster Exploration
++ 1.Face Recognition
 	+ Learn the movie/movie poster trend in the past five years!
 
-+ 2.Face/Text Detection
++ 2.Photo Feature Extraction/Decomposition
 	+ Is your poster well featured and easy-to-read?
 
-+ 3.Movie Genre Predition
++ 3.Model Training and Classification
 	+ How will a poster viewer perceive your poster?
 
-+ 4.Box Office Predition
++ 4.Interface
 	+ Will your movie be a big success?
 
 
